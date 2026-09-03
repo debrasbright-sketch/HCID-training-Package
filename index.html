@@ -1,0 +1,2058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCID Training Guide | Aneurin Bevan University Health Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-logo">
+            <img src="images/abuhb_logo.png" alt="Aneurin Bevan University Health Board — GIG Cymru NHS Wales Logo" class="header-logo-img">
+            <div class="header-titles">
+                <h1>Aneurin Bevan University Health Board</h1>
+                <span class="subtitle">HCID Training Guide for Clinical Staff</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="index_cy.html" style="color: #ffffff; font-size: 13px; font-weight: bold; padding: 6px 12px; border: 1px solid rgba(255,255,255,0.6); background: rgba(255,255,255,0.15); border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">🏴󠁧󠁢󠁷󠁬󠁳󠁿 Cymraeg</a>
+            <a href="rollout_flyer.html" style="color: #ffffff; font-size: 13px; font-weight: bold; padding: 6px 12px; border: 1px solid rgba(255,255,255,0.4); border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">📢 Rollout Flyer</a>
+            <a href="videos.html" style="color: var(--abuhb-yellow); font-size: 13px; font-weight: bold; padding: 6px 12px; border: 1px solid var(--abuhb-yellow); border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">🎥 Video Library</a>
+            <div class="progress-ring-container">
+                <span id="progress-label">0/8</span> Modules
+                <svg class="progress-ring" width="28" height="28" viewBox="0 0 28 28">
+                    <circle class="progress-ring__bg" cx="14" cy="14" r="10"></circle>
+                    <circle class="progress-ring__fill" cx="14" cy="14" r="10" stroke-dasharray="62.83" stroke-dashoffset="62.83"></circle>
+                </svg>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-section-title">Modules</div>
+        <a href="#module-1" class="nav-item">
+            <div class="nav-num">1</div>
+            <span class="nav-label">Intro to HCID</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-2" class="nav-item">
+            <div class="nav-num">2</div>
+            <span class="nav-label">Contact HCIDs</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-3" class="nav-item">
+            <div class="nav-num">3</div>
+            <span class="nav-label">Airborne HCIDs</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-4" class="nav-item">
+            <div class="nav-num">4</div>
+            <span class="nav-label">Doctor Action Cards</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-5" class="nav-item">
+            <div class="nav-num">5</div>
+            <span class="nav-label">Patient Assessment</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-6" class="nav-item">
+            <div class="nav-num">6</div>
+            <span class="nav-label">Unified PPE Ensemble</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-7" class="nav-item">
+            <div class="nav-num">7</div>
+            <span class="nav-label">Donning & Doffing</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-8" class="nav-item">
+            <div class="nav-num">8</div>
+            <span class="nav-label">Infection Control</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-9" class="nav-item">
+            <div class="nav-num">9</div>
+            <span class="nav-label">Diagnostic Sampling</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-10" class="nav-item">
+            <div class="nav-num">10</div>
+            <span class="nav-label">Clinical Scenarios</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#assessment-summary" class="nav-item" style="border-top: 1px solid rgba(255,255,255,0.15); margin-top: 10px;">
+            <div class="nav-num">🏆</div>
+            <span class="nav-label">Assessment Results</span>
+            <span class="nav-check"></span>
+        </a>
+        <a href="videos.html" class="nav-item" style="background: rgba(245, 203, 93, 0.15); border-left-color: var(--abuhb-yellow); color: var(--abuhb-yellow); font-weight: bold;">
+            <div class="nav-num" style="background: var(--abuhb-yellow); color: var(--text-primary);">🎥</div>
+            <span class="nav-label">Video Library Page</span>
+        </a>
+    </nav>
+    <div class="sidebar-overlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <div class="hero-banner">
+            <div class="hero-banner-content">
+                <div class="hero-text-side">
+                    <h2>High Consequence Infectious Diseases (HCID)</h2>
+                    <p>Training guide for clinical medical and nursing staff at Aneurin Bevan University Health Board (GIG Cymru NHS Wales). Supports official ABUHB Action Cards, Grange Hospital Pathways, and UKHSA guidance.</p>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="num">10</span>
+                            <span class="label">Modules</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="num">38</span>
+                            <span class="label">Assessment Items</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="num">80%</span>
+                            <span class="label">Pass Requirement</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-side">
+                    <img src="images/virus_header.jpg" alt="Microscopic 3D Rendering of Viral Pathogen Particles" class="hero-img-framed">
+                </div>
+            </div>
+        </div>
+
+        <div class="callout callout-warning">
+            <div class="callout-icon">⚠️</div>
+            <div>
+                <strong>Clinical Disclaimer & Assessment Requirement:</strong> This guide is an interactive training support resource. To complete the course and unlock your official certificate:
+                <ul style="margin: 6px 0 6px 20px; font-size: 14px; line-height: 1.5;">
+                    <li><strong>Answer All Assessment Items:</strong> Complete all 27 knowledge check questions and 10 clinical case scenarios across the 10 modules.</li>
+                    <li><strong>Pathogen Sorter:</strong> Complete the <em>Interactive Pathogen Classification Sorter</em> in Module 3.</li>
+                    <li><strong>Review Links & Watch Videos:</strong> Click and review all embedded guidance links and watch all required video guides.</li>
+                    <li><strong>Mark Modules Complete & Pass Mark:</strong> Click the <em>"Click to Mark Module Complete"</em> button at the end of each module. Staff must achieve an overall score of <strong>80% or higher (at least 31/38 correct)</strong> to pass the course.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Module 1 -->
+        <section id="module-1" class="module-section">
+            <div class="module-header">
+                <div class="module-number">1</div>
+                <div class="module-meta">
+                    <h2>Introduction to HCID in the UK</h2>
+                    <span class="module-time">⏱️ Estimated time: 20 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Understand the formal UK definition of a High Consequence Infectious Disease (HCID).</li>
+                    <li>Recognise the distinction between Contact HCIDs and Airborne HCIDs.</li>
+                    <li>Identify key UK and NHS Wales organisations responsible for HCID governance and outbreak management.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>What is an HCID?</h3>
+                <p>A High Consequence Infectious Disease (HCID) in the UK is defined as an acute infectious disease that typically has a high case-fatality rate, may not have effective prophylaxis or treatment, is often difficult to recognize and detect rapidly, and requires enhanced infection prevention and control (IPC) to protect staff and the public.</p>
+                <p>The UK has a highly structured response system for HCIDs, coordinated by the UK Health Security Agency (UKHSA) and NHS England/devolved administrations, ensuring that patients are treated in specially designated High Level Isolation Units (HLIUs) across the country.</p>
+                
+                <figure class="module-figure">
+                    <img src="images/hcid_overview.jpg" alt="HCID Overview and Governance in NHS UK">
+                    <figcaption class="image-caption">Figure 1.1: High Consequence Infectious Disease (HCID) Classification & NHS National Governance Framework.</figcaption>
+                </figure>
+
+                <h4>Classification</h4>
+                <p>To safely manage infection risks, the UK categorises HCIDs into two main groups based on their primary route of transmission:</p>
+                <ul>
+                    <li><strong>Contact HCIDs:</strong> Spread primarily by direct contact with an infected patient or infected bodily fluids, tissues, and other materials, or by indirect contact with contaminated materials and fomites. Examples include Ebola and Lassa fever.</li>
+                    <li><strong>Airborne HCIDs:</strong> Spread by respiratory droplets or aerosol transmission, in addition to contact routes. These present a higher transmission risk in healthcare settings and require strict respiratory protection. Examples include MERS and Avian Influenza.</li>
+                </ul>
+
+                <div class="collapsible">
+                    <div class="collapsible-header">
+                        Key UK Organisations & Clinical Guidance Summary
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><strong>HCID Definition & Criteria:</strong> UKHSA defines HCIDs as acute infectious illnesses with high case-fatality rates, potential for rapid healthcare-associated spread, and an absence of effective licensed treatment or prophylaxis.</li>
+                            <li><strong>Impact of Classification on Clinical Practice:</strong> Categorisation into Contact vs Airborne dictates whether respiratory aerosol protection (fit-tested FFP3 respirator/PAPR) and negative pressure isolation are mandatory, or fluid-impermeable contact protection alone.</li>
+                            <li><strong>Initial Triage Escalation Pathway:</strong> Triage nurses suspecting an HCID must isolate immediately in a single room with the door closed if available, notify the Nurse in Charge and the Emergency Physician in Charge (EPIC) and await further instructions.</li>
+                            <li><strong>UK Health Security Agency (UKHSA):</strong> Sets national guidance and manages the public health response.</li>
+                            <li><strong>Imported Fever Service (IFS):</strong> A 24/7 specialist advisory service (0844 778 8990) for clinicians managing returning travellers with fever.</li>
+                            <li><strong>Rare and Imported Pathogens Laboratory (RIPL):</strong> Provides specialist diagnostic testing for Category A pathogens.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 1 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m1_q1">
+                    <p>1. A patient presenting with an acute febrile illness is assessed against the UK Health Security Agency (UKHSA) High Consequence Infectious Disease (HCID) definition. Which combination of clinical and epidemiological factors mandates immediate HCID pathway activation?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Any fever >38.0°C accompanied by severe cough in an elderly patient admitted from a residential care facility.</li>
+                        <li data-correct="false">A confirmed case of multi-drug resistant organism (MDRO) sepsis requiring intensive care isolation.</li>
+                        <li data-correct="true" data-explanation="UKHSA defines HCIDs as acute infectious illnesses with high case-fatality rates, potential for rapid healthcare-associated spread, and absence of effective licensed treatment or prophylaxis.">Acute infectious illness with high case-fatality rate, potential for rapid healthcare-associated spread, and absence of effective licensed treatment or prophylaxis.</li>
+                        <li data-correct="false">Any imported tropical fever accompanied by severe anaemia and mild jaundice.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m1_q2">
+                    <p>2. How does the UK classification of HCIDs into "Contact" versus "Airborne" categories directly dictate emergency clinical nursing management?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">It determines whether the patient can be managed in a standard district general hospital ward or transferred immediately by standard land ambulance.</li>
+                        <li data-correct="true" data-explanation="Transmission classification dictates whether respiratory aerosol protection (fit-tested FFP3 respirator/PAPR) and negative-pressure isolation are mandatory, or fluid-impermeable contact protection alone.">It determines whether respiratory aerosol protection (fit-tested FFP3 respirator/PAPR) and negative-pressure isolation are mandatory, or fluid-impermeable contact protection alone.</li>
+                        <li data-correct="false">It determines whether routine blood specimens can be processed on standard laboratory automated hematology analyzers.</li>
+                        <li data-correct="false">It dictates whether contact tracing of healthcare workers extends 14 days versus 21 days post-exposure.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m1_q3">
+                    <p>3. A triage nurse in an Emergency Department suspects a returning traveller may meet the clinical case definition for a HCID. What is the correct initial clinical escalation sequence before moving the patient?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Transfer the patient immediately to a tertiary HCID unit via 999 emergency ambulance prior to conducting senior medical assessment.</li>
+                        <li data-correct="false">Perform routine venous blood sampling and malaria film preparation in the triage bay before notifying Public Health Wales.</li>
+                        <li data-correct="false">Seat the patient in an isolated corner of the main ED waiting room wearing a fluid-resistant surgical mask until Senior review.</li>
+                        <li data-correct="true" data-explanation="Initial nursing escalation requires immediate isolation in a single room with the door closed if available, notifying the Nurse in Charge and Emergency Physician in Charge (EPIC), and awaiting further instructions.">Isolate immediately in a single room with the door closed if available, notify the Nurse in Charge and the Emergency Physician in Charge (EPIC) and await further instructions.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-1">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 2 -->
+        <section id="module-2" class="module-section">
+            <div class="module-header">
+                <div class="module-number">2</div>
+                <div class="module-meta">
+                    <h2>Contact HCIDs — Recognition & Pathology</h2>
+                    <span class="module-time">⏱️ Estimated time: 25 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>List major Contact HCIDs including Viral Haemorrhagic Fevers (VHFs).</li>
+                    <li>Understand transmission routes and incubation windows.</li>
+                    <li>Identify travel history red flags during clinical assessments.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Common Contact HCIDs</h3>
+                <p>Contact HCIDs are typically Viral Haemorrhagic Fevers (VHFs). They are not spread easily from person to person through the air, but transmission occurs through direct contact with blood or other body fluids (such as vomit, diarrhoea, urine, breast milk, sweat, semen) of an infected person who has symptoms, or through contact with objects contaminated with these fluids.</p>
+                <table class="disease-table">
+                    <thead>
+                        <tr>
+                            <th>Disease</th>
+                            <th>Endemic Regions</th>
+                            <th>Incubation Period</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Ebola Virus Disease</strong></td>
+                            <td>Sub-Saharan Africa (e.g., DRC, Guinea, Sierra Leone)</td>
+                            <td>2-21 days</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lassa Fever</strong></td>
+                            <td>West Africa (e.g., Nigeria, Sierra Leone, Liberia)</td>
+                            <td>2-21 days (typically 7-10)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Crimean-Congo Haemorrhagic Fever (CCHF)</strong></td>
+                            <td>Africa, Balkans, Middle East, Asia</td>
+                            <td>1-13 days (tick bite: 1-3 days; blood exposure: 5-6 days)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Marburg Virus Disease</strong></td>
+                            <td>Sub-Saharan Africa</td>
+                            <td>2-21 days</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Severe Fever with Thrombocytopenia Syndrome (SFTS)</strong></td>
+                            <td>East Asia (China, Japan, South Korea)</td>
+                            <td>7-14 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="collapsible">
+                    <div class="collapsible-header">
+                        Clinical assessment & Pathology Guidance
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>When assessing a patient presenting with fever (&#8805; 38&deg;C) or history of fever within the past 24 hours, nursing staff must establish a detailed travel history covering the preceding <strong>21 days</strong> (the maximum incubation window for all major Contact HCIDs including Ebola, Marburg, Lassa, and CCHF).</p>
+                        <p><strong>Transmission Dynamics & Clinical Features:</strong></p>
+                        <ul>
+                            <li><strong>Transmission Window:</strong> Ebola patients become contagious <em>only once clinical symptoms (fever, headache, lethargy) develop</em>. As the illness progresses, viral load in blood and body fluids increases exponentially. Asymptomatic incubation carries no transmission risk.</li>
+                            <li><strong>VHF Manifestations:</strong> Contact HCIDs (e.g. Lassa, CCHF) typically present with insidious fever, facial edema, mucosal bleeding, and severe myalgia following tick bites or exposure to rodent urine / infected bodily fluids in endemic regions.</li>
+                            <li><strong>Red Flags:</strong> Travel to endemic areas within 21 days, contact with VHF cases, healthcare visits or funeral rites in outbreak zones, or tick bites in CCHF endemic areas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 2 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m2_q1">
+                    <p>1. A nurse is triaging a 34-year-old aid worker who returned from an Ebola-endemic region 14 days ago and developed a fever (38.6°C) yesterday. Regarding transmission dynamics of Ebola Virus Disease (EVD), which clinical statement is accurate?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">The patient has been highly contagious via respiratory droplets throughout the entire asymptomatic 14-day incubation period.</li>
+                        <li data-correct="true" data-explanation="Ebola patients become infectious only once symptoms develop; viral load in blood and body fluids rises exponentially as clinical illness worsens.">The patient becomes contagious only once symptoms (fever, headache, lethargy) develop; viral load in bodily fluids increases dramatically as clinical illness progresses.</li>
+                        <li data-correct="false">The patient is no longer at risk for Ebola because the incubation period strictly expires 7 days after exposure.</li>
+                        <li data-correct="false">The patient is considered infectious only if active cutaneous hemorrhaging or frank gastrointestinal bleeding is present.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m2_q2">
+                    <p>2. Which constellation of clinical manifestations and exposure risks is most characteristic of a Contact HCID such as Lassa Fever or Crimean-Congo Haemorrhagic Fever (CCHF)?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Rapid onset of acute respiratory distress syndrome (ARDS), productive cough, and chest radiographic infiltrates following camel exposure.</li>
+                        <li data-correct="false">Sudden onset of severe headache, neck stiffness, and non-blanching petechial rash presenting within 12 hours of exposure in a UK university hall.</li>
+                        <li data-correct="false">Paroxysmal fever spikes every 48 hours accompanied by severe rigors, splenomegaly, and dark urine.</li>
+                        <li data-correct="true" data-explanation="Contact HCIDs (VHFs) typically present with insidious fever, facial edema, mucosal bleeding, and myalgia following tick bites or exposure to infected animal/patient fluids.">Insidious fever, facial edema, mucosal bleeding, severe myalgia, accompanied by history of tick exposure or rodent urine contamination in endemic areas.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m2_q3">
+                    <p>3. When triaging a febrile patient with recent international travel, why must clinical assessors investigate travel and exposure risks covering the full preceding 21 days?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Public Health Wales guidelines require 21 days to cover the complete diagnostic window for plasmodium falciparum malaria.</li>
+                        <li data-correct="false">21 days is the required period for automated laboratory immunoassay antibody testing to become reactive.</li>
+                        <li data-correct="true" data-explanation="The recognized maximum incubation window for major Contact HCIDs (including Ebola, Marburg, CCHF, and Lassa) is 21 days from exposure to symptom onset.">The recognised maximum incubation window for major Contact HCIDs (including Ebola, Marburg, CCHF, and Lassa) is 21 days from exposure to symptom onset.</li>
+                        <li data-correct="false">21 days represents the statutory isolation timeframe mandated for all international arrivals under UK border health regulations.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-2">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 3 -->
+        <section id="module-3" class="module-section">
+            <div class="module-header">
+                <div class="module-number">3</div>
+                <div class="module-meta">
+                    <h2>Airborne HCIDs — Recognition & Pathology</h2>
+                    <span class="module-time">⏱️ Estimated time: 25 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Identify Airborne HCIDs including MERS, Avian Influenza, Nipah, and Pneumonic Plague.</li>
+                    <li>Understand airborne transmission hazards in clinical spaces.</li>
+                    <li>Differentiate respiratory protection requirements from standard PPE.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Common Airborne HCIDs</h3>
+                <p>Airborne HCIDs pose a significant risk in healthcare environments because they can be transmitted through respiratory droplets or aerosols, making strict control of the air environment critical. This necessitates the use of respiratory protection (FFP3 respirators) and, where possible, negative pressure isolation rooms.</p>
+                <table class="disease-table">
+                    <thead>
+                        <tr>
+                            <th>Disease</th>
+                            <th>Endemic Regions / Exposures</th>
+                            <th>Incubation Period</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Middle East Respiratory Syndrome (MERS)</strong></td>
+                            <td>Arabian Peninsula (esp. Saudi Arabia). Linked to dromedary camels.</td>
+                            <td>2-14 days</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Avian Influenza (e.g., H5N1, H7N9)</strong></td>
+                            <td>Global. Linked to exposure to infected live or dead poultry/wild birds.</td>
+                            <td>2-8 days (up to 17 days)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nipah Virus</strong></td>
+                            <td>South and Southeast Asia (e.g., Bangladesh, India). Linked to bats, pigs, and date palm sap.</td>
+                            <td>4-14 days</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pneumonic Plague</strong></td>
+                            <td>Madagascar, DRC, Peru, USA. Spread by droplets from infected persons/animals.</td>
+                            <td>1-7 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="callout callout-info">
+                    <div class="callout-icon">ℹ️</div>
+                    <div>
+                        <strong>Key Airborne HCID Clinical Summary:</strong>
+                        <ul>
+                            <li><strong>MERS-CoV:</strong> Endemic to the Arabian Peninsula; strongly associated with exposure to dromedary camels or camel products. Presents with fever, dyspnoea, and dry cough.</li>
+                            <li><strong>Avian Influenza A(H5N1):</strong> Linked directly to exposure to sick or dead domestic poultry, wild birds, or live bird markets in endemic areas.</li>
+                            <li><strong>Respiratory PPE Requirements:</strong> Unlike contact precautions, Airborne HCIDs strictly mandate a fit-tested FFP3 respirator (or PAPR), full-face visor, fluid-resistant hood, and negative pressure isolation to protect against aerosol transmission.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 3 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m3_q1">
+                    <p>1. When assessing a returning traveller presenting with acute fever and severe lower respiratory symptoms (cough and dyspnoea), which specific epidemiological criteria strictly define risk for MERS-CoV as an Airborne HCID?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Routine tourist travel to Mediterranean countries (e.g. Turkey or Spain) or tourist camel rides in non-endemic resort areas.</li>
+                        <li data-correct="true" data-explanation="UKHSA criteria strictly define MERS-CoV risk as travel to the Arabian Peninsula (e.g. Saudi Arabia, UAE, Qatar, Oman, Jordan, Kuwait) or direct contact with a confirmed MERS case within 14 days of symptom onset. Routine tourist travel to non-endemic countries like Turkey does not meet MERS criteria.">Travel to the Arabian Peninsula (e.g. Saudi Arabia, UAE, Qatar, Oman) or direct contact with a confirmed MERS case within 14 days of symptom onset.</li>
+                        <li data-correct="false">Any domestic farm visit in the UK involving contact with sheep or cattle.</li>
+                        <li data-correct="false">Isolated tick bite exposure in European agricultural fields.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m3_q2">
+                    <p>2. When caring for a patient suspected of an Airborne HCID (e.g. MERS-CoV or Avian Influenza A/H5N1), which personal protective equipment items are strictly mandatory for respiratory and facial protection?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Standard Type IIR fluid-resistant surgical mask and protective safety spectacles</li>
+                        <li data-correct="false">Type II unshielded surgical mask and disposable polythene apron</li>
+                        <li data-correct="false">Cloth face covering and safety goggles</li>
+                        <li data-correct="true" data-explanation="Airborne HCIDs require a fit-tested FFP3 respirator (or PAPR) combined with a full-face visor and fluid-resistant hood to protect against respiratory aerosols.">Fit-tested FFP3 respirator (or Powered Air-Purifying Respirator - PAPR) combined with full-face visor and fluid-resistant hood</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m3_q3">
+                    <p>3. An ED nurse is taking a history from a patient with severe acute respiratory distress. Which specific exposure detail increases clinical suspicion for Avian Influenza A(H5N1) as opposed to MERS-CoV?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Close contact with dromedary camels or consumption of unpasteurised camel milk</li>
+                        <li data-correct="true" data-explanation="Avian Influenza A(H5N1) risk is strongly linked to direct exposure to infected poultry, wild birds, or live bird markets in endemic regions.">Direct contact with sick or dead domestic poultry, wild birds, or live bird markets in endemic regions</li>
+                        <li data-correct="false">Exposure to fruit bats in cave environments</li>
+                        <li data-correct="false">A history of tick bites in rural agricultural fields</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <!-- Interactive Pathogen Classification Sorter -->
+            <div class="sorter-container">
+                <h3 style="color: var(--nhs-blue-dark); margin-top: 0;">🧪 Interactive Exercise: Sort Contact vs Airborne HCID Pathogens</h3>
+                <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 16px;">
+                    Test your understanding of UK HCID classifications. Click or tap a pathogen below to select it, then click the correct containment box (or drag and drop on desktop) to categorise it:
+                </p>
+
+                <div class="sorter-pool-header">Unsorted HCID Pathogens (Click a pathogen, then click a target box):</div>
+                <div id="pathogen-pool" class="pathogen-pool">
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Ebola Virus (EVD)">🦠 Ebola Virus (EVD)</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="MERS-CoV">🦠 MERS-CoV</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Marburg Virus (MVD)">🦠 Marburg Virus (MVD)</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Avian Flu A(H5N1)">🦠 Avian Flu A(H5N1)</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Lassa Fever">🦠 Lassa Fever</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Nipah Virus">🦠 Nipah Virus</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="CCHF Virus">🦠 CCHF Virus</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Pneumonic Plague">🦠 Pneumonic Plague</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Argentine Haemorrhagic Fever">🦠 Argentine Haemorrhagic Fever</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Hendra Virus">🦠 Hendra Virus</div>
+                </div>
+
+                <div class="sorter-grid">
+                    <!-- Contact Zone Box -->
+                    <div id="contact-zone" class="sorter-drop-zone contact-zone" data-accept="contact">
+                        <div class="sorter-zone-header">
+                            <span>🩸 Contact HCIDs Box</span>
+                            <span style="font-size: 12px; font-weight: normal; opacity: 0.8;">(Bleeding / Body Fluids)</span>
+                        </div>
+                        <div class="sorter-items-container" id="contact-items"></div>
+                    </div>
+
+                    <!-- Airborne Zone Box -->
+                    <div id="airborne-zone" class="sorter-drop-zone airborne-zone" data-accept="airborne">
+                        <div class="sorter-zone-header">
+                            <span>🫁 Airborne HCIDs Box</span>
+                            <span style="font-size: 12px; font-weight: normal; opacity: 0.8;">(Aerosols / Respiratory Droplets)</span>
+                        </div>
+                        <div class="sorter-items-container" id="airborne-items"></div>
+                    </div>
+                </div>
+
+                <div class="sorter-actions">
+                    <button id="btn-check-sorter" class="btn-sorter-check">Check Pathogen Sorting</button>
+                    <button id="btn-reset-sorter" class="btn-sorter-reset">🔄 Reset Sorter</button>
+                </div>
+
+                <div id="sorter-feedback" class="sorter-result-box"></div>
+            </div>
+
+            <button class="btn-complete" data-module="module-3">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 4: Clinical Action Cards & Doctor's Assessment Pathway -->
+        <section id="module-4" class="module-section">
+            <div class="module-header">
+                <div class="module-number">4</div>
+                <div class="module-meta">
+                    <h2>Clinical Action Cards & Doctor's Assessment Pathway</h2>
+                    <span class="module-time">⏱️ Estimated time: 35 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Apply ABUHB Action Card 1 for Emergency Physicians in Charge (EPIC) & Senior Clinicians.</li>
+                    <li>Execute pre-entry tele-consultation (via patient mobile phone) & 6-point travel screening before entering isolation.</li>
+                    <li>Utilize the UKHSA/ACDP Viral Haemorrhagic Fever (VHF) Risk Assessment Algorithm (October 2024) to categorise cases.</li>
+                    <li>Navigate Grange University Hospital access pathways & Cubicle 27 entry/fit-testing criteria.</li>
+                    <li>Execute national escalation pathways (IFS 0844 778 8990, AWARe 0300 00 300 32, NHSE EPRR 0333 2005022).</li>
+                </ul>
+            </div>
+
+            <!-- Online VHF Algorithm Callout Card -->
+            <div class="video-guide-card" style="border: 2px solid var(--abuhb-green); background: #f0fdf4; margin: 20px 0;">
+                <div style="font-size: 36px; line-height: 1;">📋</div>
+                <div>
+                    <h4 style="color: #15803d; margin-top: 0;">🌐 Official Live VHF Risk Assessment Algorithm (October 2024)</h4>
+                    <p style="color: #166534; font-size: 14px; margin-bottom: 12px;">
+                        Access the official UK Health Security Agency (UKHSA / ACDP) live risk assessment algorithm and country guidance. Clicking the link below opens in a separate browser tab so clinicians can switch back and forth between the training course and the live diagnostic algorithm:
+                    </p>
+                    <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener noreferrer" class="video-link" style="background: var(--abuhb-green); color: #ffffff; padding: 10px 18px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                        <span>📋 Open Live VHF Risk Assessment Algorithm (GOV.UK PDF) ↗</span>
+                        <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Opens in New Tab (Course Stays Active)</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- EPIC Action Card Container -->
+            <div class="content-card">
+                <h3>ABUHB Action Card 1: Emergency Physician in Charge (EPIC) Protocol</h3>
+                <p>The Emergency Physician in Charge (EPIC) and Senior Medical Assessors at <strong>The Grange University Hospital (GUH)</strong> must follow a strict step-by-step protocol upon receiving a triage alert for a suspected HCID case.</p>
+                
+                <div class="epic-action-card">
+                    <div class="epic-card-header">
+                        <div class="epic-badge-title">HCID Action Card 1: EPIC</div>
+                        <div class="epic-card-meta">
+                            <strong>Service:</strong> Emergency Department | <strong>Location:</strong> The Grange University Hospital | <strong>Policy:</strong> ABUHB/IPAC/0125
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">1</div>
+                        <div class="epic-step-content">
+                            <strong>Immediate Alert Response</strong>
+                            <p>Respond <em>immediately</em> to the Triage Nurse or Nurse in Charge (NIC) alert of a suspected HCID case.</p>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">2</div>
+                        <div class="epic-step-content">
+                            <strong>Remote Tele-Consultation (Pre-Entry Screening)</strong>
+                            <p><strong>IF referred from MIU or ED Triage:</strong> Take a full clinical & travel history from the patient via their <em>own personal mobile phone</em> if possible. Assess observations. If normal, can the patient be safely sent to isolate at home and managed in the community? If so, contact the Duty Infectious Disease Consultant / Microbiologist via GUH Switchboard - <strong>Phone 100</strong> and ask to bleep Microbiologist on call.</p>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">3</div>
+                        <div class="epic-step-content">
+                            <strong>Mandatory 6-Point Travel & Exposure History</strong>
+                            <p>Confirm HCID risk with NIC and obtain detailed history via mobile phone covering:</p>
+                            <ul style="margin: 6px 0 6px 20px; font-size: 14px;">
+                                <li><strong>a. Dates of travel:</strong> Preceding 6 weeks (and specifically 21-day incubation window).</li>
+                                <li><strong>b. Country(ies) visited:</strong> Cross-reference with active <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener noreferrer" style="color: var(--nhs-blue); font-weight: bold; text-decoration: underline;">High consequence infectious disease: country specific risk - GOV.UK ↗</a>.</li>
+                                <li><strong>c. Region(s) / city(ies) visited:</strong> Rural vs urban settings, known outbreak zones.</li>
+                                <li><strong>d. Activities involved:</strong> Healthcare work, bat/cave visits, animal slaughter, tick bites, funeral rites, bushmeat.</li>
+                                <li><strong>e. Healthcare admissions:</strong> Any attendance or admission to local healthcare facilities abroad?</li>
+                                <li><strong>f. Known HCID exposure:</strong> Direct contact with body fluids, cases, or clinical specimens?</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">4</div>
+                        <div class="epic-step-content">
+                            <strong>VHF Risk Assessment Tool Categorisation</strong>
+                            <p>Utilize the <a href="https://www.gov.uk/government/publications/viral-haemorrhagic-fever-algorithm-and-guidance-on-management-of-patients" target="_blank" rel="noopener noreferrer" style="color: var(--nhs-blue); font-weight: bold; text-decoration: underline;">UKHSA/ACDP VHF Risk Assessment Algorithm (October 2024) ↗</a>:</p>
+                            <ul style="margin: 6px 0 6px 20px; font-size: 14px;">
+                                <li><strong>Minimal Risk (Yellow Box):</strong> Continue with standard infection control precautions & local guidance. Urgent malaria screen & routine bloods.</li>
+                                <li><strong>At Risk / High Risk (Orange Box):</strong> Liaise with NIC for urgent transfer to <strong>Cubicle 27</strong> (GUH ED) and continue strict VHF isolation precautions.</li>
+                                <li><strong>Unstable / Very Sick Patient:</strong> Bring patient direct to <strong>Cubicle 27</strong> - Ensure Resus trolley & HCID trolley are staged <em>outside</em> the cubicle.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">5</div>
+                        <div class="epic-step-content">
+                            <strong>Consultant Microbiologist & IFS Escalation</strong>
+                            <p>Discuss the case with the Duty Infectious Disease Consultant / Microbiologist - <strong>Dial 100 on GUH Switchboard</strong> - The Consultant Microbiologist will contact the <strong>Imported Fever Service (0844 778 8990)</strong> and liaise with EPIC for diagnostic sample authorization.</p>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">6</div>
+                        <div class="epic-step-content">
+                            <strong>Staff Entry & Sampling Criteria (Cubicle 27)</strong>
+                            <p>Allocate a senior HCID-trained clinician to enter <strong>Cubicle 27</strong> - Cubicle Telephone Ext: <strong>23290</strong> - <em>ONLY staff who have been FIT Tested in the last 3 years and have had recent HCID donning/doffing & sampling training may enter.</em> Don full Unified HCID PPE supervised by a qualified Buddy.</p>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">7</div>
+                        <div class="epic-step-content">
+                            <strong>National HLIU Transfer (NHSE EPRR)</strong>
+                            <p>If diagnostic blood samples test positive for a Category A or B disease, liaise immediately with the <strong>NHS England Emergency Preparedness, Resilience & Response Team (NHSE EPRR: 0333 2005022 / 020 8168 0053)</strong> to arrange patient transfer to a national High-Level Isolation Unit (HLIU).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grange Access Pathways & Containment -->
+            <div class="content-card">
+                <h3>The Grange University Hospital Access Pathways</h3>
+                <p>Specific patient arrival corridors are established across clinical departments at GUH to isolate suspected HCID cases without contaminating main hospital spaces:</p>
+
+                <ul>
+                    <li><strong>Adult Patients (ED / MAU / SAU):</strong> Patient enters via safe corridor on Level 1 & escorted to Respiratory Assessment Zone (MAU 2) into negative pressure <strong>Cubicle 61</strong> (or ED <strong>Cubicle 27</strong>). If Critical Care is required, transfer to negative pressure <strong>Cubicle 1 - BL43</strong>. Dedicated ring-fenced donning & doffing anterooms must be maintained.</li>
+                    <li><strong>Paediatric Patients:</strong> Patient enters via Level 1 safe corridor & escorted to Ward B1 into negative pressure room <strong>C1.50</strong>.</li>
+                    <li><strong>Maternity Patients:</strong> Patient enters via Level 1 safe corridor & escorted to Ward C3 via lift 10 or 11 into <strong>Room 1</strong>.</li>
+                </ul>
+            </div>
+
+            <!-- Interactive VHF Algorithm Case Simulator -->
+            <div class="content-card">
+                <h3>Interactive Doctor Case Simulator (VHF Algorithm Decision Tool)</h3>
+                <p>Test your clinical decision-making by evaluating the following real-world clinical scenarios against the <strong>NHS Viral Haemorrhagic Fever Risk Assessment Algorithm (October 2024)</strong>:</p>
+
+                <!-- Live Country Specific Risk Lookup Banner -->
+                <div class="video-guide-card" style="border: 2px solid var(--nhs-blue); background: #eff6ff; margin: 16px 0 24px;">
+                    <div style="font-size: 32px; line-height: 1;">🗺️</div>
+                    <div>
+                        <h4 style="color: var(--nhs-blue-dark); margin-top: 0;">Active Country-Specific Risk Lookup Tool</h4>
+                        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 10px;">
+                            Clinicians can check whether there are active HCID outbreaks or endemic risk factors in specific countries to assist in evaluating the clinical vignettes below:
+                        </p>
+                        <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener noreferrer" class="video-link" style="background: var(--nhs-blue); color: #ffffff; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+                            <span>🗺️ High consequence infectious disease: country specific risk - GOV.UK ↗</span>
+                            <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Opens in New Tab</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Case 1 -->
+                <div class="sim-scenario-box">
+                    <div class="sim-scenario-header">
+                        <div class="sim-scenario-title">Case 1: Returning Aid Worker from DRC</div>
+                        <span class="sim-scenario-badge" style="background: var(--nhs-blue-light); color: var(--nhs-blue-dark); border: 1px solid var(--nhs-blue);">📋 Clinical Vignette 1</span>
+                    </div>
+                    <p>A 31-year-old nurse returned 10 days ago from an Ebola outbreak zone in DRC. Presents to GUH ED with fever (38.9°C), severe diarrhoea, and epigastric pain. She reports caring for a febrile patient in a rural clinic without complete protective eyewear.</p>
+                    <p><strong>Doctor Decision Required:</strong> How should this case be categorised under the VHF Risk Assessment Tool?</p>
+                    
+                    <div class="sim-btn-group">
+                        <button class="sim-btn" data-correct="false" data-explanation="Incorrect. Because the patient had direct contact with an ill patient/body fluids in a VHF endemic region within 21 days, this case meets the criteria for 'AT RISK OF VHF' (High Risk).">Minimal Risk (Yellow Box)</button>
+                        <button class="sim-btn" data-correct="true" data-explanation="Correct! Fever + travel within 21 days + direct fluid/patient contact in an outbreak area = AT RISK OF VHF (Orange Box). Immediate isolation in Cubicle 27, EPIC mobile tele-consult, bleep Microbiologist (100), contact IFS (0844 778 8990), and prepare for Category A packaging.">At Risk / High Risk of VHF (Orange Box)</button>
+                    </div>
+                    <div class="sim-feedback-box"></div>
+                </div>
+
+                <!-- Case 2 -->
+                <div class="sim-scenario-box">
+                    <div class="sim-scenario-header">
+                        <div class="sim-scenario-title">Case 2: Business Traveller from Lagos</div>
+                        <span class="sim-scenario-badge" style="background: var(--nhs-blue-light); color: var(--nhs-blue-dark); border: 1px solid var(--nhs-blue);">📋 Clinical Vignette 2</span>
+                    </div>
+                    <p>A 48-year-old executive returned from Lagos, Nigeria 8 days ago. Presents with low-grade fever (38.1°C), mild headache, and fatigue. He stayed strictly in a 5-star city hotel, attended indoor meetings, had no contact with healthcare facilities, animals, bat caves, or sick individuals.</p>
+                    <p><strong>Doctor Decision Required:</strong> How should this case be categorised under the VHF Risk Assessment Tool?</p>
+                    
+                    <div class="sim-btn-group">
+                        <button class="sim-btn" data-correct="true" data-explanation="Correct! Although the patient traveled to an endemic country within 21 days, he has NO high-risk exposures (no body fluid contact, no rural Lassa exposure, no bat caves, no tick bites). Categorised as MINIMAL RISK OF VHF (Yellow Box). Proceed with single room isolation, urgent malaria screen, and routine bloods.">Minimal Risk of VHF (Yellow Box)</button>
+                        <button class="sim-btn" data-correct="false" data-explanation="Incorrect. Travel alone without any high-risk epidemiological exposures (fluids, healthcare, bats, rural Lassa) is categorised as Minimal Risk. Category A packaging and IFS HLIU transfer are not required unless malaria is negative and symptoms worsen.">At Risk / High Risk of VHF (Orange Box)</button>
+                    </div>
+                    <div class="sim-feedback-box"></div>
+                </div>
+
+                <!-- Case 3 -->
+                <div class="sim-scenario-box">
+                    <div class="sim-scenario-header">
+                        <div class="sim-scenario-title">Case 3: Respiratory Illness from Riyadh</div>
+                        <span class="sim-scenario-badge" style="background: var(--nhs-blue-light); color: var(--nhs-blue-dark); border: 1px solid var(--nhs-blue);">📋 Clinical Vignette 3</span>
+                    </div>
+                    <p>A 54-year-old male returned 6 days ago from Riyadh, Saudi Arabia, where he visited traditional camel markets. Presents with acute respiratory distress, bilateral pulmonary rales, productive cough, and fever (38.7°C).</p>
+                    <p><strong>Doctor Decision Required:</strong> Which clinical pathway applies to this presentation?</p>
+                    
+                    <div class="sim-btn-group">
+                        <button class="sim-btn" data-correct="false" data-explanation="Incorrect. While MERS-CoV is an HCID, it is transmitted via respiratory aerosols (Airborne HCID), not contact VHF. Contact VHF precautions alone are insufficient.">Contact VHF Isolation Pathway Only</button>
+                        <button class="sim-btn" data-correct="true" data-explanation="Correct! Camel exposure in the Middle East with acute respiratory symptoms indicates suspected MERS-CoV (Airborne HCID). Requires negative pressure isolation (Cubicle 61 / Cubicle 27), full respiratory HCID PPE (fit-tested FFP3 respirator/PAPR), and immediate Microbiologist to IFS consultation.">Airborne HCID Isolation Pathway (MERS-CoV)</button>
+                    </div>
+                    <div class="sim-feedback-box"></div>
+                </div>
+            </div>
+
+            <!-- Emergency Call Directory -->
+            <div class="content-card">
+                <h3>Emergency Contact Directory & Escalation Call Tree</h3>
+                <p>Keep these critical contact numbers accessible for immediate escalation at The Grange University Hospital:</p>
+
+                <div class="call-tree-grid">
+                    <div class="call-tree-card micro-urgency">
+                        <h4>Duty Consultant Microbiologist</h4>
+                        <div class="phone-num">Dial 100 (Switchboard)</div>
+                        <p>Ask switchboard operator to bleep the Microbiologist on call immediately for initial risk discussion & sample clearance.</p>
+                    </div>
+
+                    <div class="call-tree-card">
+                        <h4>Cubicle 27 Telephone (GUH ED)</h4>
+                        <div class="phone-num">Extension: 23290</div>
+                        <p>Direct telephone line inside ED Cubicle 27 for communication with assessing clinicians inside the isolation zone.</p>
+                    </div>
+
+                    <div class="call-tree-card high-urgency">
+                        <h4>Imported Fever Service (IFS)</h4>
+                        <div class="phone-num">0844 778 8990</div>
+                        <p>24/7 UKHSA consultant-to-consultant advisory service for authorizing Category A/B testing and RIPL Porton Down transport.</p>
+                    </div>
+
+                    <div class="call-tree-card">
+                        <h4>Public Health Wales / AWARe</h4>
+                        <div class="phone-num">0300 00 300 32</div>
+                        <p>Local Health Protection Team notification line for contact tracing, public health actions, and regional surveillance.</p>
+                    </div>
+
+                    <div class="call-tree-card high-urgency">
+                        <h4>NHSE EPRR Duty Officer</h4>
+                        <div class="phone-num">0333 2005022 / 020 8168 0053</div>
+                        <p>Emergency Preparedness, Resilience & Response line to arrange urgent patient transfer to a national High-Level Isolation Unit (HLIU).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 4 Quiz -->
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 4 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m4_q1">
+                    <p>1. What is the primary initial action for an EPIC or senior doctor when alerted to a suspected HCID patient in triage or referred from MIU?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Enter the isolation cubicle immediately in standard apron and gloves to perform venepuncture.</li>
+                        <li data-correct="true" data-explanation="Under ABUHB Action Card 1, the EPIC must perform a remote tele-consultation via the patient's personal mobile phone while the patient is isolated, evaluating travel and exposure history before entering or donning.">Conduct a remote tele-consultation via the patient's personal mobile phone to take a full travel & exposure history while the patient remains isolated.</li>
+                        <li data-correct="false">Request an immediate chest X-ray in the main radiology department prior to senior review.</li>
+                        <li data-correct="false">Send diagnostic blood specimens to routine blood sciences via the pneumatic tube system.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m4_q2">
+                    <p>2. Under ABUHB policy for The Grange University Hospital, which requirements MUST be satisfied before a doctor enters Cubicle 27 to assess a suspected HCID case?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="Only staff who have been FFP3 fit-tested within the last 3 years, have recent HCID donning/doffing/sampling training, and are supervised by a qualified Buddy may enter Cubicle 27.">FFP3 fit-tested within the last 3 years, recent HCID donning/doffing/sampling training, and supervised by a qualified Buddy.</li>
+                        <li data-correct="false">Standard NHS uniform with fluid-resistant surgical mask and no buddy supervision.</li>
+                        <li data-correct="false">Completion of an online e-learning module without formal fit-testing or buddy supervision.</li>
+                        <li data-correct="false">5 years of senior registrar experience without formal FFP3 fit-testing validation.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m4_q3">
+                    <p>3. If diagnostic blood samples test positive for a Category A or B HCID pathogen, which national duty officer is contacted to arrange urgent transfer to a High-Level Isolation Unit (HLIU)?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Local GP Out of Hours Service Coordinator.</li>
+                        <li data-correct="false">Local hospital bed manager.</li>
+                        <li data-correct="true" data-explanation="NHSE EPRR Duty Officer (0333 2005022 / 020 8168 0053) is contacted to arrange urgent transfer to a national High-Level Isolation Unit (HLIU).">NHS England Emergency Preparedness, Resilience & Response (NHSE EPRR Duty Officer: 0333 2005022).</li>
+                        <li data-correct="false">Community pharmacy advice desk.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-4">🔒 Complete 3 Questions (0/3) & Click Links (0/2)</button>
+        </section>
+
+        <!-- Module 5: Patient Assessment & Clinical Pathway -->
+        <section id="module-5" class="module-section">
+            <div class="module-header">
+                <div class="module-number">5</div>
+                <div class="module-meta">
+                    <h2>Patient Assessment & Clinical Pathway</h2>
+                    <span class="module-time">⏱️ Estimated time: 30 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Apply the "Isolate, Assess, Escalate" framework immediately upon suspicion.</li>
+                    <li>Understand the process for contacting the Imported Fever Service (IFS).</li>
+                    <li>Learn the referral and transfer protocol for High Level Isolation Units (HLIUs).</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Immediate Actions: Isolate, Assess, Escalate</h3>
+                <p>If an HCID is suspected based on symptoms and travel history, do not wait for test results. Rapid action is vital to prevent transmission.</p>
+                <ol class="step-list">
+                    <li><strong>Isolate:</strong> Immediately place the patient in a single side room, ideally with en-suite toilet facilities. If an Airborne HCID is suspected, this must ideally be a negative pressure room. Ensure the door remains closed.</li>
+                    <li><strong>Assess Remotely:</strong> Do not physically enter the room unless absolutely necessary. Conduct initial assessments via telephone or visually through a glass panel.</li>
+                    <li><strong>Escalate:</strong> Contact the local Microbiology, Virology, or Infectious Diseases Consultant immediately.</li>
+                </ol>
+
+                <div class="callout callout-nhs">
+                    <div class="callout-icon">📞</div>
+                    <div>
+                        <strong>Imported Fever Service (IFS: 0844 778 8990) & Emergency Escalation Protocol:</strong><br>
+                        <ul>
+                            <li><strong>Triage Priority:</strong> Immediately escort the patient into a single negative-pressure or isolation room, close the door, and don PPE before physical examination.</li>
+                            <li><strong>Microbiology Consultant Escalation ONLY:</strong> The Imported Fever Service (IFS: 0844 778 8990) is a 24/7 national expert advisory service that <strong>must ONLY be contacted by the Duty Microbiology Consultant</strong> (and <em>NOT</em> directly by the EPIC, ED Consultant, Registrar, or Senior Clinician). The EPIC / Senior Clinician must bleep the Duty Consultant Microbiologist via GUH Switchboard (<strong>Dial 100</strong>), who will initiate the consultant-to-consultant call to the IFS to authorise diagnostic testing and national pathways.</li>
+                            <li><strong>Emergency Stabilization:</strong> If a suspected HCID patient requires urgent emergency resuscitation (e.g. airway management or IV fluid resuscitation) prior to transfer, care must be delivered strictly <em>inside the designated isolation room</em> with all staff wearing full Unified HCID PPE.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 5 Knowledge Check (3 Questions — EPIC & Senior Clinician Focus)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m5_q1">
+                    <p>1. The EPIC is alerted to a 44-year-old traveller presenting to ED Triage with fever (38.8°C), severe headache, and vomiting 12 days after returning from a West African region with active Lassa fever. What is the immediate clinical management directive required from the EPIC?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Instruct the triage nurse to perform immediate phlebotomy in the open triage bay and send specimens via the pneumatic tube before isolating.</li>
+                        <li data-correct="true" data-explanation="Under ABUHB EPIC Action Card 1 and the Isolate-Assess-Escalate framework, the EPIC must direct immediate isolation in Cubicle 27/negative pressure, perform pre-entry tele-consultation via the patient's personal mobile phone, and bleep the Consultant Microbiologist (Dial 100).">Direct immediate isolation in Cubicle 27 (or negative pressure), conduct a pre-entry tele-consultation via the patient's personal mobile phone, and bleep the Duty Consultant Microbiologist via GUH Switchboard (Dial 100).</li>
+                        <li data-correct="false">Transfer the patient directly to the main Resuscitation bay for immediate central line insertion before consulting microbiology.</li>
+                        <li data-correct="false">Advise the patient to return home on oral antibiotics and attend an outpatient infectious disease clinic in 48 hours.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m5_q2">
+                    <p>2. An ED Consultant (EPIC) has isolated a patient suspected of a viral haemorrhagic fever (VHF) after identifying high-risk exposures. Which mandatory escalation step must be performed to obtain national diagnostic testing authorization and specialist clinical advice?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="The EPIC discusses the case with the Duty Consultant Microbiologist (Bleep 100), who initiates a consultant-to-consultant referral to the 24/7 Imported Fever Service (IFS: 0844 778 8990) to authorize testing and RIPL transport.">Liaise with the Duty Consultant Microbiologist (Dial 100), who will initiate a consultant-to-consultant referral to the UK 24/7 Imported Fever Service (IFS: 0844 778 8990) for diagnostic authorization.</li>
+                        <li data-correct="false">Request a routine automated blood PCR panel on the local hospital electronic order entry system without contacting microbiology.</li>
+                        <li data-correct="false">Refer the patient to the local community pharmacy desk for a rapid antigen screening kit.</li>
+                        <li data-correct="false">Send unsealed blood samples directly to the routine hospital blood sciences laboratory via standard portering.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m5_q3">
+                    <p>3. A patient isolated in Cubicle 27 with suspected Airborne HCID (e.g. MERS-CoV) develops acute respiratory distress (SpO2 84% on air) and requires urgent medical resuscitation and airway management. What is the EPIC's mandatory directive regarding resuscitation location and clinical team PPE?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Wheel the patient out of Cubicle 27 into the main ED Resuscitation bay under standard surgical mask droplet precautions.</li>
+                        <li data-correct="false">Delay all clinical oxygenation and resuscitation interventions until the national NHSE EPRR transfer team arrives on site.</li>
+                        <li data-correct="true" data-explanation="Emergency medical stabilization and airway management must take place strictly inside the isolation room with all attending clinical staff wearing full Unified Respiratory HCID PPE (fit-tested FFP3/PAPR, visor, hood, gown, taped gloves).">Execute emergency medical resuscitation and airway management strictly inside the negative-pressure isolation room, with all attending medical staff wearing full Unified Respiratory HCID PPE (fit-tested FFP3/PAPR, visor, hood, gown, taped gloves).</li>
+                        <li data-correct="false">Perform aerosol-generating procedures with the isolation door open so un-donned staff can assist from the corridor.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-5">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 6: The Unified HCID PPE Ensemble -->
+        <section id="module-6" class="module-section">
+            <div class="module-header">
+                <div class="module-number">6</div>
+                <div class="module-meta">
+                    <h2>The Unified HCID PPE Ensemble</h2>
+                    <span class="module-time">⏱️ Estimated time: 35 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Identify all components of the Unified HCID PPE Ensemble.</li>
+                    <li>Understand the requirement for FFP3 fit testing and triple gloving.</li>
+                    <li>Recognise the critical role of the 'Buddy' during donning and doffing.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>The Unified Ensemble</h3>
+                <p>The UK uses a single <strong>Unified HCID Assessment PPE Ensemble</strong> for assessing all suspected HCID cases (both contact and airborne) to standardize training and reduce errors. Below is the official UK assessment PPE ensemble with labeled components.</p>
+                
+                <div class="ppe-annotated-wrapper">
+                    <div class="ppe-image-box">
+                        <img src="images/unified_ppe.jpg" alt="Official UK Unified HCID Assessment PPE Ensemble">
+                        <!-- Hotspot Pointers -->
+                        <div class="ppe-pointer" style="top: 8%; left: 52%;" title="Full Face Visor">1</div>
+                        <div class="ppe-pointer" style="top: 15%; left: 50%;" title="FFP3 Respirator">2</div>
+                        <div class="ppe-pointer" style="top: 18%; left: 40%;" title="Fluid-Resistant Hood">3</div>
+                        <div class="ppe-pointer" style="top: 32%; left: 32%;" title="Fluid-Repellent Gown">4</div>
+                        <div class="ppe-pointer" style="top: 38%; left: 52%;" title="Heavy-Duty Plastic Apron">5</div>
+                        <div class="ppe-pointer" style="top: 44%; left: 74%;" title="Long-Cuffed Gloves & Tape">6</div>
+                        <div class="ppe-pointer" style="top: 91%; left: 45%;" title="Cleanable Footwear">7</div>
+                    </div>
+
+                    <div class="ppe-label-key">
+                        <h4>Ensemble Component Key</h4>
+                        
+                        <div class="ppe-key-item">
+                            <div class="key-num">1</div>
+                            <div class="key-text">
+                                <strong>Full Face Visor</strong>
+                                <span>Provides splash protection over eyes and face visor shield.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">2</div>
+                            <div class="key-text">
+                                <strong>Fit-Tested FFP3 Respirator</strong>
+                                <span>High-filtration mask providing 99%+ airborne aerosol protection.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">3</div>
+                            <div class="key-text">
+                                <strong>Fluid-Resistant Hood</strong>
+                                <span>Covers head, hair, and neck, overlapping the gown collar.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">4</div>
+                            <div class="key-text">
+                                <strong>Long-Sleeved Fluid-Repellent Gown</strong>
+                                <span>Reinforced blue gown providing barrier against fluids and fomites.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">5</div>
+                            <div class="key-text">
+                                <strong>Heavy-Duty Plastic Apron</strong>
+                                <span>Green plastic apron worn over gown for high-splatter activities.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">6</div>
+                            <div class="key-text">
+                                <strong>Taped Gloves (Triple Gloving)</strong>
+                                <span>Long-cuffed nitrile gloves taped to gown sleeves using microporous tape.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">7</div>
+                            <div class="key-text">
+                                <strong>Cleanable Footwear / Boots</strong>
+                                <span>Decontaminable footwear providing barrier protection.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Guides Grid: Donning & Doffing -->
+                <div class="video-guide-grid">
+                    <div class="video-guide-card">
+                        <img src="images/hcid_donning_qr.jpg" alt="Scan QR Code for HCID PPE Donning Video Guide" class="qr-code-img" data-vid="m6_donning" data-module="module-6" title="Click to mark video as watched" style="cursor: pointer;">
+                        <div>
+                            <h4>🎥 Official Donning Video</h4>
+                            <p>Scan QR code or click below to watch the official step-by-step HCID PPE donning procedure:</p>
+                            <a href="https://www.hcid-training.co.uk/index.php/video/hcid-assessment-ppe-donning/" target="_blank" rel="noopener noreferrer" class="video-link" data-module="module-6" data-vid="m6_donning">
+                                Watch Donning Video ↗
+                                <span class="new-tab-note">Opens video in a new tab (Course stays open)</span>
+                            </a>
+                        <button type="button" class="btn-qr-mark-watched" data-vid="m6_donning" data-module="module-6" style="margin-top: 10px; background: #f8fafc; border: 1px dashed #0284c7; color: #0284c7; padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+                            &#128241; Scanned on mobile? Click here to mark as watched
+                        </button>
+                        </div>
+                    </div>
+
+                    <div class="video-guide-card">
+                        <img src="images/hcid_doffing_qr.jpg" alt="Scan QR Code for HCID PPE Doffing Video Guide" class="qr-code-img" data-vid="m6_doffing" data-module="module-6" title="Click to mark video as watched" style="cursor: pointer;">
+                        <div>
+                            <h4>🎥 Official Doffing Video</h4>
+                            <p>Scan QR code or click below to watch the official step-by-step HCID PPE doffing procedure:</p>
+                            <a href="https://www.hcid-training.co.uk/index.php/video/hcid-assessment-ppe-doffing/" target="_blank" rel="noopener noreferrer" class="video-link" data-module="module-6" data-vid="m6_doffing">
+                                Watch Doffing Video ↗
+                                <span class="new-tab-note">Opens video in a new tab (Course stays open)</span>
+                            </a>
+                        <button type="button" class="btn-qr-mark-watched" data-vid="m6_doffing" data-module="module-6" style="margin-top: 10px; background: #f8fafc; border: 1px dashed #0284c7; color: #0284c7; padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+                            &#128241; Scanned on mobile? Click here to mark as watched
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-takeaways">
+                    <h3>The Buddy System & Triple Gloving Rationale</h3>
+                    <p><strong>Ensemble Rationale:</strong> The UK utilises a single <em>Unified HCID Assessment PPE Ensemble</em> for both Contact and Airborne HCIDs to standardise practice, simplify clinical training, reduce cognitive burden, and significantly minimise doffing self-contamination errors.</p>
+                    <p><strong>Triple Gloving Structure:</strong></p>
+                    <ul>
+                        <li><strong>Inner Gloves:</strong> Short examination gloves tucked securely <em>under</em> the gown sleeve cuff.</li>
+                        <li><strong>Middle Gloves:</strong> Long-cuffed nitrile gloves pulled over the gown sleeve and <em>taped securely</em> to the gown material using microporous tape.</li>
+                        <li><strong>Outer Gloves:</strong> Standard disposable gloves worn over taped middle gloves, replaced between clinical tasks and removed first during doffing.</li>
+                    </ul>
+                    <p><strong>Buddy Responsibilities:</strong> The designated Buddy must read instructions aloud step-by-step from a standardised checklist, conduct visual safety inspections, and direct every phase of donning and doffing to enforce strict safety compliance.</p>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 6 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m6_q1">
+                    <p>1. What is the primary rationale for adopting a single "Unified HCID Assessment PPE Ensemble" for evaluating suspected cases of both Contact and Airborne HCIDs?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Unified PPE eliminates the need for fit-testing FFP3 respirators for healthcare personnel.</li>
+                        <li data-correct="true" data-explanation="Standardising ensemble components reduces clinical complexity, simplifies staff training, and significantly lowers self-contamination errors during doffing.">Standardising ensemble components reduces clinical complexity, simplifies staff training, and significantly lowers self-contamination errors during doffing.</li>
+                        <li data-correct="false">Contact HCID pathogens cannot adhere to fluid-repellent gown fabrics.</li>
+                        <li data-correct="false">Standardising PPE allows staff to wear personal street clothing beneath protective gowns.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m6_q2">
+                    <p>2. In the UK Unified HCID Assessment PPE Ensemble, how is the triple-gloving protocol structured to maintain barrier integrity during patient procedures?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Three identical pairs of short-cuffed latex gloves worn over the gown sleeve without tape.</li>
+                        <li data-correct="false">Single pair of sterile surgical gloves covered by two pairs of heavy-duty rubber household gloves.</li>
+                        <li data-correct="false">Two pairs of inner nitrile gloves with a cloth outer glove for thermal protection.</li>
+                        <li data-correct="true" data-explanation="Inner gloves fit under gown cuffs, middle long-cuffed gloves are taped over gown sleeves, and outer disposable gloves are replaced between soiled clinical tasks.">Inner examination gloves (under gown cuff), middle long-cuffed gloves (taped to gown sleeve), and outer disposable gloves for procedure-specific replacement.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m6_q3">
+                    <p>3. What is the mandatory role of the designated "Buddy" during the donning and doffing process?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">To assist with invasive clinical procedures inside the patient room while wearing standard uniform.</li>
+                        <li data-correct="false">To clean the anteroom floor with chlorine disinfectant while the nurse removes PPE.</li>
+                        <li data-correct="true" data-explanation="The buddy reads instructions aloud from a standardised checklist, conducts visual inspections, and directs every step of PPE removal to prevent self-contamination.">To read instructions aloud from a standardised checklist, conduct visual safety inspections, and direct every step of PPE removal to prevent self-contamination.</li>
+                        <li data-correct="false">To handle telephone communications and record patient vital signs on the computer.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-6">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 7: Donning & Doffing Procedures -->
+        <section id="module-7" class="module-section">
+            <div class="module-header">
+                <div class="module-number">7</div>
+                <div class="module-meta">
+                    <h2>Donning & Doffing Procedures</h2>
+                    <span class="module-time">⏱️ Estimated time: 30 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Understand why doffing presents the highest contamination risk.</li>
+                    <li>Enforce the "No-Touch Policy" strictly.</li>
+                    <li>Recognise dangerous "Red Zone" subconscious behaviours.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Critical Doffing Principles & Emergency Protocols</h3>
+                <p>Doffing (removing PPE) is universally recognised as the <strong>most high-risk phase</strong> for healthcare worker self-contamination. External surfaces of the gown, visor, gloves, and apron become heavily contaminated with infectious bioburden during patient care.</p>
+                
+                <div class="callout callout-danger">
+                    <div class="callout-icon">🛑</div>
+                    <div>
+                        <strong>Strict Safety Rules & Emergency Breach Protocol:</strong>
+                        <ul>
+                            <li><strong>The No-Touch Policy:</strong> The wearer must <em>never touch contaminated outer PPE surfaces</em> with bare skin or clean inner gloves.</li>
+                            <li><strong>Supervised Doffing:</strong> Doffing must occur slowly, methodically, and strictly under Buddy direction in the Amber Zone anteroom.</li>
+                            <li><strong>Emergency PPE Breach Protocol:</strong> If PPE tears, is punctured, or skin exposure occurs inside the Red Zone: <em>alert the Buddy immediately, exit to the Amber Zone anteroom, perform emergency doffing under supervision, decontaminate exposed skin, and report immediately for occupational health post-exposure risk assessment.</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 7 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m7_q1">
+                    <p>1. Why is the doffing (removal) phase of HCID PPE universally recognised as carrying the highest risk of healthcare worker self-contamination?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">FFP3 respirators lose their filtration capacity immediately upon leaving the patient room.</li>
+                        <li data-correct="false">Doffing is conducted without alcohol hand rub or chemical disinfectants.</li>
+                        <li data-correct="true" data-explanation="External surfaces of the gown, visor, gloves, and apron are heavily contaminated with infectious bioburden that can easily transfer to bare skin or inner clothing during improper removal.">External surfaces of the gown, visor, gloves, and apron are heavily contaminated with infectious bioburden that can easily contact bare skin or inner clothing during improper removal.</li>
+                        <li data-correct="false">Inner gloves become permeable to viruses after 15 minutes of clinical wear.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m7_q2">
+                    <p>2. Under the strict "No-Touch Policy" during doffing, which action is strictly prohibited?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="Never touch the contaminated outer surfaces of PPE with bare skin or inner clean gloves.">Touching any outer contaminated surface of PPE with bare skin or inner clean gloves.</li>
+                        <li data-correct="false">Performing alcohol hand rub on inner gloves between doffing steps.</li>
+                        <li data-correct="false">Stepping from the Red Zone into the Amber Zone under Buddy direction.</li>
+                        <li data-correct="false">Disposing of removed outer PPE directly into Category A waste containers.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m7_q3">
+                    <p>3. If a nurse experiences a PPE breach (e.g. gown tear or glove puncture) or accidental skin exposure while inside the Red Zone, what is the immediate emergency protocol?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Apply adhesive tape over the torn area while remaining inside the patient room and complete the shift.</li>
+                        <li data-correct="false">Remove the damaged PPE item immediately inside the patient room and replace it with a clean item from the store.</li>
+                        <li data-correct="false">Continue patient care until the scheduled shift break, then report to occupational health.</li>
+                        <li data-correct="true" data-explanation="Alert the buddy immediately, exit to the Amber Zone, perform supervised emergency doffing, decontaminate exposed skin, and initiate post-exposure management.">Immediately notify the Buddy, exit to the Amber Zone, perform emergency doffing under supervision, decontaminate exposed skin, and initiate post-exposure risk assessment.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-7">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 8: Enhanced Infection Control & Zoning -->
+        <section id="module-8" class="module-section">
+            <div class="module-header">
+                <div class="module-number">8</div>
+                <div class="module-meta">
+                    <h2>Enhanced Infection Control & Zoning</h2>
+                    <span class="module-time">⏱️ Estimated time: 25 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Select appropriate clinical isolation environments (Cubicle 27 negative pressure suite vs standard isolation).</li>
+                    <li>Master the 3-zone clinical model (Red, Amber, Green) and unidirectional airflow control.</li>
+                    <li>Enforce Category A infectious waste handling and 10,000 ppm chlorine environmental decontamination.</li>
+                </ul>
+            </div>
+
+            <!-- Negative Pressure vs Standard Cubicle Explanation Card -->
+            <div class="callout callout-info" style="border-left: 4px solid var(--nhs-blue); background: #eff6ff; margin-bottom: 24px;">
+                <div class="callout-icon">🫁</div>
+                <div>
+                    <h4 style="color: var(--nhs-blue-dark); margin: 0 0 8px 0; font-size: 16px;">What is a Negative-Pressure Isolation Room & Why is it Mandatory for Airborne HCIDs?</h4>
+                    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 10px;">
+                        A <strong>Negative-Pressure Isolation Room</strong> (such as <strong>Cubicle 27</strong> at GUH Emergency Department) utilizes specialized mechanical ventilation to maintain the air pressure inside the patient room at a lower level than the surrounding anteroom (Amber Zone) and clean hospital corridors (Green Zone).
+                    </p>
+                    <ul style="margin: 0 0 10px 20px; font-size: 14px; line-height: 1.6;">
+                        <li><strong>Why Negative Pressure is Required (Inward Airflow):</strong> Air naturally flows from higher pressure to lower pressure. Because the isolation room is under negative pressure, clean air is continuously pulled <em>inward</em> into the room whenever doors are opened. Exhandled air is continuously extracted via dedicated ductwork through high-efficiency particulate air (HEPA) filters before being safely exhausted outdoors.</li>
+                        <li><strong>The Hazard of Standard Cubicles & Side Rooms (Outward Airflow Risk):</strong> In a standard side room, cubicle, or assessment space, opening the door or performing aerosol-generating procedures (AGPs) causes room air to rush <em>outwards</em> into clean corridors and patient waiting spaces. If an Airborne HCID (e.g. MERS-CoV, Avian Flu A/H5N1, or Pneumonic Plague) is isolated in a standard room, microscopic infectious aerosols linger in the air and escape into public corridors, exposing unprotected staff and patients.</li>
+                    </ul>
+                    <div style="font-size: 13px; font-weight: bold; color: var(--nhs-blue-dark); background: rgba(0,48,135,0.08); padding: 8px 12px; border-radius: 4px;">
+                        ⚠️ Key Clinical Rule: Contact HCIDs (e.g. Ebola, Lassa) require a single room with en-suite to manage fluid contact risks, but Airborne HCIDs strictly mandate a <strong>Negative-Pressure Suite (Cubicle 27)</strong> to contain respiratory aerosol hazards.
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Clinical Zoning & Containment Rules</h3>
+                <p>To prevent contamination spread, clinical isolation spaces are strictly divided into 3 containment zones:</p>
+                
+                <figure class="module-figure">
+                    <img src="images/clinical_zoning.jpg" alt="Clinical Zoning Layout for HCID Patient Isolation">
+                    <figcaption class="image-caption">Figure 8.1: The 3-Zone Clinical Model (Red Zone Patient Isolation, Amber Zone Supervised Doffing Anteroom, Green Zone Clean Corridor).</figcaption>
+                </figure>
+
+                <ul>
+                    <li><span class="zone-badge zone-red">Red Zone</span> Patient isolation room (highly contaminated). Full Unified PPE required. Direct care only.</li>
+                    <li><span class="zone-badge zone-amber">Amber Zone</span> Anteroom transition space. Serves specifically for <strong>supervised PPE doffing, hand hygiene, and skin decontamination</strong> between Red and Green zones.</li>
+                    <li><span class="zone-badge zone-green">Green Zone</span> Clean hospital corridors and staff office spaces. No contaminated PPE or equipment permitted.</li>
+                </ul>
+                <p><strong>Unidirectional Staff Movement:</strong> Movement through clinical zones is strictly unidirectional: <code>Green Zone &rarr; Amber Zone (donning) &rarr; Red Zone (entry)</code>; and exiting strictly <code>Red Zone &rarr; Amber Zone (doffing/decontamination) &rarr; Green Zone (clean exit)</code>.</p>
+                <p><strong>Category A Waste Disposal:</strong> All solid waste, linen, and disposable equipment generated within the Red Zone is classified as <strong>Category A Infectious Waste</strong> and must be sealed in UN-approved rigid, leak-proof containers for high-temperature incineration.</p>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 8 Knowledge Check (3 Questions — Advanced Isolation & Infection Control)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m8_q1">
+                    <p>1. A 38-year-old patient presents to ED Triage with acute fever (39.1°C), severe dry cough, and rapidly worsening dyspnoea 7 days after returning from an endemic region with reported airborne pathogen transmission. Which clinical room placement is appropriate for isolating this patient?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Standard side room or an assessment space.</li>
+                        <li data-correct="false">Standard single cubicle with shared corridor bathroom facilities.</li>
+                        <li data-correct="true" data-explanation="Airborne HCIDs mandate placement in Cubicle 27 (GUH ED dedicated negative-pressure isolation suite with an en-suite bathroom and sealed Amber anteroom). Assessment Area 5 is inappropriate due to its location within a high-density patient cohort area.">Cubicle 27 (Dedicated Negative-Pressure Isolation Suite with en-suite facilities and sealed Amber anteroom).</li>
+                        <li data-correct="false">Standard isolation room with its own en-suite bathroom operating on natural window ventilation.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m8_q2">
+                    <p>2. When managing environmental decontamination and waste disposal for a patient isolated in the Red Zone with suspected Viral Haemorrhagic Fever (VHF), which stringent infection control standard is legally and clinically mandatory?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">All solid waste and disposable equipment are sealed in standard yellow clinical waste bags and sent via routine hospital waste chutes.</li>
+                        <li data-correct="true" data-explanation="Red Zone waste from HCID patients is legally classified as UN Class 6.2 Category A Infectious Waste requiring rigid UN-approved containers for incineration, while hard surfaces require 10,000 ppm available chlorine or specialist virucidal agents.">All waste generated inside the Red Zone is classified as UN Class 6.2 Category A Infectious Waste, requiring sealing in UN-approved rigid containers for specialist high-temperature incineration, while hard surfaces require a 10,000 ppm available chlorine disinfectant solution.</li>
+                        <li data-correct="false">Reusable bedpans and suction canisters may be disinfected in routine hospital bedpan washer-disinfectors in the main utility room.</li>
+                        <li data-correct="false">Liquid body fluid waste can be poured directly into the main sluice hopper without chemical pretreatment or PPE.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m8_q3">
+                    <p>3. During the clinical management of an Airborne HCID patient in the 3-zone model (Red/Amber/Green), an alarm indicates a pressure drop and loss of negative pressure gradient between the Red Zone (patient room) and Amber Zone (anteroom). What is the immediate infection control directive?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Open the Red Zone door into the Green Zone corridor to equalize air pressure across the department.</li>
+                        <li data-correct="false">Continue clinical care as normal, provided staff wear standard Type IIR surgical masks.</li>
+                        <li data-correct="true" data-explanation="Loss of negative pressure gradient permits contaminated aerosols to migrate out of the Red Zone. Non-essential entry must cease, doors must remain tightly sealed, FFP3/PAPR respiratory protection enforced, and Estates/IPC notified immediately.">Halt non-essential entry, ensure Red and Amber Zone doors remain tightly sealed, verify staff are wearing fit-tested FFP3/PAPR respirators, and immediately alert Estates/Infection Control to restore negative-pressure gradient.</li>
+                        <li data-correct="false">Turn off the ventilation system completely and open external windows to vent air into the hospital courtyard.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-8">Mark Module Complete</button>
+        </section>
+
+        <!-- Module 9: Diagnostic Sampling & Specimen Handling -->
+        <section id="module-9" class="module-section">
+            <div class="module-header">
+                <div class="module-number">9</div>
+                <div class="module-meta">
+                    <h2>Diagnostic Sampling & Specimen Handling</h2>
+                    <span class="module-time">⏱️ Estimated time: 20 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Understand the risks associated with diagnostic sampling.</li>
+                    <li>Apply the UN Class 6.2 Triple Packaging System.</li>
+                    <li>Coordinate safely with microbiology and RIPL.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Safe Sampling Protocols & Packaging</h3>
+                <p>Diagnostic sampling (blood draws and swabbing) is a high-risk procedure for HCID transmission. Samples must <strong>NEVER</strong> be sent through the pneumatic tube transport system (due to breach spillage risk) or to routine hospital laboratories (because automated blood analysers generate high-risk aerosols and contaminate internal fluidic pathways, leading to lab shutdown).</p>
+
+                <!-- Official RIPL Sample Submission Form Link Card -->
+                <div class="video-guide-card" style="border: 2px solid var(--nhs-blue); background: #eff6ff; margin: 20px 0;">
+                    <div style="font-size: 36px; line-height: 1;">📝</div>
+                    <div>
+                        <h4 style="color: var(--nhs-blue-dark); margin-top: 0;">🌐 Rare and Imported Pathogens Laboratory (RIPL) Sample Submission Form</h4>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 12px;">
+                            Access the official UKHSA / RIPL testing request and specimen submission form (P1 Form). All Category A diagnostic specimens sent to UKHSA Porton Down must be accompanied by this completed form and authorized by the Duty Microbiologist via the Imported Fever Service (IFS):
+                        </p>
+                        <a href="https://www.gov.uk/government/publications/rare-and-imported-pathogens-testing-form-to-submit-sample" target="_blank" rel="noopener noreferrer" class="video-link" style="background: var(--nhs-blue); color: #ffffff; padding: 10px 18px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                            <span>📝 Rare and Imported Pathogens: Testing Form to Submit Sample (GOV.UK) ↗</span>
+                            <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Opens in New Tab</span>
+                        </a>
+                    </div>
+                </div>
+
+                <h4>Specimen Packaging & Transport Protocol</h4>
+                <p>To safely transport Category A diagnostic specimens to the <strong>Rare and Imported Pathogens Laboratory (RIPL) at UKHSA Porton Down</strong>, strict UN Class 6.2 Category A Triple Packaging rules are enforced:</p>
+
+                <div class="ppe-annotated-wrapper">
+                    <div class="ppe-image-box">
+                        <img src="images/triple_packaging.jpg" alt="Official UN Class 6.2 Category A Transport Box">
+                        <div class="image-caption">Figure 9.1: Official UN Class 6.2 Category A Transport Box with Biohazard Symbol and Directional Arrows.</div>
+                    </div>
+
+                    <div class="ppe-label-key">
+                        <h4>Step-by-Step Packaging Procedure</h4>
+                        
+                        <div class="ppe-key-item">
+                            <div class="key-num">1</div>
+                            <div class="key-text">
+                                <strong>Blood Sample & Absorbent Gauze</strong>
+                                <span>Blood tubes are placed in a primary specimen bag containing absorbent gauze sufficient to absorb the entire liquid contents in case of leakage.</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">2</div>
+                            <div class="key-text">
+                                <strong>Double Bagging</strong>
+                                <span>The primary specimen bag containing the blood tube and gauze is sealed and placed inside a second biohazard bag (double bagged).</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">3</div>
+                            <div class="key-text">
+                                <strong>Plastic Holding Container</strong>
+                                <span>The double-bagged sample is placed securely inside a protective, leak-proof plastic holding container (secondary pressure vessel).</span>
+                            </div>
+                        </div>
+
+                        <div class="ppe-key-item">
+                            <div class="key-num">4</div>
+                            <div class="key-text">
+                                <strong>UN Category A Outer Transport Box</strong>
+                                <span>The plastic container is placed inside the rigid UN Class 6.2 transport box (shown opposite), ensured upright according to "THIS WAY UP" arrows, and sealed for RIPL courier transport.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Guide Callout Box with Scannable QR Code -->
+                <div class="video-guide-card">
+                    <img src="images/hcid_video_qr.jpg" alt="Scan QR Code for Clinical Sample Handling Video Guide" class="qr-code-img" data-vid="m9_sample" data-module="module-9" title="Click to mark video as watched" style="cursor: pointer;">
+                    <div>
+                        <h4>🎥 Official Sample Handling Video Guide</h4>
+                        <p>Scan the QR code with your mobile device or click the link below to watch the official video demonstration for HCID clinical sample handling:</p>
+                        <a href="https://www.hcid-training.co.uk/index.php/video/clinical-sample-handling-for-hcid-patients/" target="_blank" rel="noopener noreferrer" class="video-link" data-module="module-9" data-vid="m9_sample">
+                            Watch Video: Clinical Sample Handling for HCID Patients ↗
+                            <span class="new-tab-note">Opens video in a new tab (Course stays open)</span>
+                        </a>
+                        <button type="button" class="btn-qr-mark-watched" data-vid="m9_sample" data-module="module-9" style="margin-top: 10px; background: #f8fafc; border: 1px dashed #0284c7; color: #0284c7; padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+                            &#128241; Scanned on mobile? Click here to mark as watched
+                        </button>
+
+                        <a href="https://www.hcid-training.co.uk/wp-content/uploads/2026/05/HCID-Sampling.pdf" target="_blank" rel="noopener noreferrer" class="video-link" style="margin-top: 10px; background: #0284c7;">
+                            &#128196; Download HCID Clinical Sampling Poster (PDF) &#8599;
+                            <span class="new-tab-note">Opens PDF poster in a new tab</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Module 9 Knowledge Check (3 Questions)</h3>
+                    <span class="quiz-pass-note">Pass mark: 80%+ overall</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m9_q1">
+                    <p>1. Why are routine hospital laboratory analysers and pneumatic tube transport systems strictly forbidden for processing blood specimens from suspected HCID patients?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Routine automated analysers cannot measure blood parameters in patients with viral infections.</li>
+                        <li data-correct="true" data-explanation="Automated analysers create aerosols and contaminate internal fluidics, while pneumatic tubes risk catastrophic contamination if a tube breaches.">Automated analysers create high-risk aerosols and can contaminate internal fluidic pathways, posing severe infection risks to lab staff and causing facility shutdown.</li>
+                        <li data-correct="false">Pneumatic tube transport systems cause haemolysis that renders blood samples uninterpretable.</li>
+                        <li data-correct="false">Routine hospital laboratories require 48 hours to process blood specimens compared to RIPL.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m9_q2">
+                    <p>2. In accordance with UN Class 6.2 Category A transport regulations, how must diagnostic blood samples for RIPL testing be structured in the Triple Packaging System?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Double-bagged in standard biohazard polythene bags placed inside a padded postal envelope.</li>
+                        <li data-correct="false">Placed directly in a rigid plastic box without absorbent material or secondary sealing.</li>
+                        <li data-correct="true" data-explanation="Triple packaging requires a primary leak-proof vessel with absorbent, a secondary leak-proof pressure container, and a rigid UN Category A outer box.">Primary leak-proof sample tube wrapped in absorbent material, placed in secondary leak-proof pressure container, placed inside a rigid UN-approved Category A outer transport box with directional arrows.</li>
+                        <li data-correct="false">Sealed in a single vacutainer container placed inside a standard specimen transport pouch.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m9_q3">
+                    <p>3. Which national specialist reference laboratory is designated to receive and process Category A diagnostic specimens for suspected HCID pathogens in the UK?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="The Rare and Imported Pathogens Laboratory (RIPL) at Porton Down is the designated UK reference laboratory for HCID diagnostic testing.">The Rare and Imported Pathogens Laboratory (RIPL) at UKHSA Porton Down</li>
+                        <li data-correct="false">The Local District General Hospital Blood Bank Laboratory</li>
+                        <li data-correct="false">The NHS 111 Regional Pathology Hub</li>
+                        <li data-correct="false">The Community Occupational Health Screening Laboratory</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-9">🔒 Complete 3 Questions (0/3) to Unlock</button>
+        </section>
+
+        <!-- Module 10: Clinical Case Scenarios & Decision Vignettes -->
+        <section id="module-10" class="module-section">
+            <div class="module-header">
+                <div class="module-number">10</div>
+                <div class="module-meta">
+                    <h2>Clinical Case Scenarios & Decision Vignettes</h2>
+                    <span class="module-time">⏱️ Estimated time: 25 mins</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Apply comprehensive course knowledge to 10 real-world Emergency Department clinical vignettes.</li>
+                    <li>Execute rapid triage isolation, Action Card 1 activation, and IPC escalation decisions under pressure.</li>
+                    <li>Master clinical decision-making for Airborne vs Contact HCID pathways, PPE doffing safety, and Category A sampling.</li>
+                </ul>
+            </div>
+
+            <!-- Interactive Simulation Dashboard -->
+            <div class="sim-dashboard">
+                <div class="sim-dashboard-header">
+                    <div class="sim-dashboard-title">
+                        <span>🎮</span> Emergency Room Clinical Simulation Dashboard
+                    </div>
+                    <div class="sim-tracker-steps">
+                        <div class="sim-step-dot" data-sim-step="1">1</div>
+                        <div class="sim-step-dot" data-sim-step="2">2</div>
+                        <div class="sim-step-dot" data-sim-step="3">3</div>
+                        <div class="sim-step-dot" data-sim-step="4">4</div>
+                        <div class="sim-step-dot" data-sim-step="5">5</div>
+                        <div class="sim-step-dot" data-sim-step="6">6</div>
+                        <div class="sim-step-dot" data-sim-step="7">7</div>
+                        <div class="sim-step-dot" data-sim-step="8">8</div>
+                        <div class="sim-step-dot" data-sim-step="9">9</div>
+                        <div class="sim-step-dot" data-sim-step="10">10</div>
+                    </div>
+                </div>
+                <p style="font-size: 13px; color: #cbd5e1; margin: 0; line-height: 1.5;">
+                    Test your emergency clinical decision-making across 10 real-world ED scenarios. Review patient vital signs, evaluate clinical risks against UKHSA guidance, and select the single most appropriate clinical decision button below.
+                </p>
+            </div>
+
+            <div class="quiz-section">
+                <!-- Scenario 1 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Triage Escalation:</span> <span class="sim-vital-val">Triage Nurse -> Duty Clinician</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.8°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Origin:</span> <span class="sim-vital-val">Democratic Republic of Congo</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Returned:</span> <span class="sim-vital-val">8 Days Ago</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 1: Triage Escalation & VHF Risk Isolation Decision</div>
+                            <span class="sim-badge sim-badge-red">🚨 Triage Consultation / Cubicle 27 Decision</span>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Clinical Consultation:</strong> The Triage Nurse bleeps you (the Duty ED Clinician) regarding a 34-year-old patient at the Triage Desk presenting with fever (38.8°C), severe headache, and muscle pain 8 days after returning from the Democratic Republic of Congo. The patient reports visiting local healthcare clinics during their stay.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Mandatory Clinical Reference Links for Risk Evaluation:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 UKHSA VHF Risk Assessment Algorithm (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Based on the UKHSA VHF Risk Algorithm and Country Risk List, how do you classify this patient's risk and where do you direct immediate isolation?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q1" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Action A (Moderate Risk — Standard Side Room):</strong> Categorize as Moderate Risk; direct immediate placement in a standard single side room with en-suite, order urgent malaria screen, and review results before deciding whether to bleep Microbiology.</li>
+                                <li data-correct="false"><strong>Action B (High Risk — Resus Bay Isolation):</strong> Categorize as High Risk; escort the patient directly into an isolated Resuscitation Bay for immediate IV fluids and full monitor setup while donning standard fluid apron and visor.</li>
+                                <li data-correct="true" data-explanation="Reviewing the UKHSA VHF Algorithm and Country Risk List confirms the DRC as an active VHF risk area with high-risk clinical exposure. The clinician must classify the patient as High Risk and direct IMMEDIATE isolation in Cubicle 27 (Negative-Pressure Suite), closing the door and bleeping Duty Microbiology (Dial 100)."><strong>Action C (High Risk — Negative-Pressure Cubicle 27):</strong> Categorize as HIGH RISK OF VHF; direct IMMEDIATE isolation in Cubicle 27 (Negative-Pressure Suite), seal doors, and bleep the Duty Microbiology Consultant via Switchboard (Dial 100).</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 2 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Triage Escalation:</span> <span class="sim-vital-val">Triage Nurse -> Duty Clinician</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.9°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Origin:</span> <span class="sim-vital-val">Saudi Arabia (Riyadh)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Returned:</span> <span class="sim-vital-val">6 Days Ago</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 2: Triage Escalation — Respiratory Symptoms from Saudi Arabia</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Clinical Consultation:</strong> A 48-year-old traveller presents to ED Triage with fever (38.9°C), severe dry cough, and acute shortness of breath 6 days after returning from Riyadh, Saudi Arabia, where he visited traditional camel farms and spent time in a hospital ED. The Triage Nurse bleeps you for immediate placement advice.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Mandatory Clinical Reference Links for Risk Evaluation:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://www.gov.uk/government/collections/mers-cov-clinical-management-and-guidance" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 MERS-CoV: clinical management and guidance - GOV.UK ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Which immediate clinical isolation and respiratory PPE pathway must you direct the triage nurse to activate?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q2" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Acute respiratory symptoms within 14 days of travel to the Arabian Peninsula with camel exposure meets UKHSA criteria for MERS-CoV (Airborne HCID). Requires immediate isolation in Cubicle 27 (Negative-Pressure Suite) and fit-tested FFP3 respirator / PAPR hood."><strong>Action A (Airborne HCID — Cubicle 27 & PAPR/FFP3):</strong> Direct immediate isolation in Cubicle 27 (Negative-Pressure Suite), seal doors, don fit-tested FFP3 respirator or PAPR hood with full-face shield, and bleep Duty Microbiology.</li>
+                                <li data-correct="false"><strong>Action B (Standard Side Room & Mask):</strong> Isolate in a standard single side room, fit patient with a Type IIR fluid-resistant surgical mask, don standard gown and visor, and request an immediate portable chest X-ray.</li>
+                                <li data-correct="false"><strong>Action C (Side Room & Pre-Escalation Swab):</strong> Place patient in a side room, don FFP3 respirator, and perform an immediate nasopharyngeal swab for routine viral PCR before escalating to the senior medical team.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 3 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Triage Escalation:</span> <span class="sim-vital-val">Triage Nurse -> Duty Clinician</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.1°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Origin:</span> <span class="sim-vital-val">Lagos, Nigeria</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Returned:</span> <span class="sim-vital-val">10 Days Ago</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 3: Triage Consultation — Business Traveller from Lagos</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Clinical Consultation:</strong> A 50-year-old executive returned from Lagos, Nigeria 10 days ago presenting with low-grade fever (38.1°C) and fatigue. He stayed strictly in a 5-star city hotel, attended indoor business conferences, and had no contact with healthcare facilities, animals, bat caves, or sick individuals.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Mandatory Clinical Reference Links for Risk Evaluation:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 UKHSA VHF Risk Assessment Algorithm (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Under the UKHSA VHF Risk Assessment Tool, how do you categorize this patient and direct immediate management?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q3" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Travel to an endemic country without high-risk exposures (no body fluids, no rural Lassa exposure, no healthcare contact) is categorized as MINIMAL RISK OF VHF. The clinician directs single room isolation, urgent malaria screen, and routine bloods. Cubicle 27 and Category A packaging are NOT required unless malaria is negative and symptoms worsen."><strong>Action A (Minimal Risk — Standard Side Room):</strong> Categorize as MINIMAL RISK OF VHF; place in a standard single side room for urgent malaria blood film and routine bloods. Cubicle 27 and Category A packaging are not required.</li>
+                                <li data-correct="false"><strong>Action B (High Risk — Over-Escalation to Cubicle 27):</strong> Categorize as HIGH RISK OF VHF based solely on travel to an endemic nation within 21 days; direct immediate isolation in Cubicle 27 and initiate Category A triple packaging.</li>
+                                <li data-correct="false"><strong>Action C (Low Risk — General Assessment Area):</strong> Categorize as Low Risk; seat patient in a low-density general assessment sub-waiting area while awaiting routine blood results.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 4 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Triage Escalation:</span> <span class="sim-vital-val">Triage Nurse -> Duty Clinician</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">39.4°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Origin:</span> <span class="sim-vital-val">Uganda (East Africa)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Returned:</span> <span class="sim-vital-val">12 Days Ago</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 4: Triage Consultation — Uganda Funeral Exposure (High-Risk Burial Contact)</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Clinical Consultation:</strong> A 31-year-old aid worker presents at Triage with high fever (39.4°C), severe vomiting, and abdominal pain 12 days after returning from Uganda. She discloses attending a traditional burial ceremony of a family member who died from an undiagnosed febrile illness with bleeding.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Mandatory Clinical Reference Links for Risk Evaluation:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 UKHSA VHF Risk Assessment Algorithm (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            How do you classify this case and what immediate isolation action do you direct?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q4" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Action A (Moderate Risk — Side Room Observation):</strong> Categorize as Moderate Risk since patient has no active bleeding or hemodynamic instability; place in a standard side room for IV rehydration and routine bloods.</li>
+                                <li data-correct="false"><strong>Action B (High Risk — Immediate Direct Cannulation):</strong> Categorize as High Risk; don standard HCID PPE immediately and enter Cubicle 27 alone to perform venepuncture and IV cannulation without waiting for buddy verification or mobile phone screening.</li>
+                                <li data-correct="true" data-explanation="Attending burial rites of a patient with hemorrhagic fever in a Marburg risk area within 21 days constitutes a HIGH-RISK EXPOSURE. The clinician must direct IMMEDIATE isolation in Cubicle 27, conduct remote mobile tele-consultation, and bleep Duty Microbiology (Dial 100)."><strong>Action C (High Risk — Cubicle 27 Isolation):</strong> Categorize as HIGH RISK OF VHF (Marburg); direct IMMEDIATE isolation in Cubicle 27, perform remote mobile consultation, and bleep Duty Microbiology (Dial 100).</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 5 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Triage Escalation:</span> <span class="sim-vital-val">Triage Nurse -> Duty Clinician</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.7°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Origin:</span> <span class="sim-vital-val">Rural Bolivia (South America)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Returned:</span> <span class="sim-vital-val">14 Days Ago</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 5: Triage Consultation — Rural Bolivia Bat Cave Exposure (Machupo Virus)</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Clinical Consultation:</strong> A 27-year-old researcher presents at Triage with fever (38.7°C), conjunctival redness, and petechiae 14 days after exploring bat-inhabited caves and rural rodent-infested grain stores in Beni Department, Bolivia. The Triage Nurse calls for immediate placement advice.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Mandatory Clinical Reference Links for Risk Evaluation:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 UKHSA VHF Risk Assessment Algorithm (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Based on the UKHSA guidance for South American Arenaviruses (Machupo / Chapare VHF), how do you direct immediate care?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q5" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Exposure to bat caves/rodent excreta in South American Arenavirus endemic zones presenting with fever and petechiae is categorized as HIGH RISK OF VHF (Machupo/Chapare virus). Direct immediate isolation in Cubicle 27 and bleep Duty Microbiology (Dial 100)."><strong>Action A (High Risk — Cubicle 27 Isolation):</strong> Categorize as HIGH RISK OF VHF (Machupo Arenavirus); direct IMMEDIATE isolation in Cubicle 27, seal the door, and bleep Duty Microbiology (Dial 100).</li>
+                                <li data-correct="false"><strong>Action B (Low Risk — Rabies/Leptospirosis Pathway):</strong> Categorize as Low Risk VHF and treat primarily for severe Leptospirosis or Rabies exposure; place in a standard side room and order routine blood cultures and lumbar puncture.</li>
+                                <li data-correct="false"><strong>Action C (Airborne Respiratory Isolation Only):</strong> Categorize as Airborne HCID; place in negative pressure with FFP3 mask, but process routine bloods in house while awaiting microbiology callback.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 6 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Triage Escalation:</span> <span class="sim-vital-val">Triage Nurse -> Duty Clinician</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">36.6°C (Afebrile / Asymptomatic)</span></div>
+                        <div class="sim-vital-item"><span>🌍 Origin:</span> <span class="sim-vital-val">Sierra Leone (West Africa)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Returned:</span> <span class="sim-vital-val">6 Days Ago (High-Risk Exposure)</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 6: Triage Consultation — Asymptomatic High-Risk Contact</div>
+                            <span class="sim-badge sim-badge-amber">⚠️ Asymptomatic High-Risk Contact Protocol</span>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Clinical Consultation:</strong> A 29-year-old healthcare volunteer presents to ED Triage 6 days after returning from Sierra Leone. She reports having direct blood and body fluid exposure while treating a confirmed Lassa fever patient at a rural clinic. However, she is completely <strong>afebrile (36.6°C)</strong> and reports <strong>NO fever, headache, sore throat, or any clinical symptoms</strong>.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Mandatory Clinical Reference Links for Risk Evaluation:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 UKHSA VHF Risk Assessment Algorithm (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Under UKHSA and Public Health Wales guidance, how do you categorize an asymptomatic person with high-risk VHF exposure and direct management?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q6" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Action A (Admit to Cubicle 27 for Diagnostic Testing):</strong> Categorize as a suspected VHF case; isolate immediately in Cubicle 27, perform urgent venepuncture, and initiate Category A triple packaging.</li>
+                                <li data-correct="true" data-explanation="Under UKHSA and Public Health Wales guidance, an individual with high-risk exposure who is completely asymptomatic (afebrile, no symptoms) does NOT meet criteria for a suspected VHF case. The clinician immediately contacts Duty Microbiology & Public Health Wales for contact tracing protocols, and advises home self-isolation with a Patient Information Leaflet and twice-daily temperature checks."><strong>Action B (Contact Duty Microbiology & Advise Home Self-Isolation):</strong> Immediately contact Duty Microbiology & Public Health Wales for guidance, and advise home self-isolation with a VHF Patient Information Leaflet and twice-daily temperature checks for the 21-day incubation period.</li>
+                                <li data-correct="false"><strong>Action C (Routine ED Waiting Room Discharge):</strong> Discharge patient to the general ED sub-waiting area to await routine blood films and malaria results before notifying Public Health Wales.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 7 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📍 Status:</span> <span class="sim-vital-val">Cubicle 27 Isolated</span></div>
+                        <div class="sim-vital-item"><span>📋 Pathway:</span> <span class="sim-vital-val">VHF Algorithm Completed</span></div>
+                        <div class="sim-vital-item"><span>📞 Escalation:</span> <span class="sim-vital-val">IFS Authorization Required</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 7: National Governance & IFS Referral Protocol</div>
+                            <span class="sim-badge sim-badge-blue">🏛️ Governance / Escalation</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Clinical Context:</strong> The EPIC has isolated a suspected Viral Haemorrhagic Fever patient in Cubicle 27 and completed the 6-point travel screening and UKHSA VHF Risk Algorithm. Formal authorization for Category A diagnostic testing and national HLIU pathway activation is urgently required. Who is legally and clinically authorized to contact the 24/7 Imported Fever Service (IFS: 0844 778 8990)?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q7" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Action A:</strong> The Emergency Physician in Charge (EPIC) or Senior ED Clinician calls the 24/7 Imported Fever Service (IFS: 0844 778 8990) directly to authorize RIPL testing.</li>
+                                <li data-correct="true" data-explanation="Under NHS Wales & ABUHB governance, the 24/7 Imported Fever Service (IFS: 0844 778 8990) must ONLY be contacted by the Duty Microbiology Consultant (bleeped via Switchboard Dial 100 by the EPIC) to initiate consultant-to-consultant authorization."><strong>Action B:</strong> The Duty Microbiology Consultant (bleeped via Switchboard Dial 100 by the EPIC) calls the Imported Fever Service (IFS) to initiate consultant-to-consultant case discussion.</li>
+                                <li data-correct="false"><strong>Action C:</strong> The Nurse in Charge or EPIC notifies Public Health Wales Health Protection Team to directly approve RIPL diagnostic packaging.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 8 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📍 Location:</span> <span class="sim-vital-val">Amber Zone Anteroom</span></div>
+                        <div class="sim-vital-item"><span>🛡️ Phase:</span> <span class="sim-vital-val">PPE Doffing Procedure</span></div>
+                        <div class="sim-vital-item"><span>👥 Team:</span> <span class="sim-vital-val">Buddy System Active</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 8: Amber Zone PPE Doffing Safety & Buddy System</div>
+                            <span class="sim-badge sim-badge-amber">⚠️ High Contamination Risk</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Clinical Context:</strong> A senior clinician has completed a blood draw inside Cubicle 27 (Red Zone) on a suspected HCID patient and steps into the Amber Zone anteroom to doff their Unified HCID PPE. Which mandatory safety rule governs the doffing procedure inside the Amber Zone?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q8" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Action A:</strong> Doff PPE independently inside the Amber Zone as quickly as possible to minimize anteroom dwell time, applying hand rub only after final glove removal.</li>
+                                <li data-correct="false"><strong>Action B:</strong> Remove outer gloves inside the Red Zone, step into the Amber Zone, unfasten gown ties, and pull gown forward over shoulders before performing hand hygiene.</li>
+                                <li data-correct="true" data-explanation="Doffing carries the highest risk of self-contamination and must be conducted strictly step-by-step under the verbal guidance of a trained Buddy, performing alcohol hand rub on inner gloves after removing every single item."><strong>Action C:</strong> Doff strictly step-by-step under the verbal direction of a trained Buddy, performing alcohol hand rub on inner gloves after removing each individual item.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 9 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>🩸 Specimen:</span> <span class="sim-vital-val">Venous Blood Tubes</span></div>
+                        <div class="sim-vital-item"><span>🏷️ Class:</span> <span class="sim-vital-val">UN Class 6.2 Category A</span></div>
+                        <div class="sim-vital-item"><span>🏢 Destination:</span> <span class="sim-vital-val">RIPL Porton Down</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 9: Category A Specimen Packaging & Transport</div>
+                            <span class="sim-badge sim-badge-purple">🧪 Category A Biohazard</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Clinical Context:</strong> Venous blood specimens have been obtained from a high-risk suspected HCID patient inside Cubicle 27 for RIPL testing at UKHSA Porton Down. How must these Category A diagnostic specimens be packaged and dispatched to the laboratory?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q9" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Action A:</strong> Double-bag blood tubes in biohazard leak-proof bags with absorbent pads, attach red emergency alert tags, and dispatch via pneumatic tube system directly to pathology lab.</li>
+                                <li data-correct="false"><strong>Action B:</strong> Hand-carry samples in a rigid primary biohazard container directly to the routine hospital biochemistry/hematology laboratory reception for manual analyzer entry.</li>
+                                <li data-correct="true" data-explanation="Category A HCID specimens must NEVER go through pneumatic tubes or automated lab analyzers. They must be packaged using UN Class 6.2 Triple Packaging with absorbent material and completed RIPL P1 Form, and hand-delivered directly to the pathology laboratory. The laboratory team is responsible for arranging external courier transport to RIPL Porton Down."><strong>Action C:</strong> Triple-package in UN Class 6.2 Category A approved containers with absorbent material and completed RIPL P1 Form, and hand-deliver directly to the hospital laboratory reception (the laboratory arranges external courier dispatch to RIPL).</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 10 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>🛡️ PPE Requirement:</span> <span class="sim-vital-val">FFP3 / PAPR Hood Protection</span></div>
+                        <div class="sim-vital-item"><span>📋 Status:</span> <span class="sim-vital-val">Respiratory Mask Fit-Test Audit</span></div>
+                        <div class="sim-vital-item"><span>🚪 Safety Rule:</span> <span class="sim-vital-val">Zero Facial Seal Leakage</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Scenario 10: FFP3 Respiratory Mask Fit-Testing & PAPR Safety Protocol</div>
+                            <span class="sim-badge sim-badge-amber">⚠️ Mask Fit-Testing & PAPR Safety Rule</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Clinical Context:</strong> An Emergency Department Duty Clinician is assigned to enter Cubicle 27 to assess a patient with suspected Airborne HCID (MERS-CoV). During the safety pre-check in the Green Zone, the clinician reveals that they recently FAILED their qualitative FFP3 respirator mask fit test and have not yet passed a fit test on another FFP3 model. Can this clinician enter Cubicle 27 wearing an FFP3 mask to assess or treat the patient?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q10" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Under NHS Wales & ABUHB Infection Prevention and Control guidelines, clinicians who fail an FFP3 mask fit test MUST NOT enter an Airborne HCID room wearing an FFP3 mask. They must either don a Powered Air-Purifying Respirator (PAPR) hood system (which does not rely on a facial seal) or be replaced by a fully fit-tested clinician."><strong>Action A (NO — PAPR Hood Required or Swap Clinician):</strong> NO. Clinicians who fail an FFP3 fit test must NEVER enter an Airborne HCID room wearing an FFP3 mask. They must either don a Powered Air-Purifying Respirator (PAPR) hood or be replaced by fit-tested personnel.</li>
+                                <li data-correct="false"><strong>Action B (YES — Double Masking Permitted):</strong> YES. Clinicians who fail an FFP3 fit test may enter Cubicle 27 provided they wear a Type IIR fluid-resistant surgical mask underneath the FFP3 respirator and pull the head straps tighter.</li>
+                                <li data-correct="false"><strong>Action C (YES — Short Exposure Limit):</strong> YES. Clinicians who fail an FFP3 fit test may enter Cubicle 27 as long as they restrict direct exposure time inside the negative-pressure room to under 15 minutes.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-10">🔒 Answer All 10 Case Scenarios (0/10) to Unlock</button>
+        </section>
+
+        <!-- ABUHB ED Course Completion & Practice Educators Contact Card -->
+        <div class="content-card" style="border-left: 6px solid var(--abuhb-purple); background: linear-gradient(135deg, #ffffff 0%, #fdf2f8 100%); padding: 28px; margin: 32px 0 28px; box-shadow: var(--shadow-md);">
+            <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px; flex-wrap: wrap;">
+                <div style="font-size: 42px; line-height: 1;">👏</div>
+                <div>
+                    <h3 style="color: var(--abuhb-purple); margin: 0; font-size: 22px;">Thank You for Completing the HCID Training Guide!</h3>
+                    <span style="font-size: 14px; color: var(--text-secondary); font-weight: 600;">Emergency Department — Aneurin Bevan University Health Board</span>
+                </div>
+            </div>
+            
+            <p style="font-size: 15px; line-height: 1.6; color: var(--text-primary); margin-bottom: 20px;">
+                A huge thank you for completing this clinical preparedness course! Your dedication to infection prevention, rapid triage isolation, and safe patient care helps protect staff, patients, and the wider community at <strong>The Grange University Hospital and across ABUHB</strong>.
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 16px;">
+                <!-- SharePoint Card -->
+                <div style="background: #ffffff; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 18px; box-shadow: var(--shadow-sm);">
+                    <h4 style="color: var(--abuhb-purple); margin-top: 0; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+                        <span>🌐</span> ED HCID Intranet SharePoint Page
+                    </h4>
+                    <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5;">
+                        Our Emergency Department has a dedicated <strong>HCID SharePoint page</strong> accessible on our <strong>NHS Wales Intranet</strong>. It houses all operational action cards, department pathways, policy documents, and external links covered in this course for convenient future reference.
+                    </p>
+                    <span style="font-size: 12px; font-weight: 700; color: var(--abuhb-purple); background: #fce7f3; padding: 4px 10px; border-radius: 12px; display: inline-block;">Available on NHS Wales Intranet</span>
+                </div>
+
+                <!-- Practice Educators Contact Card -->
+                <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: var(--radius-sm); padding: 18px; box-shadow: var(--shadow-sm);">
+                    <h4 style="color: var(--nhs-blue-dark); margin-top: 0; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+                        <span>📧</span> ED Practice Educators Support
+                    </h4>
+                    <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5;">
+                        For additional clinical training information, practice queries, or questions raised during this course, please contact the ED Practice Educators team:
+                    </p>
+                    <a href="mailto:ABB.EDPracticeEducators@wales.nhs.uk" style="color: var(--nhs-blue); font-weight: 700; font-size: 13px; text-decoration: underline; display: inline-flex; align-items: center; gap: 6px; word-break: break-all;">
+                        ✉️ ABB.EDPracticeEducators@wales.nhs.uk
+                    </a>
+                </div>
+
+                <!-- IPaC Infection Control Contact Card -->
+                <div style="background: #ffffff; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 18px; box-shadow: var(--shadow-sm);">
+                    <h4 style="color: var(--abuhb-green); margin-top: 0; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+                        <span>🛡️</span> IPaC Infection Control Team
+                    </h4>
+                    <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5;">
+                        For specialist infection prevention and control guidance, policy enquiries, or IPC risk assessments, please contact the IPaC Infection Control team:
+                    </p>
+                    <a href="mailto:infection.control3@wales.nhs.uk" style="color: var(--abuhb-green); font-weight: 700; font-size: 13px; text-decoration: underline; display: inline-flex; align-items: center; gap: 6px; word-break: break-all;">
+                        ✉️ infection.control3@wales.nhs.uk
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assessment Summary & Certificate Card -->
+        <section id="assessment-summary" class="course-results-card">
+            <div class="course-results-header">
+                <h2>Course Assessment Summary</h2>
+                <div id="pass-badge" class="pass-status-badge pending">Assessment In Progress</div>
+            </div>
+            
+            <p id="pass-msg">Answer all 27 knowledge check questions + complete the Interactive Pathogen Sorter + complete all 10 Module 10 Clinical Case Scenarios (38 assessment items total across 10 modules). You must achieve a pass mark of <strong>80% or higher (at least 31/38 correct)</strong> to pass the course assessment and unlock your official certificate.</p>
+
+            <div class="score-display-box">
+                <div class="score-metric">
+                    <div id="score-val" class="val">0/38 (0%)</div>
+                    <div class="lbl">Assessment Score</div>
+                </div>
+                <div class="score-metric">
+                    <div id="answered-val" class="val">0/38</div>
+                    <div class="lbl">Items Answered</div>
+                </div>
+                <div class="score-metric">
+                    <div class="val" style="color: var(--abuhb-green);">80%</div>
+                    <div class="lbl">Required Pass Mark</div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 24px;">
+                <button id="cert-trigger-btn" class="btn-certificate" style="display: none;">🎓 Generate Certificate of Achievement</button>
+                <button id="reset-assessment-btn" class="btn-reset-quiz">🔄 Reset Assessment & Retake</button>
+            </div>
+        </section>
+
+        <!-- Resource Links -->
+        <h3 style="margin-top: 40px; color: var(--nhs-blue-dark);">Official Resources & Live Tools</h3>
+        <div class="resource-links">
+            <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener noreferrer" class="resource-link" style="border-left: 4px solid var(--nhs-blue); background: #eff6ff;">
+                <span class="link-icon">🗺️</span>
+                <strong>HCID Country Specific Risk (GOV.UK) ↗</strong>
+            </a>
+            <a href="https://www.gov.uk/government/publications/viral-haemorrhagic-fever-algorithm-and-guidance-on-management-of-patients" target="_blank" rel="noopener noreferrer" class="resource-link" style="border-left: 4px solid var(--abuhb-green); background: #f0fdf4;">
+                <span class="link-icon">📋</span>
+                <strong>Live VHF Risk Assessment Algorithm (GOV.UK) ↗</strong>
+            </a>
+            <a href="https://learninghub.nhs.uk" target="_blank" class="resource-link">
+                <span class="link-icon">🔗</span>
+                NHS Learning Hub (HCID) ↗
+            </a>
+            <a href="https://www.hcid-training.co.uk" target="_blank" class="resource-link">
+                <span class="link-icon">🔗</span>
+                HCID-Training.co.uk ↗
+            </a>
+            <a href="https://www.gov.uk/government/publications/rare-and-imported-pathogens-testing-form-to-submit-sample" target="_blank" rel="noopener noreferrer" class="resource-link" style="border-left: 4px solid var(--abuhb-purple); background: #fdf2f8;">
+                <span class="link-icon">📝</span>
+                <strong>RIPL Sample Submission Form (GOV.UK) ↗</strong>
+            </a>
+            <a href="https://www.gov.uk/guidance/high-consequence-infectious-diseases-hcid" target="_blank" class="resource-link">
+                <span class="link-icon">🔗</span>
+                UKHSA HCID Guidance ↗
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Certificate Details Modal -->
+    <div id="cert-modal" class="cert-modal-overlay">
+        <div class="cert-modal-box">
+            <h3>🎓 Generate Certificate of Achievement</h3>
+            <p>Enter your details below to generate your official NHS Wales HCID Preparedness Certificate.</p>
+            
+            <div class="cert-form-group">
+                <label for="cert-user-name">Full Name & Professional Role:</label>
+                <input type="text" id="cert-user-name" placeholder="e.g. Staff Nurse Sarah Jenkins, RN" required>
+            </div>
+
+            <div class="cert-form-group">
+                <label for="cert-user-date">Date of Completion:</label>
+                <input type="text" id="cert-user-date">
+            </div>
+
+            <div class="cert-modal-actions">
+                <button id="cert-modal-cancel" class="btn-reset-quiz" style="background:#768692;">Cancel</button>
+                <button id="cert-modal-generate" class="btn-certificate">Generate Certificate</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Printable NHS Certificate Overlay -->
+    <div id="certificate-overlay" class="certificate-container">
+        <div class="certificate-paper">
+            <div class="certificate-header-logos">
+                <img src="images/abuhb_logo.png" alt="Aneurin Bevan University Health Board Logo" class="cert-header-logo-img">
+                <div class="cert-board-title">
+                    <strong>Aneurin Bevan University Health Board</strong><br>
+                    <span>Bwrdd Iechyd Prifysgol Aneurin Bevan</span>
+                </div>
+            </div>
+
+            <div class="cert-title">Certificate of Achievement</div>
+            <div class="cert-subtitle">High Consequence Infectious Diseases (HCID) Clinical Training</div>
+
+            <div class="cert-statement">This is to certify that</div>
+
+            <div id="cert-display-name" class="cert-recipient-name">Staff Nurse Sarah Jenkins</div>
+
+            <div class="cert-statement">has successfully completed all 10 learning modules and passed the official assessment (28/34 correct) for</div>
+
+            <div class="cert-course-name">HCID Clinical Preparedness & Infection Prevention Standard</div>
+
+            <div class="cert-score-box">
+                <div class="cert-score-item">
+                    <div id="cert-display-score" class="val">28/34 (82%)</div>
+                    <div class="lbl">Assessment Score</div>
+                </div>
+                <div class="cert-score-item">
+                    <div class="val" style="color: var(--nhs-blue-dark);">80%</div>
+                    <div class="lbl">Required Pass Threshold</div>
+                </div>
+                <div class="cert-score-item">
+                    <div class="val" style="color: var(--abuhb-green);">PASSED</div>
+                    <div class="lbl">Status</div>
+                </div>
+            </div>
+
+            <div class="cert-footer-details">
+                <div class="cert-sig-block">
+                    <div class="cert-sig-line"></div>
+                    <div class="cert-sig-name">Clinical Practice Lead</div>
+                    <div class="cert-sig-title">Aneurin Bevan UHB</div>
+                </div>
+
+                <div style="text-align: center;">
+                    <strong style="font-size: 13px; color: var(--nhs-blue-dark);">Date Issued:</strong><br>
+                    <span id="cert-display-date" style="font-size: 14px; font-weight: 700;">30 July 2026</span>
+                </div>
+
+                <div class="cert-sig-block">
+                    <div class="cert-sig-line"></div>
+                    <div class="cert-sig-name">Infection Prevention & Control</div>
+                    <div class="cert-sig-title">NHS Wales Governance</div>
+                </div>
+            </div>
+
+            <div class="cert-actions-bar">
+                <button id="cert-print-btn" class="btn-certificate" style="background: var(--nhs-blue);">🖨️ Print / Download PDF</button>
+                <button id="cert-close-btn" class="btn-reset-quiz" style="background:#768692;">❌ Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-disclaimer">
+            <h4>Important Notice for Clinical Staff</h4>
+            <p>This digital guide is a supplementary training aid designed for Aneurin Bevan University Health Board clinical staff. It summarises national guidance but does not replace official clinical policies or mandatory competency assessments. Always consult your local Infection Prevention and Control (IPC) team and refer to the National Infection Prevention and Control Manual (NIPCM) for definitive practice.</p>
+        </div>
+        
+        <div class="footer-contacts">
+            <div class="footer-contact">
+                <h5>Imported Fever Service (IFS)</h5>
+                <p>0844 778 8990 (Available 24/7)</p>
+            </div>
+            <div class="footer-contact">
+                <h5>IPaC Infection Control Team</h5>
+                <p><a href="mailto:infection.control3@wales.nhs.uk" style="color: rgba(255,255,255,0.9); text-decoration: underline;">infection.control3@wales.nhs.uk</a></p>
+            </div>
+            <div class="footer-contact">
+                <img src="images/abuhb_logo.png" alt="ABUHB Logo" class="footer-logo-img"><br>
+                <h5>Health Board</h5>
+                <p>Aneurin Bevan University Health Board</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aneurin Bevan University Health Board. All rights reserved.</p>
+            <p>Created by DPB Aug 2026 for ABUHB & NHS Wales</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

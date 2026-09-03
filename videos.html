@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCID Video Training Library | Aneurin Bevan University Health Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .video-library-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+        .video-card-large {
+            background: #ffffff;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+        .video-card-large:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+        .video-card-header {
+            background: linear-gradient(135deg, var(--nhs-blue), var(--abuhb-purple));
+            color: #ffffff;
+            padding: 16px 20px;
+        }
+        .video-card-header h3 {
+            font-size: 17px;
+            margin: 0;
+            color: #ffffff;
+        }
+        .video-card-body {
+            padding: 20px;
+            display: flex;
+            gap: 16px;
+            flex: 1;
+        }
+        .video-card-qr {
+            width: 110px;
+            height: 110px;
+            background: #ffffff;
+            padding: 6px;
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-sm);
+            flex-shrink: 0;
+            box-shadow: var(--shadow-sm);
+        }
+        .video-card-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .video-card-info p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .btn-watch-video {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 16px;
+            background: var(--nhs-blue);
+            color: #ffffff;
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background var(--transition);
+        }
+        .btn-watch-video:hover {
+            background: var(--abuhb-purple);
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .nav-back-bar {
+            margin-bottom: 24px;
+        }
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: #ffffff;
+            border: 1px solid var(--nhs-blue);
+            color: var(--nhs-blue);
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 14px;
+            text-decoration: none;
+            transition: all var(--transition);
+        }
+        .btn-back:hover {
+            background: var(--nhs-blue);
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-logo">
+            <img src="images/abuhb_logo.png" alt="Aneurin Bevan University Health Board — GIG Cymru NHS Wales Logo" class="header-logo-img">
+            <div class="header-titles">
+                <h1>Aneurin Bevan University Health Board</h1>
+                <span class="subtitle">HCID Video Training Library</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="index.html" class="btn-back">← Back to Training Guide</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" style="margin-left: 0; max-width: 1100px; margin-top: calc(var(--header-height) + 24px); padding: 24px 32px 80px;">
+        
+        <div class="nav-back-bar">
+            <a href="index.html" class="btn-back">← Back to Main Module Guide</a>
+        </div>
+
+        <div class="hero-banner">
+            <h2>Official HCID Video Training Library</h2>
+            <p>Scan the QR codes with your mobile device or click the links below to watch official step-by-step video guides produced by the UK HCID Training Network and Health & Safety Executive (HSE).</p>
+        </div>
+
+        <div class="video-library-grid">
+
+            <!-- Video 1: PPE Donning -->
+            <div class="video-card-large">
+                <div class="video-card-header">
+                    <h3>🎥 1. Unified HCID PPE Donning Guide</h3>
+                </div>
+                <div class="video-card-body">
+                    <img src="images/hcid_donning_qr.jpg" alt="Scan QR Code for PPE Donning Video Guide" class="video-card-qr">
+                    <div class="video-card-info">
+                        <div>
+                            <p>Demonstrates the step-by-step procedure for putting on the UK Unified HCID Assessment PPE Ensemble, including buddy checklist inspection, respirator fit check, and glove taping.</p>
+                        </div>
+                        <a href="https://www.hcid-training.co.uk/index.php/video/hcid-assessment-ppe-donning/" target="_blank" rel="noopener noreferrer" class="btn-watch-video">▶ Watch Donning Video ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2: PPE Doffing -->
+            <div class="video-card-large">
+                <div class="video-card-header">
+                    <h3>🎥 2. Unified HCID PPE Doffing Guide</h3>
+                </div>
+                <div class="video-card-body">
+                    <img src="images/hcid_doffing_qr.jpg" alt="Scan QR Code for PPE Doffing Video Guide" class="video-card-qr">
+                    <div class="video-card-info">
+                        <div>
+                            <p>Demonstrates the critical step-by-step removal of contaminated HCID PPE in the Amber Zone under direct buddy direction, highlighting the No-Touch policy and hand hygiene steps.</p>
+                        </div>
+                        <a href="https://www.hcid-training.co.uk/index.php/video/hcid-assessment-ppe-doffing/" target="_blank" rel="noopener noreferrer" class="btn-watch-video">▶ Watch Doffing Video ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 3: Clinical Sample Handling -->
+            <div class="video-card-large">
+                <div class="video-card-header">
+                    <h3>🎥 3. Clinical Sample Handling & Category A Packaging</h3>
+                </div>
+                <div class="video-card-body">
+                    <img src="images/hcid_video_qr.jpg" alt="Scan QR Code for Clinical Sample Handling Video Guide" class="video-card-qr">
+                    <div class="video-card-info">
+                        <div>
+                            <p>Demonstrates blood sampling, double bagging with absorbent gauze, placement in protective plastic secondary containers, and sealing inside the UN Class 6.2 Category A transport box for RIPL.</p>
+                        </div>
+                        <a href="https://www.hcid-training.co.uk/index.php/video/clinical-sample-handling-for-hcid-patients/" target="_blank" rel="noopener noreferrer" class="btn-watch-video">▶ Watch Sample Video ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 4: UK HCID Resource Centre -->
+            <div class="video-card-large">
+                <div class="video-card-header">
+                    <h3>🎥 4. UK HCID Network Resource Centre</h3>
+                </div>
+                <div class="video-card-body">
+                    <img src="images/hcid_video_qr.jpg" alt="Scan QR Code for UK HCID Resource Centre" class="video-card-qr">
+                    <div class="video-card-info">
+                        <div>
+                            <p>Access the full repository of UK HCID simulation videos, paediatric clinical guidance, UV contamination models, posters, and UKHSA clinical pathways.</p>
+                        </div>
+                        <a href="https://www.hcid-training.co.uk/index.php/hcid-resource-centre/" target="_blank" rel="noopener noreferrer" class="btn-watch-video">🌐 Visit Resource Centre ↗</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" style="margin-left: 0;">
+        <div class="footer-disclaimer">
+            <h4>Important Notice for Clinical Staff</h4>
+            <p>This video library is a supplementary training aid designed for Aneurin Bevan University Health Board clinical staff. Videos are hosted by the official UK HCID Training Network. Always consult your local Infection Prevention and Control (IPC) team for local board protocols.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aneurin Bevan University Health Board. All rights reserved.</p>
+            <p>Created by DPB Aug 2026 for ABUHB & NHS Wales</p>
+            <p><a href="index.html" style="color: var(--abuhb-yellow);">Return to Main Training Guide</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

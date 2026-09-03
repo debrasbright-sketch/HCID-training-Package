@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html lang="cy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arweiniad Hyfforddiant HCID | Bwrdd Iechyd Prifysgol Aneurin Bevan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-logo">
+            <img src="images/abuhb_logo.png" alt="Bwrdd Iechyd Prifysgol Aneurin Bevan — GIG Cymru NHS Wales Logo" class="header-logo-img">
+            <div class="header-titles">
+                <h1>Bwrdd Iechyd Prifysgol Aneurin Bevan</h1>
+                <span class="subtitle">Arweiniad Hyfforddiant HCID ar gyfer Staff Clinigol</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="index.html" style="color: #ffffff; font-size: 13px; font-weight: bold; padding: 6px 12px; border: 1px solid rgba(255,255,255,0.6); background: rgba(255,255,255,0.15); border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">🇬🇧 English Version</a>
+            <a href="rollout_flyer.html" style="color: #ffffff; font-size: 13px; font-weight: bold; padding: 6px 12px; border: 1px solid rgba(255,255,255,0.4); border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">📢 Tafflen Gyflwyno</a>
+            <a href="videos.html" style="color: var(--abuhb-yellow); font-size: 13px; font-weight: bold; padding: 6px 12px; border: 1px solid var(--abuhb-yellow); border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">🎥 Llyfrgell Fideos</a>
+            <div class="progress-ring-container">
+                <span id="progress-label">0/9</span> Modiwl
+                <svg class="progress-ring" width="28" height="28" viewBox="0 0 28 28">
+                    <circle class="progress-ring__bg" cx="14" cy="14" r="10"></circle>
+                    <circle class="progress-ring__fill" cx="14" cy="14" r="10" stroke-dasharray="62.83" stroke-dashoffset="62.83"></circle>
+                </svg>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-section-title">Modiwlau</div>
+        <a href="#module-1" class="nav-item">
+            <div class="nav-num">1</div>
+            <span class="nav-label">Cyflwyniad i HCID</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-2" class="nav-item">
+            <div class="nav-num">2</div>
+            <span class="nav-label">HCIDau Cyswllt</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-3" class="nav-item">
+            <div class="nav-num">3</div>
+            <span class="nav-label">HCIDau Awyr</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-4" class="nav-item">
+            <div class="nav-num">4</div>
+            <span class="nav-label">Cardiau Gweithredu Meddyg</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-5" class="nav-item">
+            <div class="nav-num">5</div>
+            <span class="nav-label">Asesiad o'r Claf</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-6" class="nav-item">
+            <div class="nav-num">6</div>
+            <span class="nav-label">Ensemble PPE Ungyfuno</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-7" class="nav-item">
+            <div class="nav-num">7</div>
+            <span class="nav-label">Gwisgo a Tynnu PPE</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-8" class="nav-item">
+            <div class="nav-num">8</div>
+            <span class="nav-label">Rheoli Heintiau a Parthau</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-9" class="nav-item">
+            <div class="nav-num">9</div>
+            <span class="nav-label">Samplu Diagnostig</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#module-10" class="nav-item">
+            <div class="nav-num">10</div>
+            <span class="nav-label">Xenarios Clinigol</span>
+            <span class="nav-check">✓</span>
+        </a>
+        <a href="#assessment-summary" class="nav-item" style="border-top: 1px solid rgba(255,255,255,0.15); margin-top: 10px;">
+            <div class="nav-num">🏆</div>
+            <span class="nav-label">Canlyniadau Asesu</span>
+            <span class="nav-check"></span>
+        </a>
+        <a href="videos.html" class="nav-item" style="background: rgba(245, 203, 93, 0.15); border-left-color: var(--abuhb-yellow); color: var(--abuhb-yellow); font-weight: bold;">
+            <div class="nav-num" style="background: var(--abuhb-yellow); color: var(--text-primary);">🎥</div>
+            <span class="nav-label">Llyfrgell Fideos</span>
+        </a>
+    </nav>
+    <div class="sidebar-overlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <div class="hero-banner">
+            <div class="hero-banner-content">
+                <div class="hero-text-side">
+                    <h2>Clefydau Heintus Consecwenc Uchel (HCID)</h2>
+                    <p>Arweiniad hyfforddiant clinigol ar gyfer staff meddygol a nyrsio ym Mwrdd Iechyd Prifysgol Aneurin Bevan (GIG Cymru NHS Wales). Yn cefnogi Cerdyn Gweithredu ABUHB, Llwybrau Ysbyty'r Grange, a chanllawiau UKHSA.</p>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="num">10</span>
+                            <span class="label">Modiwl</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="num">38</span>
+                            <span class="label">Eitem Asesu</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="num">80%</span>
+                            <span class="label">Gofyniad Llwyddo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-side">
+                    <img src="images/virus_header.jpg" alt="Delwedd 3D Ficroscopig o Ronynnau Feirysol" class="hero-img-framed">
+                </div>
+            </div>
+        </div>
+
+        <div class="callout callout-warning">
+            <div class="callout-icon">⚠️</div>
+            <div>
+                <strong>Gwadiad Clinigol a Gofyniad Asesu:</strong> Mae'r arweiniad hwn yn adnodd cefnogaeth hyfforddiant rhyngweithiol. I gwblhau'r cwrs a digloi eich tystysgrif ffurfiol:
+                <ul style="margin: 6px 0 6px 20px; font-size: 14px; line-height: 1.5;">
+                    <li><strong>Ateb Pob Eitem Asesu:</strong> Cwblhewch yr 27 cwestiwn asesu a'r 10 xenario clinigol ar draws y 10 modiwl.</li>
+                    <li><strong>Sorter Pathogenau:</strong> Cwblhewch y <em>Sorter Pathogenau Rhyngweithiol</em> yn Modiwl 3.</li>
+                    <li><strong>Adolygu Dolenni a Gwylio Fideos:</strong> Cliciwch ac adolygwch yr holl ddolenni canllawiau a gwylio'r holl fideos gofynnol.</li>
+                    <li><strong>Nodi Modiwlau yn Gyflawn a Marc Llwyddo:</strong> Cliciwch y botwm <em>"Cliciwch i Nodi bod y Modiwl yn Gyflawn"</em> ar ddiwedd pob modiwl. Rhaid i staff gyflawni sgôr gyffredinol o <strong>80% neu uwch (o leiaf 31/38 yn gywir)</strong> i lwyddo ar y cwrs.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Modiwl 1 -->
+        <section id="module-1" class="module-section">
+            <div class="module-header">
+                <div class="module-number">1</div>
+                <div class="module-meta">
+                    <h2>Cyflwyniad i HCID yn y DU</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 20 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Deall y diffiniad ffurfiol yn y DU o Glefyd Heintus Consecwenc Uchel (HCID).</li>
+                    <li>Adnabod y gwahaniaeth rhwng HCIDau Cyswllt ac HCIDau Awyr.</li>
+                    <li>Nodi sefydliadau allweddol yn y DU a GIG Cymru sy'n gyfrifol am lywodraethu HCID a rheoli achosion.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Beth yw HCID?</h3>
+                <p>Mae Clefyd Heintus Consecwenc Uchel (HCID) yn y DU yn cael ei ddiffinio fel clefyd heintus acwt sydd fel arfer gyda chyfradd marwolaeth achosion uchel, efallai heb broffylacsis neu driniaeth effeithiol, sy'n aml yn anodd ei adnabod a'i ganfod yn gyflym, ac sy'n gofyn am atal a rheoli heintiau (IPC) ehangach i amddiffyn staff a'r cyhoedd.</p>
+                <p>Mae gan y DU system ymateb benodedig ar gyfer HCIDau, a gydlynir gan UKHSA a GIG Cymru, gan sicrhau bod cleifion yn cael eu trin mewn Unedau Ynysu Rfel Uchel (HLIU).</p>
+                
+                <figure class="module-figure">
+                    <img src="images/hcid_overview.jpg" alt="Trosolwg HCID a Llywodraethu yn GIG y DU">
+                    <figcaption class="image-caption">Ffigur 1.1: Dosbarthiad Clefydau Heintus Consecwenc Uchel (HCID) a Fframwaith Llywodraethu Cenedlaethol GIG.</figcaption>
+                </figure>
+
+                <h4>Dosbarthiad</h4>
+                <p>I reoli meini prawf heintiau yn ddiogel, mae'r DU yn dosbarthu HCIDau i ddau brif grŵp yn seiliedig ar eu prif lwybr trosglwyddo:</p>
+                <ul>
+                    <li><strong>HCIDau Cyswllt:</strong> Lledaenu trwy gyswllt uniongyrchol â chlaf heintiedig neu hylifau corfforol, meinweoedd, neu ddeunyddiau halogedig. Enghreifftiau: Ebola a Twymyn Lassa.</li>
+                    <li><strong>HCIDau Awyr:</strong> Lledaenu trwy ddiferion meicrobig neu defnynnau aerosol yn ychwanegol at lwybrau cyswllt. Enghreifftiau: MERS a Fflu'r Adar (Avian Influenza).</li>
+                </ul>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 1 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m1_q1">
+                    <p>1. Pa gyfuniad o ffactorau clinigol ac epidemiolegol sy'n gofyn am actifadu llwybr HCID ar unwaith yn ôl UKHSA?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Unrhyw dwymyn >38.0°C gyda pheswch yn unig mewn claf oedrannus.</li>
+                        <li data-correct="false">Achos o haint bacteriol aml-gyffuriau wrth gefn mewn uned gofal dwys.</li>
+                        <li data-correct="true" data-explanation="Mae UKHSA yn diffinio HCID fel clefyd heintus acwt gyda chyfradd marwolaeth uchel, potensial am ledaeniad cyflym mewn ysbytai, a dim triniaeth drwyddedig effeithiol.">Clefyd heintus acwt gyda cyfradd marwolaeth uchel, potensial am ledaeniad cyflym mewn ysbytai, a dim triniaeth drwyddedig effeithiol.</li>
+                        <li data-correct="false">Twymyn drofannol wedi'i mewnforio gyda jaundice ysgafn.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m1_q2">
+                    <p>2. Sut mae dosbarthiad y DU o HCIDau i gategorïau "Cyswllt" a "Awyr" yn dictadu rheoli nyrsio clinigol brys?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Mae'n nodi a ellir rheoli'r claf mewn ward gyffredinol neu ei drosglwyddo trwy ambiwlans safonol.</li>
+                        <li data-correct="true" data-explanation="Mae dosbarthiad trosglwyddo yn dictadu a yw amddiffyniad respirator FFP3/PAPR ac ynysu gwasgedd negyddol yn orfodol neu amddiffyniad cyswllt yn unig.">Mae'n nodi a yw amddiffyniad respirator FFP3/PAPR ac ynysu gwasgedd negyddol yn orfodol neu amddiffyniad cyswllt yn unig.</li>
+                        <li data-correct="false">Mae'n dictadu a ellir prosesu samplau gwaed ar ddadansoddwyr hematoleg awtomataidd.</li>
+                        <li data-correct="false">Mae'n dictadu hyd olrhain cysylltiadau staff am 14 neu 21 diwrnod.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m1_q3">
+                    <p>3. Pa un yw'r dilyniant esgyn clinigol cyntaf cywir pan fo nyrs triaj yn amau claf sy'n dychwelyd o dramor?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Trosglwyddo'r claf ar unwaith i uned HCID drydyddol trwy ambiwlans 999.</li>
+                        <li data-correct="false">Cymryd samplau gwaed arferol yn y bae triaj cyn hysbysu Iechyd Cyhoeddus Cymru.</li>
+                        <li data-correct="false">Eistedd y claf mewn cornel o brif ystafell aros yr ED gyda masg llawfeddygol.</li>
+                        <li data-correct="true" data-explanation="Y cam cyntaf yw ynysu ar unwaith mewn ystafell sengl gyda'r drws ar gau os yw ar gael, hysbysu'r Nyrs yng Ngofal a'r Meddyg yng Ngofal (EPIC) ac aros am gyfarwyddiadau bellach.">Ynysu ar unwaith mewn ystafell sengl gyda'r drws ar gau os yw ar gael, hysbysu'r Nyrs yng Ngofal a'r Meddyg yng Ngofal (EPIC) ac aros am gyfarwyddiadau bellach.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-1">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 2 -->
+        <section id="module-2" class="module-section">
+            <div class="module-header">
+                <div class="module-number">2</div>
+                <div class="module-meta">
+                    <h2>HCIDau Cyswllt — Adnabod a Phatholeg</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 25 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Rhestru prif HCIDau Cyswllt gan gynnwys Twymyn Haemorhagig Feirysol (VHF).</li>
+                    <li>Deall llwybrau trosglwyddo a ffenestri deoriad.</li>
+                    <li>Adnabod flagiau coch yn hanes teithio wrth asesu nyrsio.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>HCIDau Cyswllt Cyffredin</h3>
+                <p>Twymyn Haemorhagig Feirysol (VHFs) yw HCIDau Cyswllt fel arfer. Nid ydynt yn lledaenu'n hawdd trwy'r awyr, ond mae trosglwyddiad yn digwydd trwy gyswllt uniongyrchol â gwaed neu hylifau corfforol (chwys, chwydu, troeth, llaeth bron) neu wrthrychau halogedig.</p>
+                <table class="disease-table">
+                    <thead>
+                        <tr>
+                            <th>Clefyd</th>
+                            <th>Rhanbarthau Endemig</th>
+                            <th>Cyfnod Deoriad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Clefyd Feirws Ebola</strong></td>
+                            <td>Affrica Is-Sahara (DRC, Gini, Sierra Leone)</td>
+                            <td>2-21 diwrnod</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Twymyn Lassa</strong></td>
+                            <td>Gorllewin Affrica (Nigeria, Sierra Leone, Liberia)</td>
+                            <td>2-21 diwrnod (7-10 fel arfer)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Twymyn Haemorhagig Crimea-Congo (CCHF)</strong></td>
+                            <td>Affrica, y Balcanau, y Dwyrain Canol, Asia</td>
+                            <td>1-13 diwrnod</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Clefyd Feirws Marburg</strong></td>
+                            <td>Affrica Is-Sahara</td>
+                            <td>2-21 diwrnod</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 2 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m2_q1">
+                    <p>1. Pa ddatganiad sy'n gywir ynglŷn â deinameg trosglwyddo Clefyd Feirws Ebola (EVD)?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Mae'r claf yn heintus iawn trwy ddiferion aerol drwy'r cyfnod deoriad asymptomatig.</li>
+                        <li data-correct="true" data-explanation="Mae cleifion Ebola yn dod yn heintus dim ond pan fydd symptomau'n ymddangos; mae llwyth feirysol yn cynyddu wrth i'r salwch waethygu.">Mae'r claf yn dod yn heintus dim ond unwaith y bydd symptomau (twymyn, cur pen, lethargiaeth) yn datblygu; mae llwyth feirysol yn cynyddu'n dramatig fel y gwaethyga'r salwch.</li>
+                        <li data-correct="false">Nid yw'r claf mewn perygl mwyach oherwydd bod y cyfnod deoriad yn dod i ben ar ol 7 diwrnod.</li>
+                        <li data-correct="false">Ystyrir bod y claf yn heintus dim ond os oes gwaedu gastroberfeddol gweithredol.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m2_q2">
+                    <p>2. Pa gyflwyniad clinigol sydd fwyaf nodweddiadol o HCID Cyswllt fel Twymyn Lassa neu CCHF?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Cychwyn cyflym o ARDS ac yriant peswch cynhyrchiol ar ôl bod mewn cysylltiad â chamelod.</li>
+                        <li data-correct="false">Cur pen dwys sydyn gyda brech petechial na ellir ei gwyno mewn neuadd breswyl.</li>
+                        <li data-correct="false">Spikes twymyn parocsisiol bob 48 awr ynghyd â rigors a dwysedd troeth tywyll.</li>
+                        <li data-correct="true" data-explanation="Mae HCIDau Cyswllt fel arfer yn cyflwyno gyda twymyn cynnil, edema wyneb, gwaedu mwcosol, a phoen cyhyrau yn dilyn brathiadau tic neu hylifau heintiedig.">Twymyn cynnil, edema wyneb, gwaedu mwcosol, poen cyhyrau dwys, ynghyd â hanes o frathiadau tic neu amlygiad i droeth cnofilod mewn rhanbarthau endemig.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m2_q3">
+                    <p>3. Pwy yw'r cyfnod deoriad uchaf a gydnabyddir ar gyfer prif HCIDau Cyswllt (Ebola, Marburg, CCHF, Lassa)?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">14 diwrnod o'r amlygiad cyntaf.</li>
+                        <li data-correct="false">7 diwrnod ar gyfer pob feirws twymyn haemorhagig.</li>
+                        <li data-correct="true" data-explanation="Y cyfnod deoriad uchaf a gydnabyddir ar gyfer HCIDau Cyswllt yw 21 diwrnod o'r amlygiad i dchwyn y symptomau.">21 diwrnod o'r amlygiad i dchwyn y symptomau.</li>
+                        <li data-correct="false">30 diwrnod o dan reoliadau iechyd ffiniau'r DU.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-2">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 3 -->
+        <section id="module-3" class="module-section">
+            <div class="module-header">
+                <div class="module-number">3</div>
+                <div class="module-meta">
+                    <h2>HCIDau Awyr — Adnabod a Phatholeg</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 25 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Adnabod HCIDau Awyr gan gynnwys MERS, Fflu'r Adar (H5N1), Nipah, a Pla niwmonig.</li>
+                    <li>Deall peryglon trosglwyddo aerohudol mewn mannau clinigol.</li>
+                    <li>Gwahaniaethu gofynion amddiffyniad resbiradol oddi wrth PPE safonol.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>HCIDau Awyr Cyffredin</h3>
+                <p>Mae HCIDau Awyr yn achosi risg sylweddol mewn amgylcheddau gofal iechyd oherwydd gellir eu trosglwyddo trwy ddiferion resbiradol neu aerosolau, sy'n gwneud rheoli amgylchedd yr awyr yn eithriadol o bwysig (defnyddio respirators FFP3 ac ystafelloedd gwasgedd negyddol).</p>
+                <table class="disease-table">
+                    <thead>
+                        <tr>
+                            <th>Clefyd</th>
+                            <th>Rhanbarthau Endemig / Amlygiad</th>
+                            <th>Cyfnod Deoriad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Symptom Resbiradol y Dwyrain Canol (MERS)</strong></td>
+                            <td>Penrhyn Arabia (Saudi Arabia). Cysylltiedig â camelod dromedari.</td>
+                            <td>2-14 diwrnod</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fflu'r Adar (e.g., H5N1, H7N9)</strong></td>
+                            <td>Byd-eang. Cysylltiedig ag adar dodrefn neu adar gwyllt heintiedig.</td>
+                            <td>2-8 diwrnod (hyd at 17 diwrnod)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Feirws Nipah</strong></td>
+                            <td>De a De-ddwyrain Asia (Bangladesh, India). Cysylltiedig ag ystlumod a moch.</td>
+                            <td>4-14 diwrnod</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pla Niwmonig</strong></td>
+                            <td>Madagascar, DRC, Periw, UDA. Lledaenu trwy ddiferion.</td>
+                            <td>1-7 diwrnod</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 3 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m3_q1">
+                    <p>1. Wrth asesu teithiwr sy'n dychwelyd gyda thwymyn ac symptomau meiniol anadlol (peswch a dyspnoea), pa feini prawf epidemiolegol sy'n diffinio risg MERS-CoV fel HCID Awyr yn llym?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Teithio twristiaid arferol i wledydd y Môr Canoldir (e.e. Twrci neu Sbaen) neu feicio camel mewn rhanbarthau nad ydynt yn endemig.</li>
+                        <li data-correct="true" data-explanation="Mae meini prawf UKHSA yn diffinio risg MERS-CoV yn llym fel teithio i Penrhyn Arabia (e.e. Arabia Sawdi, Emiradau Arabaidd Unedig, Qatar, Oman) neu gyswllt uniongyrchol ag achos MERS a gadarnhawyd o fewn 14 diwrnod. Nid yw teithio twristiaid i wledydd fel Twrci yn bodloni meini prawf MERS.">Teithio i Penrhyn Arabia (e.e. Arabia Sawdi, Emiradau Arabaidd Unedig, Qatar, Oman) neu gyswllt uniongyrchol ag achos MERS o fewn 14 diwrnod.</li>
+                        <li data-correct="false">Unrhyw ymweliad fferm ddomestig yn y DU sy'n cynnwys cyswllt â dafad neu fuches.</li>
+                        <li data-correct="false">Cyswllt â thicio mewn caeau amaethyddol yn Ewrop.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m3_q2">
+                    <p>2. Pa eitemau PPE sy'n orfodol ar gyfer amddiffyniad resbiradol wrth ofalu am glaf sydd ag amheuaeth o HCID Awyr?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Masg llawfeddygol Math IIR safonol a sbectol ddiogelwch.</li>
+                        <li data-correct="false">Masg Math II ac fedr polythen tafladwy.</li>
+                        <li data-correct="false">Gorchudd wyneb brethyn a gogls diogelwch.</li>
+                        <li data-correct="true" data-explanation="Mae HCIDau Awyr angen respirator FFP3 wedi'i ffitio (neu PAPR) ynghyd â meiser wyneb llawn a hwd sy'n gwrthsefyll hylif.">Respirator FFP3 wedi'i ffitio (neu PAPR) ynghyd â meiser wyneb llawn a hwd sy'n gwrthsefyll hylif.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m3_q3">
+                    <p>3. Pa fanylyn amlygiad sy'n cynyddu amheuaeth glinigol am Fflu'r Adar A(H5N1) yn hytrach na MERS-CoV?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Cyswllt agos â chamelod dromedari neu yfed llaeth camel.</li>
+                        <li data-correct="true" data-explanation="Mae risg Fflu'r Adar A(H5N1) yn gysylltiedig yn gryf â chyswllt uniongyrchol ag adar dodrefn neu adar gwyllt heintiedig.">Cyswllt uniongyrchol ag adar dodrefn, adar gwyllt marw neu sâl, neu farchnadoedd adar byw.</li>
+                        <li data-correct="false">Amlygiad i ystlumod ffrwythau mewn ogofâu.</li>
+                        <li data-correct="false">Hanes o frathiadau tic mewn caeau amaethyddol.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <!-- Interactive Pathogen Sorter (Welsh) -->
+            <div class="sorter-container">
+                <h3 style="color: var(--nhs-blue-dark); margin-top: 0;">🧪 Ymarfer Rhyngweithiol: Sortio Pathogenau HCID Cyswllt ac Awyr</h3>
+                <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 16px;">
+                    Profwch eich dealltwriaeth o ddosbarthiadau HCID y DU. Cliciwch neu tapio pathogen isod i'w ddewis, yna cliciwch y blwch cywir:
+                </p>
+
+                <div class="sorter-pool-header">Pathogenau Unsortiedig (Cliciwch pathogen, yna cliciwch blwch targed):</div>
+                <div id="pathogen-pool" class="pathogen-pool">
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Ebola Virus (EVD)">🦠 Feirws Ebola (EVD)</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="MERS-CoV">🦠 MERS-CoV</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Marburg Virus (MVD)">🦠 Feirws Marburg (MVD)</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Avian Flu A(H5N1)">🦠 Fflu'r Adar A(H5N1)</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Lassa Fever">🦠 Twymyn Lassa</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Nipah Virus">🦠 Feirws Nipah</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="CCHF Virus">🦠 Feirws CCHF</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Pneumonic Plague">🦠 Pla Niwmonig</div>
+                    <div class="pathogen-chip" draggable="true" data-type="contact" data-name="Argentine Haemorrhagic Fever">🦠 Twymyn Gwaedlifol Ariannin</div>
+                    <div class="pathogen-chip" draggable="true" data-type="airborne" data-name="Hendra Virus">🦠 Feirws Hendra</div>
+                </div>
+
+                <div class="sorter-grid">
+                    <div id="contact-zone" class="sorter-drop-zone contact-zone" data-accept="contact">
+                        <div class="sorter-zone-header">
+                            <span>🩸 Blwch HCIDau Cyswllt</span>
+                            <span style="font-size: 12px; opacity: 0.8;">(Gwaedu / Hylifau Corff)</span>
+                        </div>
+                        <div class="sorter-items-container" id="contact-items"></div>
+                    </div>
+
+                    <div id="airborne-zone" class="sorter-drop-zone airborne-zone" data-accept="airborne">
+                        <div class="sorter-zone-header">
+                            <span>🫁 Blwch HCIDau Awyr</span>
+                            <span style="font-size: 12px; opacity: 0.8;">(Aerosolau / Defnynnau Awyr)</span>
+                        </div>
+                        <div class="sorter-items-container" id="airborne-items"></div>
+                    </div>
+                </div>
+
+                <div class="sorter-actions">
+                    <button id="btn-check-sorter" class="btn-sorter-check">Gwirio Sortio Pathogenau</button>
+                    <button id="btn-reset-sorter" class="btn-sorter-reset">🔄 Ailosod Sorter</button>
+                </div>
+
+                <div id="sorter-feedback" class="sorter-result-box"></div>
+            </div>
+
+            <button class="btn-complete" data-module="module-3">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 4 -->
+        <section id="module-4" class="module-section">
+            <div class="module-header">
+                <div class="module-number">4</div>
+                <div class="module-meta">
+                    <h2>Cardiau Gweithredu Clinigol a Llwybr Asesu Meddyg</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 35 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Gweithredu Cerdyn Gweithredu 1 ABUHB ar gyfer Meddygon yng Ngofal (EPIC) a Clinigwyr Uwch.</li>
+                    <li>Gweithredu ffôn-ymgynghoriad cyn mynd i mewn a sgrinio teithio 6-phwynt.</li>
+                    <li>Defnyddio Algorithm Asesu Risg VHF UKHSA (Hydref 2024).</li>
+                    <li>Navigio llwybrau mynediad Ysbyty Prifysgol y Grange a Cwbicl 27.</li>
+                </ul>
+            </div>
+
+            <!-- Online VHF Algorithm Callout Card (Welsh) -->
+            <div class="video-guide-card" style="border: 2px solid var(--abuhb-green); background: #f0fdf4; margin: 20px 0;">
+                <div style="font-size: 36px; line-height: 1;">📋</div>
+                <div>
+                    <h4 style="color: #15803d; margin-top: 0;">🌐 Algorithm Asesu Risg VHF Byw Ffurfiol (Hydref 2024)</h4>
+                    <p style="color: #166534; font-size: 14px; margin-bottom: 12px;">
+                        Mynediad i algorithm asesu risg byw Asiantaeth Diogelwch Iechyd y DU (UKHSA / ACDP) a chanllawiau gwlad. Mae clicio y ddolen isod yn agor mewn tab newydd:
+                    </p>
+                    <a href="https://www.gov.uk/government/publications/viral-haemorrhagic-fever-algorithm-and-guidance-on-management-of-patients" target="_blank" rel="noopener noreferrer" class="video-link" style="background: var(--abuhb-green); color: #ffffff; padding: 10px 18px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                        <span>📋 Agor Algorithm Asesu Risg VHF Byw (GOV.UK) ↗</span>
+                        <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Yn agor mewn tab newydd (Cwrs yn aros ar agor)</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- EPIC Action Card Container (Welsh) -->
+            <div class="content-card">
+                <h3>Cerdyn Gweithredu 1 ABUHB: Protocol Meddyg yng Ngofal (EPIC)</h3>
+                <p>Rhaid i'r Meddyg yng Ngofal (EPIC) yn <strong>Ysbyty Prifysgol y Grange (GUH)</strong> ddilyn protocol cam-wrth-gam llym wrth dderbyn rhybudd triaj am achos HCID sgrinedig.</p>
+
+                <div class="epic-action-card">
+                    <div class="epic-card-header">
+                        <div class="epic-badge-title">Cerdyn Gweithredu HCID 1: EPIC</div>
+                        <div class="epic-card-meta">
+                            <strong>Gwasanaeth:</strong> Adran Achosion Urddos | <strong>Lleoliad:</strong> Ysbyty Prifysgol y Grange | <strong>Polisi:</strong> ABUHB/IPAC/0125
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">1</div>
+                        <div class="epic-step-content">
+                            <strong>Ymateb i Rhybudd ar Unwaith</strong>
+                            <p>Ymateb <em>ar unwaith</em> i rybudd y Nyrs Triaj neu'r Nyrs yng Ngofal (NIC) am achos a amheuir o HCID.</p>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">2</div>
+                        <div class="epic-step-content">
+                            <strong>Tele-Ymgynghoriad Pêl (Sgrinio Cyn Mynediad)</strong>
+                            <p>Cymryd hanes clinigol a theithio llawn trwy <em>ffôn symudol personol y claf</em> os yw'n bosibl tra bod y claf wedi'i ynysu.</p>
+                        </div>
+                    </div>
+
+                    <div class="epic-action-step">
+                        <div class="epic-step-num">3</div>
+                        <div class="epic-step-content">
+                            <strong>Hanes Teithio ac Amlygiad Mandatory 6-Phwynt</strong>
+                            <p>Cadarnhau risg HCID gyda NIC a chael hanes manwl trwy ffôn symudol sy'n cwmpasu teithio, gwledydd, ac amlygiad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Simulator (Welsh) -->
+            <div class="content-card">
+                <h3>Efelychydd Achosion Meddyg (Algorithm Risg VHF)</h3>
+                <p>Profwch eich penderfyniadau clinigol yn erbyn Algorithm Risg VHF Hydref 2024:</p>
+
+                <!-- Live Country Risk Banner (Welsh) -->
+                <div class="video-guide-card" style="border: 2px solid var(--nhs-blue); background: #eff6ff; margin: 16px 0 24px;">
+                    <div style="font-size: 32px; line-height: 1;">🗺️</div>
+                    <div>
+                        <h4 style="color: var(--nhs-blue-dark); margin-top: 0;">Ofer Chwilio Risg Gwledydd Penodol Byw</h4>
+                        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 10px;">
+                            Gall clinigwyr wirio a oes achosion gweithredol HCID mewn gwledydd penodol:
+                        </p>
+                        <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener noreferrer" class="video-link" style="background: var(--nhs-blue); color: #ffffff; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+                            <span>🗺️ Risg Gwledydd Penodol HCID - GOV.UK ↗</span>
+                            <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Yn agor mewn tab newydd</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sim-scenario-box">
+                    <div class="sim-scenario-header">
+                        <div class="sim-scenario-title">Achos 1: Gweithiwr Cymorth yn Dychwelyd o DRC</div>
+                        <span class="sim-scenario-badge" style="background: var(--nhs-blue-light); color: var(--nhs-blue-dark); border: 1px solid var(--nhs-blue);">📋 Fignette Clinigol 1</span>
+                    </div>
+                    <p>Nyrs 31 oed wedi dychwelyd 10 diwrnod yn ôl o ardal Ebola yn DRC. Cyflwyno i ED GUH gyda thwymyn (38.9°C), dolur rhydd difrifol, a poen epigastrig.</p>
+                    <p><strong>Penderfyniad Meddyg Gofynnol:</strong> Sut dylid dosbarthu'r achos hwn o dan Offer Asesu Risg VHF?</p>
+                    <div class="sim-btn-group">
+                        <button class="sim-btn" data-correct="false" data-explanation="Anghywir. Oherwydd bod gan y claf gyswllt uniongyrchol yn ardal endemig, mae'n bodloni meini prawf Risg Uchel.">Risg Isafswm (Blwch Melyn)</button>
+                        <button class="sim-btn" data-correct="true" data-explanation="Cywir! Twymyn + teithio o fewn 21 diwrnod + cyswllt hylif = MEWN RISG O VHF (Blwch Oren). Ynysu ar unwaith yn Cwbicl 27, ffôn-ymgynghoriad EPIC, a pharatoi pecynnu Dosbarth A.">Mewn Risg / Risg Uchel o VHF (Blwch Oren)</button>
+                    </div>
+                    <div class="sim-feedback-box"></div>
+                </div>
+
+                <div class="sim-scenario-box">
+                    <div class="sim-scenario-header">
+                        <div class="sim-scenario-title">Achos 2: Teithiwr Busnes o Lagos</div>
+                        <span class="sim-scenario-badge" style="background: var(--nhs-blue-light); color: var(--nhs-blue-dark); border: 1px solid var(--nhs-blue);">📋 Fignette Clinigol 2</span>
+                    </div>
+                    <p>Feithynnwr 48 oed wedi dychwelyd o Lagos, Nigeria 8 diwrnod yn ol. Cyflwyno gyda thwymyn isel (38.1°C), cur pen ysgafn, a blinder. Dim amlygiad uchel.</p>
+                    <p><strong>Penderfyniad Meddyg Gofynnol:</strong> Sut dylid dosbarthu'r achos hwn?</p>
+                    <div class="sim-btn-group">
+                        <button class="sim-btn" data-correct="true" data-explanation="Cywir! Er bod y claf wedi teithio i wlad endemig, nid oes ganddo amlygiad risg uchel. Dosberthir fel RISG ISAFSWM O VHF (Blwch Melyn).">Risg Isafswm o VHF (Blwch Melyn)</button>
+                        <button class="sim-btn" data-correct="false" data-explanation="Anghywir. Teithio ar ei ben ei hun heb amlygiadau epidemiolegol uchel yw Risg Isafswm.">Mewn Risg / Risg Uchel o VHF (Blwch Oren)</button>
+                    </div>
+                    <div class="sim-feedback-box"></div>
+                </div>
+
+                <div class="sim-scenario-box">
+                    <div class="sim-scenario-header">
+                        <div class="sim-scenario-title">Achos 3: Salwch Resbiradol o Riyadh</div>
+                        <span class="sim-scenario-badge" style="background: var(--nhs-blue-light); color: var(--nhs-blue-dark); border: 1px solid var(--nhs-blue);">📋 Fignette Clinigol 3</span>
+                    </div>
+                    <p>Dyn 54 oed wedi dychwelyd 6 diwrnod yn ôl o Riyadh, Saudi Arabia, lle ymwelodd â marchnadoedd camelod. Cyflwyno gyda distress resbiradol acwt a thwymyn (38.7°C).</p>
+                    <p><strong>Penderfyniad Meddyg Gofynnol:</strong> Pa lwybr clinigol sy'n berthnasol?</p>
+                    <div class="sim-btn-group">
+                        <button class="sim-btn" data-correct="false" data-explanation="Anghywir. Er bod MERS-CoV yn HCID, fe'i trosglwyddir trwy aerosolau resbiradol (HCID Awyr).">Llwybr Ynysu VHF Cyswllt yn Unig</button>
+                        <button class="sim-btn" data-correct="true" data-explanation="Cywir! Amlygiad camelod gyda symptomau acwt yw MERS-CoV amheus (HCID Awyr). Angen ynysu gwasgedd negyddol a PPE resbiradol llawn FFP3/PAPR.">Llwybr Ynysu HCID Awyr (MERS-CoV)</button>
+                    </div>
+                    <div class="sim-feedback-box"></div>
+                </div>
+            </div>
+
+            <!-- Module 4 Quiz (Welsh) -->
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 4 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m4_q1">
+                    <p>1. Beth yw'r prif gam cychwynnol ar gyfer EPIC neu feddyg uwch wrth dderbyn rhybudd am glaf amheus o HCID yn y triaj?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Myned i'r cwbicl ynysu ar unwaith mewn fedr a menyg safonol i gymryd gwaed.</li>
+                        <li data-correct="true" data-explanation="O dan Gerdyn Gweithredu 1 ABUHB, rhaid i'r EPIC wneud tele-ymgynghoriad pell trwy ffôn symudol personol y claf tra bod y claf wedi'i ynysu.">Gwneud tele-ymgynghoriad pell trwy ffôn symudol personol y claf i gymryd hanes teithio ac amlygiad llawn tra bod y claf yn aros wedi'i ynysu.</li>
+                        <li data-correct="false">Gofyn am X-ray cwest ar unwaith yn yr adran radioleg gyffredinol.</li>
+                        <li data-correct="false">Anfon samplau gwaed diagnostig i labordai arferol trwy'r tiwb niwmatig.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m4_q2">
+                    <p>2. O dan bolisi ABUHB ar gyfer Ysbyty Prifysgol y Grange, pa gofynion sydd RHAID eu bodloni cyn i meddyg fynd i mewn i Cwbicl 27?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="Dim ond staff sydd wedi'u ffit-brofi FFP3 o fewn y 3 blynedd ddiwethaf, sydd ag hyfforddiant gwisgo/tynnu PPE, ac sydd o dan goruchwyliaeth Buddy a gaiff fynd i mewn.">Ffit-brofi FFP3 o fewn y 3 blynedd ddiwethaf, hyfforddiant gwisgo/tynnu PPE ddiweddar, a goruchwyliaeth gan Buddy cymwys.</li>
+                        <li data-correct="false">Uniform GIG safonol gyda masg llawfeddygol heb goruchwyliaeth Buddy.</li>
+                        <li data-correct="false">Cwblhau modiwl dysgu ar-lein heb ffit-brofi ffurfiol.</li>
+                        <li data-correct="false">5 mlynedd o brofiad meithrin heb ffit-brofi FFP3.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m4_q3">
+                    <p>3. Os yw samplau gwaed diagnostig yn bositif am bathogen HCID Dosbarth A neu B, pa swyddog dyletswydd cenedlaethol sy'n cael ei gysylltu i drefnu trosglwyddiad brys i Uned Ynysu Lefel Uchel (HLIU)?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Cydlynydd Gwasanaeth Meddyg Teulu Y tu allan i Oriau Lleol.</li>
+                        <li data-correct="false">Rheolwr gwelyau ysbyty lleol.</li>
+                        <li data-correct="true" data-explanation="Cysylltir â Swyddog Dyletswydd NHSE EPRR (0333 2005022 / 020 8168 0053) i drefnu trosglwyddiad brys i Uned Ynysu Lefel Uchel (HLIU).">Parodrwydd Emergreg, Resiliens a Ymateb GIG Lloegr (Swyddog Dyletswydd NHSE EPRR: 0333 2005022).</li>
+                        <li data-correct="false">Desg gyngor fferyllfa gymunedol.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-4">🔒 Atebwch y 3 Cwestiwn (0/3) a Clicio Dolenni (0/2)</button>
+        </section>
+
+        <!-- Modiwl 5 -->
+        <section id="module-5" class="module-section">
+            <div class="module-header">
+                <div class="module-number">5</div>
+                <div class="module-meta">
+                    <h2>Asesiad o'r Claf a Llwybr Clinigol</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 30 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Gweithredu'r fframwaith "Ynysu, Asesu, Esgyn" ar unwaith wrth amau.</li>
+                    <li>Deall y broses o gysylltu â'r Gwasanaeth Twymyn Mewnflimported (IFS).</li>
+                    <li>Dysgu'r protocol atgyfeirio a throsglwyddo ar gyfer Unedau Ynysu Lefel Uchel (HLIUs).</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Gamau Gweithredu Ar Unwaith: Ynysu, Asesu, Esgyn</h3>
+                <p>Os amheuir HCID yn seiliedig ar symptomau a hanes teithio, paid ag aros am ganlyniadau profion. Mae gweithredu cyflym yn vital i atal trosglwyddo.</p>
+                <ol class="step-list">
+                    <li><strong>Ynysu:</strong> Gosod y claf ar unwaith mewn ystafell sengl gydag en-suite os yw'n bosibl. Os amheuir HCID Awyr, rhaid i hon fod yn ystafell gwasgedd negyddol. Cadw'r drws ar gau.</li>
+                    <li><strong>Asesu o Bell:</strong> Paid â mynd i mewn i'r ystafell yn gorfforol oni bai bod angen cynhwysol. Gwneud asesiad cychwynnol dros y ffôn neu trwy wydr.</li>
+                    <li><strong>Esgyn:</strong> Cysylltu â'r Ymgynghorydd Microbioleg neu Feiroleg ar unwaith.</li>
+                </ol>
+
+                <div class="callout callout-nhs">
+                    <div class="callout-icon">📞</div>
+                    <div>
+                        <strong>Gwasanaeth Twymyn Mewnflimported (IFS: 0844 778 8990) a Protocol Esgyn Bwrdd:</strong><br>
+                        <ul>
+                            <li><strong>Blaenoriaeth Triaj:</strong> Hebrwng y claf ar unwaith i ystafell ynysu gwasgedd negyddol neu ystafell sengl, cau'r drws, a gwisgo PPE cyn archwiliad gorfforol.</li>
+                            <li><strong>Esgyniad yr Ymgynghorydd Microbioleg YN UNIG:</strong> Mae'r Gwasanaeth Twymyn Mewnflimported (IFS: 0844 778 8990) yn wasanaeth arbenigol 24/7 sydd <strong>wedi'i gyfyngu i gael ei ffonio gan yr Ymgynghorydd Microbioleg Dyletswydd YN UNIG</strong> (ac <em>NID</em> yn uniongyrchol gan yr EPIC, Ymgynghorydd ED, Cofrestrydd, neu Gliniwr Uwch). Rhaid i'r EPIC / Gliniwr Uwch ffonio'r Ymgynghorydd Microbioleg Dyletswydd (Dial 100), a fydd yn gwneud yr atgyfeirio rhwng ymgynghorwyr i'r IFS i awdurdodi profion diagnostig a llwybrau cenedlaethol.</li>
+                            <li><strong>Adfywio Brys:</strong> Os oes angen adfywio meddygol brys ar glaf cyn trosglwyddo, rhaid i'r gofal gael ei gyflawni'n lstrict <em>y tu mewn i'r ystafell ynysu</em> gyda'r holl staff yn gwisgo PPE HCID llawn.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 5 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m5_q1">
+                    <p>1. Rhybyddir yr EPIC am deithiwr 44 oed yn cyflwyno gyda thwymyn (38.8°C), cur pen dwys, a chwydu 12 diwrnod ar ôl dychwelyd o Orllewin Affrica gyda thwymyn Lassa. Beth yw'r gyfarwyddeb reoli glinigol gyntaf?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Cyfarwyddo'r nyrs triaj i gymryd gwaed yn y bae triaj agored.</li>
+                        <li data-correct="true" data-explanation="O dan Gerdyn Gweithredu 1 ABUHB, rhaid i'r EPIC gyfarwyddo ynysu ar unwaith yn Cwbicl 27 neu gwasgedd negyddol, gwneud ffôn-ymgynghoriad cyn mynd i mewn, a ffonio'r Microbiolegol (Dial 100).">Cyfarwyddo ynysu ar unwaith yn Cwbicl 27 (neu gwasgedd negyddol), gwneud ffôn-ymgynghoriad cyn mynd i mewn trwy ffôn symudol y claf, a ffonio'r Ymgynghorydd Microbioleg (Dial 100).</li>
+                        <li data-correct="false">Trosglwyddo'r claf yn uniongyrchol i'r brif uned Adfywio ar gyfer llinell ganolog.</li>
+                        <li data-correct="false">Cynghori'r claf i ddychwelyd adref ar wrthfiotigau lafar.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m5_q2">
+                    <p>2. Mae Ymgynghorydd ED (EPIC) wedi ynysu claf sydd ag amheuaeth o dwymyn haemorhagig feirysol (VHF). Pa gam esgyn gorfodol sydd angen ei wneud i gael awdurdodiad profion diagnostig cenedlaethol?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="Mae'r EPIC yn trafod yr achos gyda'r Ymgynghorydd Microbioleg dyletswydd (Bleep 100), sy'n dechrau atgyfeirio i'r Gwasanaeth Twymyn Mewnflimported (IFS: 0844 778 8990).">Cysylltu â'r Ymgynghorydd Microbioleg Dyletswydd (Dial 100), a fydd yn dechrau atgyfeirio i'r Gwasanaeth Twymyn Mewnflimported (IFS: 0844 778 8990) am awdurdodiad diagnostig.</li>
+                        <li data-correct="false">Gofyn am banel PCR gwaed arferol ar system yr ysbyty heb gysylltu â microbioleg.</li>
+                        <li data-correct="false">Atgyfeirio'r claf i'r fferyllfa gymunedol am kit antigen.</li>
+                        <li data-correct="false">Anfon samplau gwaed heb eu selio i labordai arferol yr ysbyty.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m5_q3">
+                    <p>3. Mae claf wedi'i ynysu yn Cwbicl 27 gyda MERS-CoV amheus yn datblygu distress resbiradol acwt. Beth yw cyfarwyddeb gorfodol yr EPIC ar gyfer lleoliad adfywio a PPE y tîm?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Pusho'r claf allan o Cwbicl 27 i mewn i brif uned Adfywio yr ED mewn masg llawfeddygol.</li>
+                        <li data-correct="false">Oedi pob ymyrraeth ocsigen nes bod tîm NHSE EPRR yn cyrraedd.</li>
+                        <li data-correct="true" data-explanation="Rhaid i adfywio meddygol brys a rheoli llwybr aer ddigwydd yn lstrict y tu mewn i'r ystafell ynysu gyda'r holl staff yn gwisgo PPE HCID resbiradol llawn.">Gwneud adfywio meddygol brys a rheoli llwybr aer yn lstrict y tu mewn i'r ystafell ynysu gwasgedd negyddol, gyda'r holl staff clinigol yn gwisgo PPE HCID Resbiradol Ungyfuno llawn (FFP3/PAPR wedi'i ffitio, meiser, hwd, gwn, menyg wedi'u tapio).</li>
+                        <li data-correct="false">Gwneud gweithdrefnau cynhyrchu aerosol gyda drws yr ystafell ar gau.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-5">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 6 -->
+        <section id="module-6" class="module-section">
+            <div class="module-header">
+                <div class="module-number">6</div>
+                <div class="module-meta">
+                    <h2>Yr Ensemble PPE Ungyfuno HCID</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 35 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Nodi holl gydrannau'r Ensemble PPE Ungyfuno HCID.</li>
+                    <li>Deall y gofyniad am ffit-brofi FFP3 a thriphlygu menyg.</li>
+                    <li>Adnabod rôl critigol y 'Buddy' yn ystod gwisgo a tynnu PPE.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Yr Ensemble Ungyfuno</h3>
+                <p>Mae'r DU yn defnyddio un <strong>Ensemble PPE Ungyfuno HCID</strong> ar gyfer asesu pob achos amheus (cyswllt ac awyr) i standardeiddio ymarfer a lleihau gwallau.</p>
+                
+                <div class="video-guide-grid">
+                    <div class="video-guide-card">
+                        <img src="images/hcid_donning_qr.jpg" alt="Scan QR Code for HCID PPE Donning Video Guide" class="qr-code-img" data-vid="m6_donning" data-module="module-6" title="Cliciwch i farcio fideo fel un a wyliwyd" style="cursor: pointer;">
+                        <div>
+                            <h4>🎥 Fideo Gwisgo Ffurfiol</h4>
+                            <p>Sganiwch y côd QR neu cliciwch isod i wylio'r fideo gwisgo PPE HCID cam-wrth-gam:</p>
+                            <a href="https://www.hcid-training.co.uk/index.php/video/hcid-assessment-ppe-donning/" target="_blank" rel="noopener noreferrer" class="video-link" data-module="module-6" data-vid="m6_donning">
+                                Gwylio Fideo Gwisgo ↗
+                                <span class="new-tab-note">Yn agor mewn tab newydd (Cwrs yn aros ar agor)</span>
+                            </a>
+                        <button type="button" class="btn-qr-mark-watched" data-vid="m6_donning" data-module="module-6" style="margin-top: 10px; background: #f8fafc; border: 1px dashed #0284c7; color: #0284c7; padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+                            &#128241; Wedi sganio ar ffÃ´n symudol? Cliciwch yma i'w farcio fel un a wyliwyd
+                        </button>
+                        </div>
+                    </div>
+
+                    <div class="video-guide-card">
+                        <img src="images/hcid_doffing_qr.jpg" alt="Scan QR Code for HCID PPE Doffing Video Guide" class="qr-code-img" data-vid="m6_doffing" data-module="module-6" title="Cliciwch i farcio fideo fel un a wyliwyd" style="cursor: pointer;">
+                        <div>
+                            <h4>🎥 Fideo Tynnu Ffurfiol</h4>
+                            <p>Sganiwch y côd QR neu cliciwch isod i wylio'r fideo tynnu PPE HCID cam-wrth-gam:</p>
+                            <a href="https://www.hcid-training.co.uk/index.php/video/hcid-assessment-ppe-doffing/" target="_blank" rel="noopener noreferrer" class="video-link" data-module="module-6" data-vid="m6_doffing">
+                                Gwylio Fideo Tynnu ↗
+                                <span class="new-tab-note">Yn agor mewn tab newydd (Cwrs yn aros ar agor)</span>
+                            </a>
+                        <button type="button" class="btn-qr-mark-watched" data-vid="m6_doffing" data-module="module-6" style="margin-top: 10px; background: #f8fafc; border: 1px dashed #0284c7; color: #0284c7; padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+                            &#128241; Wedi sganio ar ffÃ´n symudol? Cliciwch yma i'w farcio fel un a wyliwyd
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-takeaways">
+                    <h3>System y Buddy a Rhesymeg Triphlygu Menyg</h3>
+                    <p><strong>Rhesymeg yr Ensemble:</strong> Mae'r DU yn defnyddio un <em>Ensemble PPE Ungyfuno HCID</em> i leihau gwallau tynnu sy'n achosi hunan-halogiad.</p>
+                </div>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 6 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m6_q1">
+                    <p>1. Beth yw'r prif reswm dros adopted un "Ensemble PPE Ungyfuno HCID" ar gyfer gwerthuso achosion amheus cyswllt ac awyr?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Mae PPE ungyfuno yn dileu'r angen am ffit-brofi respirators FFP3.</li>
+                        <li data-correct="true" data-explanation="Mae standardeiddio cydrannau'r ensemble yn lleihau cymhlethdod clinigol, yn symleiddio hyfforddiant staff, ac yn lleihau gwallau hunan-halogiad yn sylweddol yn ystod tynnu.">Mae standardeiddio cydrannau'r ensemble yn lleihau cymhlethdod clinigol, yn symleiddio hyfforddiant staff, ac yn lleihau gwallau hunan-halogiad yn ystod tynnu.</li>
+                        <li data-correct="false">Nid yw pathogenau HCID cyswllt yn gallu glynu wrth ffabrigau gwn.</li>
+                        <li data-correct="false">Mae standardeiddio PPE yn caniatáu i staff wisgo dillad stryd personol o dan y gwn.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m6_q2">
+                    <p>2. Yn yr Ensemble PPE Ungyfuno HCID y DU, sut mae protocol triphlygu menyg wedi'i strwythur i gynnal cyfanrwydd rhwystr?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Tair pâr o fenyg latex ffwrn yn unig heb dap.</li>
+                        <li data-correct="false">Pâr sengl o fenyg llawfeddygol di-heintiedig wedi'u gorchuddio gan ddwy pâr o fenyg rwber cartref.</li>
+                        <li data-correct="false">Dwy pâr o fenyg nitrile mewnol gyda menyg brethyn allanol.</li>
+                        <li data-correct="true" data-explanation="Menyg mewnol o dan llewys y gwn, menyg nitrile llewys hir canol wedi'u tapio dros lewys y gwn, a menyg tafladwy allanol i'w newid rhwng tasgau clinigol.">Menyg prawf mewnol (o dan cuff y gwn), menyg nitrile cuff hir canol (wedi'u tapio i lewys y gwn), a menyg tafladwy allanol i'w newid rhwng tasgau.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m6_q3">
+                    <p>3. Beth yw rôl gorfodol y "Buddy" penodedig yn ystod y broses gwisgo a tynnu PPE?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Cynorthwyo gyda gweithdrefnau clinigol mewnol y tu mewn i ystafell y claf.</li>
+                        <li data-correct="false">Glanhau llawr yr antechamber gyda diheintydd clorin tra bod y nyrs yn tynnu PPE.</li>
+                        <li data-correct="true" data-explanation="Mae'r buddy yn darllen cyfarwyddiadau yn uchel o restr wirio standardiedig, yn gwneud arolygiadau diogelwch gweledol, ac yn cyfeirio pob cam o dynnu PPE i atal hunan-halogiad.">Darllen cyfarwyddiadau yn uchel o restr wirio standardiedig, gwneud arolygiadau diogelwch gweledol, a chyfeirio pob cam o dynnu PPE i atal hunan-halogiad.</li>
+                        <li data-correct="false">Lleddfu galwadau ffôn a chofnodi ar y cyfrifiadur.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-6">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi & Fideos</button>
+        </section>
+
+        <!-- Modiwl 7 -->
+        <section id="module-7" class="module-section">
+            <div class="module-header">
+                <div class="module-number">7</div>
+                <div class="module-meta">
+                    <h2>Gweithdrefnau Gwisgo a Tynnu PPE</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 30 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Deall pam mai tynnu PPE sy'n achosi'r risg halogiad uchaf.</li>
+                    <li>Gforce-o'r "Polisi Dim-Cyffwrdd" yn lstrict.</li>
+                    <li>Adnabod ymddygiadau subconscious peryglus "Parth Coch".</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Egwyddorion Tynnu PPE Critigol a Protocolau Emergreg</h3>
+                <p>Nodir yn gyffredinol mai tynnu PPE yw'r <strong>phas risg uchaf</strong> am drosglwyddiad halogiad i'r gweithiwr gofal iechyd. Mae arwynebau allanol y gwn, meiser, menyg, ac fedr yn dod yn drwm o halogiad yn ystod gofal cleifion.</p>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 7 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m7_q1">
+                    <p>1. Pam mai phas tynnu (dofio) PPE HCID sy'n cael ei gydnabod yn gyffredinol fel y risg uchaf o hunan-halogiad i lechredwr gofal iechyd?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Mae respirators FFP3 yn colli eu gallu hidlo ar unwaith ar ôl gadael ystafell y claf.</li>
+                        <li data-correct="false">Gwneir tynnu heb rwb llaw alcohol neu ddiheintyddion cemegol.</li>
+                        <li data-correct="true" data-explanation="Mae arwynebau allanol y gwn, meiser, menyg, ac fedr yn dod yn drwm o halogiad feirysol sy'n gallu trosglwyddo'n hawdd i groen noeth neu ddillad mewnol wrth dynnu anghywir.">Mae arwynebau allanol y gwn, meiser, menyg, ac fedr yn dod yn drwm o bioburden heintus sy'n gallu cyffwrdd â croen noeth neu ddillad mewnol yn hawdd wrth dynnu anghywir.</li>
+                        <li data-correct="false">Mae menyg mewnol yn dod yn athraidd i feirysau ar ôl 15 munud.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m7_q2">
+                    <p>2. O dan y "Polisi Dim-Cyffwrdd" lstrict yn ystod tynnu PPE, pa weithred sydd wedi'i gwahardd yn lstrict?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="Paid byth â chyffwrdd âch croen noeth neu fenyg mewnol glân ar unrhyw arwyneb allanol halogedig o PPE.">Cyffurio unrhyw arwyneb allanol halogedig o PPE gyda chroen noeth neu fenyg mewnol glân.</li>
+                        <li data-correct="false">Gwneud rwb llaw alcohol on fenyg mewnol rhwng camau tynnu.</li>
+                        <li data-correct="false">Camu o'r Parth Coch i'r Parth Ambr o dan gyfeiriad Buddy.</li>
+                        <li data-correct="false">Gwaredu PPE allanol a dynnwyd yn uniongyrchol i mewn i gynhwysydd gwastraff Dosbarth A.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m7_q3">
+                    <p>3. Os yw nyrs yn profi rhwyg PPE (e.g. gwn yn rhwygo neu menyg yn tyllu) neu amlygiad accidentiol i groen tra y tu mewn i'r Parth Coch, beth yw'r protocol emergreg ar unwaith?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Gwasgu tap gludiog dros y rhan rhedig tra'n aros y tu mewn i ystafell y claf a gorffen y sifft.</li>
+                        <li data-correct="false">Tynnu'r eitem PPE a niweidiwyd yn uniongyrchol y tu mewn i ystafell y claf a'i disodli.</li>
+                        <li data-correct="false">Parhau â gofal cleifion nes bod yr amser egwyl preswyl yn cyrraedd, yna adrodd.</li>
+                        <li data-correct="true" data-explanation="Hysbysu'r buddy ar unwaith, exit i'r Parth Ambr, gwneud tynnu emergreg o dan goruchwyliaeth, diheintio croen a amlygwyd, a dechrau rheoli ar ôl amlygiad.">Hysbysu'r Buddy ar unwaith, exit i'r Parth Ambr, gwneud tynnu emergreg o dan goruchwyliaeth, diheintio croen a amlygwyd, a dechrau asesiad risg ar ôl amlygiad.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-7">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 8 -->
+        <section id="module-8" class="module-section">
+            <div class="module-header">
+                <div class="module-number">8</div>
+                <div class="module-meta">
+                    <h2>Rheoli Heintiau Ehangach a Parthau</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 25 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Dewis amgylcheddau ynysu clinigol briodol (Uned Gwasgedd Negyddol Cwbicl 27 vs ynysu safonol).</li>
+                    <li>Deall y model clinigol 3-parth (Coch, Ambr, Gwyrdd) a rheolaeth llifo aer unffordd.</li>
+                    <li>Gorfodi rheoli gwastraff heintus Categori A a diheintio amgylcheddol clorin 10,000 ppm.</li>
+                </ul>
+            </div>
+
+            <!-- Welsh Negative Pressure Callout Card -->
+            <div class="callout callout-info" style="border-left: 4px solid var(--nhs-blue); background: #eff6ff; margin-bottom: 24px;">
+                <div class="callout-icon">🫁</div>
+                <div>
+                    <h4 style="color: var(--nhs-blue-dark); margin: 0 0 8px 0; font-size: 16px;">Beth yw Ystafell Ynysu Gwasgedd Negyddol a Pham mae'n Orfodol ar gyfer HCIDau Awyr?</h4>
+                    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 10px;">
+                        Mae <strong>Ystafell Ynysu Gwasgedd Negyddol</strong> (megis <strong>Cwbicl 27</strong> yn Adran Gyffredinol ED GUH) yn defnyddio awyru mecanyddol arbenigol i gadw'r gwasgedd aer y tu mewn i ystafell y claf ar lefel is na'r antechamber amgylchynol (Parth Ambr) a choridorau glân yr ysbyty (Parth Gwyrdd).
+                    </p>
+                    <ul style="margin: 0 0 10px 20px; font-size: 14px; line-height: 1.6;">
+                        <li><strong>Pam mae Gwasgedd Negyddol yn Angenrheidiol (Lif Aer i Mewn):</strong> Mae aer yn llifo'n naturiol o wasgedd uwch i wasgedd is. Oherwydd bod yr ystafell ynysu o dan wasgedd negyddol, mae aer glân yn cael ei dynnu'n barhaus <em>i mewn</em> i'r ystafell wrth agor drysau. Mae aer a allanotir yn cael ei dynnu allan trwy hidlyddion HEPA effeithlonrwydd uchel cyn ei ddychwelyd yn ddiogel allan.</li>
+                        <li><strong>Perygl Cwbiclau a Ystafelloedd Safonol (Risg Lif Aer Allanol):</strong> Mewn ystafell ochr neu cwbicl safonol, mae agor y drws neu wneud gweithdrefnau cynhyrchu aerosol (AGPs) yn achosi i aer yr ystafell ruthro <em>allan</em> i goridorau glân ac ardaloedd aros cleifion. Os ystyrir HCID Awyr (e.e. MERS-CoV, Fflu'r Adar A/H5N1, neu Pla niwmonig) mewn ystafell safonol, mae aerosolau heintus meicroscopig yn aros yn yr aer ac yn dianc i goridorau cyhoeddus.</li>
+                    </ul>
+                    <div style="font-size: 13px; font-weight: bold; color: var(--nhs-blue-dark); background: rgba(0,48,135,0.08); padding: 8px 12px; border-radius: 4px;">
+                        ⚠️ Rheol Glinigol Allweddol: Mae HCIDau Cyswllt (e.e. Ebola, Lassa) angen ystafell sengl gydag en-suite i reoli risgiau cyswllt hylif, ond mae HCIDau Awyr yn gofyn yn lstrict am <strong>Uned Gwasgedd Negyddol (Cwbicl 27)</strong> i gynwys peryglon aerosol resbiradol.
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Model Parthau Clinigol (Coch, Ambr, Gwyrdd)</h3>
+                <p>I atal ledaeniad halogiad, rhennir lleoedd ynysu clinigol yn 3 parth cynhwysiant llym.</p>
+                <ul>
+                    <li><span class="zone-badge zone-red">Parth Coch</span> Ystafell ynysu claf (drwm o halogiad). PPE Ungyfuno llawn gofynnol.</li>
+                    <li><span class="zone-badge zone-amber">Parth Ambr</span> Antechamber drawsnewid. Ar gyfer <strong>tynnu PPE o dan goruchwyliaeth, hylendid dwylo, a diheintio croen</strong> rhwng y Parth Coch a Gwyrdd.</li>
+                    <li><span class="zone-badge zone-green">Parth Gwyrdd</span> Coridorau ysbyty glân a swyddfeydd staff. Dim PPE neu offer halogedig wedi'i ganiatáu.</li>
+                </ul>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 8 (3 Cwestiwn — Ynysu Uwch a Rheoli Heintiau)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m8_q1">
+                    <p>1. Mae claf 38 oed yn cyflwyno i Triaj yr ED gyda thwymyn acwt (39.1°C), peswch sych, a dyspnoea 7 diwrnod ar ôl dychwelyd o ranbarth gyda throsglwyddo pathogen awyr. Pa leoliad ystafell clinigol sy'n briodol ar gyfer ynysu'r claf hwn?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Ystafell ochr safonol neu ardal asesu.</li>
+                        <li data-correct="false">Cwbicl sengl safonol gyda chyfleusterau ystafell ymolchi a rennir mewn coridor.</li>
+                        <li data-correct="true" data-explanation="Mae HCIDau Awyr yn gofyn am leoliad yn Cwbicl 27 (Uned Ynysu Gwasgedd Negyddol Penodol ED GUH gyda chyfleusterau en-suite ac antechamber Ambr wedi'i selio). Mae Ardal Asesu 5 yn amhriodol oherwydd ei leoliad o fewn ardal garfan cleifion.">Cwbicl 27 (Uned Ynysu Gwasgedd Negyddol Penodol gydag en-suite ac antechamber Ambr wedi'i selio).</li>
+                        <li data-correct="false">Ystafell ynysu safonol gyda'i ystafell ymolchi en-suite ei hun sy'n gweithredu ar awyru ffenestr naturiol.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m8_q2">
+                    <p>2. Wrth reoli diheuddu amgylcheddol a gwaredu gwastraff ar gyfer claf a ynyswyd yn y Parth Coch gyda thwymyn haemorhagig feirysol amheus (VHF), pa safon rheoli haint sy'n orfodol yn gyfreithiol a chlinigol?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Mae'r holl wastraff solid ac offer tafladwy wedi'u selio mewn bagiau gwastraff clinigol melyn safonol ac anfon trwy shwt gwastraff yr ysbyty.</li>
+                        <li data-correct="true" data-explanation="Mae gwastraff Parth Coch o gleifion HCID wedi'i ddosbarthu fel Gwastraff Heintus Categori A UN Class 6.2 sy'n gofyn am gynwysyddion anhyblyg ar gyfer losgi, tra bod arwynebau anhyblyg angen hydoddiant clorin 10,000 ppm.">Mae'r holl wastraff a gynhyrchir yn y Parth Coch wedi'i ddosbarthu fel Gwastraff Heintus Categori A UN Class 6.2, sy'n gofyn am gynwysyddion anhyblyg a gymeradwywyd gan UN am losgi tymheredd uchel arbenigol, tra bod arwynebau anhyblyg angen hydoddiant diheintio clorin 10,000 ppm.</li>
+                        <li data-correct="false">Gellir diheintio bedpanau a chynwysyddion sugno mewn peiriannau golchi bedpan arferol yn y brif ystafell amrywiol.</li>
+                        <li data-correct="false">Gellir arllwys hylifau corff yn uniongyrchol i'r hopran heb driniaeth gemegol neu PPE.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m8_q3">
+                    <p>3. Yn ystod rheolaeth glinigol claf HCID Awyr yn y model 3-parth (Coch/Ambr/Gwyrdd), mae larwm yn nodi colled o raddiant gwasgedd negyddol rhwng y Parth Coch (ystafell y claf) a'r Parth Ambr (anteroom). Beth yw'r gyfarwyddeb rheoli haint ar unwaith?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Agor drws y Parth Coch i goridor y Parth Gwyrdd i gydraddoli gwasgedd aer.</li>
+                        <li data-correct="false">Parhau â gofal clinigol fel arfer, ar yr amod bod staff yn gwisgo masg llawfeddygol Type IIR.</li>
+                        <li data-correct="true" data-explanation="Mae colli graddiant gwasgedd negyddol yn caniatáu i aerosolau halogedig symud allan o'r Parth Coch. Rhaid i fynediad nad yw'n hanfodol ddod i ben, drysau aros wedi'u selio, respirator FFP3/PAPR gael ei orfodi, a hysbysu Ystadau/IPC ar unwaith.">Atal mynediad nad yw'n hanfodol, sicrhau bod drysau'r Parth Coch ac Ambr yn aros wedi'u selio'n lstrict, gwirio bod staff yn gwisgo respirators FFP3/PAPR, a hysbysu Ystadau/Rheoli Heintiau ar unwaith.</li>
+                        <li data-correct="false">Diffodd y system awyru'n llwyr ac agor ffenestri allanol i awyru aer i mewn i barti'r ysbyty.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-8">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 9 -->
+        <section id="module-9" class="module-section">
+            <div class="module-header">
+                <div class="module-number">9</div>
+                <div class="module-meta">
+                    <h2>Samplu Diagnostig a Diniwed Samplau</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 20 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Understand safe sampling rules for suspected HCID patients.</li>
+                    <li>Learn UN Class 6.2 Category A Triple Packaging requirements.</li>
+                    <li>Recognise the role of RIPL at UKHSA Porton Down.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Protocolau Samplu Ddiogel a Phecynnu Dosbarth 6.2 UN</h3>
+                <p>Rhaid <strong>BYTH</strong> anfon samplau diagnostig trwy'r system tiwb niwmatig neu i labordai ysbyty arferol.</p>
+
+                <!-- RIPL Sample Submission Form Link Card (Welsh) -->
+                <div class="video-guide-card" style="border: 2px solid var(--nhs-blue); background: #eff6ff; margin: 20px 0;">
+                    <div style="font-size: 36px; line-height: 1;">📝</div>
+                    <div>
+                        <h4 style="color: var(--nhs-blue-dark); margin-top: 0;">🌐 Ffurflen Gyflwyno Samplau Labordy Pathogenau Prin a Mewnflimported (RIPL)</h4>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 12px;">
+                            Mynediad i ffurflen gais a chyflwyno samplau profion ffurfiol UKHSA / RIPL (Ffurflen P1). Rhaid i bob sampl diagnostig Categori A a anfonir i Porton Down gael ei gyfeilio gan y ffurflen hon wedi'i llenwi ac a gofnodwyd gan y Microbiolegol Dyletswydd:
+                        </p>
+                        <a href="https://www.gov.uk/government/publications/rare-and-imported-pathogens-testing-form-to-submit-sample" target="_blank" rel="noopener noreferrer" class="video-link" style="background: var(--nhs-blue); color: #ffffff; padding: 10px 18px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                            <span>📝 Pathogenau Prin a Mewnflimported: Ffurflen Profi i Gyflwyno Sampl (GOV.UK) ↗</span>
+                            <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Yn agor mewn tab newydd</span>
+                        </a>
+
+                        <a href="https://www.hcid-training.co.uk/wp-content/uploads/2026/05/HCID-Sampling.pdf" target="_blank" rel="noopener noreferrer" class="video-link" style="margin-top: 10px; background: #0284c7; color: #ffffff; padding: 10px 18px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                            <span>&#128196; Poster Samplu Clinigol HCID (PDF) &#8599;</span>
+                            <span class="new-tab-note" style="background: rgba(255,255,255,0.25); color: #ffffff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">Yn agor mewn tab newydd</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Safe Sampling Protocols & Packaging</h3>
+                <p>Rhaid <strong>BYTH</strong> anfon samplau diagnostig trwy'r system tiwb niwmatig neu i labordai ysbyty arferol oherwydd bod dadansoddwyr awtomataidd yn creu aerosolau peryglus sy'n halogi llinellau meicrobig a'r amgylchedd.</p>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Prawf Gwybodaeth Modiwl 9 (3 Cwestiwn)</h3>
+                    <span class="quiz-pass-note">Marc llwyddo: 80%+ cyffredinol</span>
+                </div>
+
+                <div class="quiz-question" data-qid="m9_q1">
+                    <p>1. Pam mae dadansoddwyr labordy ysbyty arferol a systemau tiwb niwmatig wedi'u gwahardd yn lstrict ar gyfer prosesu samplau gwaed o gleifion HCID amheus?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Nid yw dadansoddwyr awtomataidd arferol yn gallu mesur paramedrau gwaed mewn cleifion â heintiau feirysol.</li>
+                        <li data-correct="true" data-explanation="Mae dadansoddwyr awtomataidd yn creu aerosolau ac yn halogi llinellau hylif mewnol, tra bod tiwbiau niwmatig mewn perygl o halogiad os bydd tiwb yn torri.">Mae dadansoddwyr awtomataidd yn creu aerosolau risg uchel ac yn gallu halogi llinellau hylif mewnol, gan achosi risgiau heintiau difrifol i staff labordy a chau'r cyfleuster.</li>
+                        <li data-correct="false">Mae systemau tiwb niwmatig yn achosi haemolysis sy'n gwneud samplau gwaed yn anraethus.</li>
+                        <li data-correct="false">Mae labordai ysbyty arferol angen 48 awr i brosesu samplau gwaed o gymharu â RIPL.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m9_q2">
+                    <p>2. Yn unol â reoliadau cludiant Dosbarth 6.2 Categori A UN, sut rhaid i samplau gwaed diagnostig ar gyfer profion RIPL gael eu strwythur mewn System Pecynnu Triphlyg?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="false">Bagio dwywaith mewn bagiau polythen biohazard safonol mewn amlen bost phadiedig.</li>
+                        <li data-correct="false">Gosod yn uniongyrchol mewn blwch plastig anhyblyg heb ddeunydd amsugnol neu selio eilradd.</li>
+                        <li data-correct="true" data-explanation="Mae pecynnu triphlyg angen llestr cynhwysydd gollwng amddiffynnol primar gyda deunydd amsugnol, cynhwysydd gwasgedd eilradd, a blwch cludiant allanol Dosbarth A UN anhyblyg a gymeradwywyd.">Tiwb sampl primar sy'n gwrthsefyll gollwng wedi'i lapio mewn deunydd amsugnol, mewn cynwysydd gwasgedd eilradd sy'n gwrthsefyll gollwng, mewn blwch cludiant allanol Dosbarth A UN anhyblyg a gymeradwywyd gan y UN gyda saethau cyfeiriadol.</li>
+                        <li data-correct="false">Selio mewn cynwysydd vacutainer sengl mewn powtsi cludiant sampl safonol.</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <div class="quiz-question" data-qid="m9_q3">
+                    <p>3. Pa labordy cyfeirio arbenigol cenedlaethol sydd wedi'i ddewis i dderbyn a phrosesu samplau diagnostig Categori A ar gyfer pathogenau HCID amheus yn y DU?</p>
+                    <ul class="quiz-options">
+                        <li data-correct="true" data-explanation="Y Labordy Pathogenau Prin a Mewnflimported (RIPL) yn Porton Down yw'r labordy cyfeirio benodedig yn y DU ar gyfer profion diagnostig HCID.">Y Labordy Pathogenau Prin a Mewnflimported (RIPL) yn UKHSA Porton Down</li>
+                        <li data-correct="false">Labordy Banc Gwaed Ysbyty Cyffredinol Dosbarth Lleol</li>
+                        <li data-correct="false">Hub Patholeg Ranbarthol GIG 111</li>
+                        <li data-correct="false">Labordy Sgrinio Iechyd Galwedigaethol Cymunedol</li>
+                    </ul>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <button class="btn-complete" data-module="module-9">🔒 Atebwch bob un o'r 3 Cwestiwn (0/3) i Ddigloi</button>
+        </section>
+
+        <!-- Modiwl 10: Xenarios Clinigol a Vignetiau Penderfyniad -->
+        <section id="module-10" class="module-section">
+            <div class="module-header">
+                <div class="module-number">10</div>
+                <div class="module-meta">
+                    <h2>Xenarios Clinigol a Vignetiau Penderfyniad</h2>
+                    <span class="module-time">⏱️ Amser amcangyfrifiedig: 25 munud</span>
+                </div>
+            </div>
+
+            <div class="learning-objectives">
+                <h3>Amcanion Dysgu</h3>
+                <ul>
+                    <li>Gweithredu gwybodaeth gyffredinol y cwrs ar 10 vignet clinigol Adran Gyffredinol real.</li>
+                    <li>Cyflawni ynysu triaj cyflym, actifadu Cerdyn Gweithredu 1, a phendyrfyniadau esgyn IPC o dan bwysau.</li>
+                    <li>Master-io penderfyniadau clinigol ar gyfer llwybrau HCID Awyr vs Cyswllt, diogelwch tynnu PPE, a samplu Categori A.</li>
+                </ul>
+            </div>
+
+            <!-- Welsh Interactive Simulation Dashboard -->
+            <div class="sim-dashboard">
+                <div class="sim-dashboard-header">
+                    <div class="sim-dashboard-title">
+                        <span>🎮</span> Dashfwrdd Efelychu Clinigol Adran Frysor
+                    </div>
+                    <div class="sim-tracker-steps">
+                        <div class="sim-step-dot" data-sim-step="1">1</div>
+                        <div class="sim-step-dot" data-sim-step="2">2</div>
+                        <div class="sim-step-dot" data-sim-step="3">3</div>
+                        <div class="sim-step-dot" data-sim-step="4">4</div>
+                        <div class="sim-step-dot" data-sim-step="5">5</div>
+                        <div class="sim-step-dot" data-sim-step="6">6</div>
+                        <div class="sim-step-dot" data-sim-step="7">7</div>
+                        <div class="sim-step-dot" data-sim-step="8">8</div>
+                        <div class="sim-step-dot" data-sim-step="9">9</div>
+                        <div class="sim-step-dot" data-sim-step="10">10</div>
+                    </div>
+                </div>
+                <p style="font-size: 13px; color: #cbd5e1; margin: 0; line-height: 1.5;">
+                    Profwch eich penderfyniadau clinigol brys ar draws 10 xenario ED real. Adolygwch arwyddion vital y claf, evaluiwch risgiau clinigol yn erbyn canllawiau UKHSA, a dewiswch y sengl botwm gweithredu clinigol mwyaf priodol isod.
+                </p>
+            </div>
+
+            <div class="quiz-section">
+                <div class="quiz-header-badge">
+                    <h3>Efelychiadau Adran Frysor Modiwl 10 (10 Vignet Penderfyniad — Pob Modiwl)</h3>
+                    <span class="quiz-pass-note">Sgoriwyd at farc asesu 80%+ terfynol</span>
+                </div>
+
+                <!-- Scenario 1 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Esgyniad Triaj:</span> <span class="sim-vital-val">Nyrs Triaj -> Gliniwr Dyletswydd</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.8°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Gwlad:</span> <span class="sim-vital-val">Gweriniaeth Ddemocrataidd y Congo</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Dychwelwyd:</span> <span class="sim-vital-val">8 Diwrnod yn Ôl</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 1: Esgyniad Triaj a Phenderfyniad Ynysu Risg VHF</div>
+                            <span class="sim-badge sim-badge-red">🚨 Ymgynghoriad Triaj / Penderfyniad Cwbicl 27</span>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Ymgynghoriad Clinigol:</strong> Mae'r Nyrs Triaj yn eich ffonio chi (y Gliniwr ED Dyletswydd) ynghylch claf 34 oed yn y Ddesg Triaj sy'n cyflwyno gyda thwymyn (38.8°C), cur pen severe, a poen cyhyrau 8 diwrnod ar ôl dychwelyd o Weriniaeth Ddemocrataidd y Congo. Mae'r claf yn nodi ymweld â chlinigau gofal iechyd yn ystod eu hrosiad.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box Welsh -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Dolenni Canllawiau Clinigol Gorfodol am Evaluo Risg:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 Algorithm Risg VHF UKHSA (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Yn seiliedig ar Algorithm Risg VHF UKHSA a'r Rhestr Risg Gwlad, sut ydych chi'n dosbarthu risg y claf hwn a ble ydych chi'n cyfeirio ynysu ar unwaith?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q1" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Gweithred A (Risg Cymedrol — Ystafell Ochr Safonol):</strong> Dosbarthu fel Risg Cymedrol; cyfarwyddo gosod ar unwaith mewn ystafell ochr sengl safonol ac anfon gwaed arferol a sgrinio malaria cyn penderfynu ffonio Microbioleg.</li>
+                                <li data-correct="false"><strong>Gweithred B (Risg Uchel — Bae Aseinio Resus):</strong> Dosbarthu fel Risg Uchel; hebrwng y claf yn uniongyrchol i Bae Resus wedi'i ynysu ar gyfer hylifau IV ac offer monitro llawn gan wisgo feddygol a fisor safonol.</li>
+                                <li data-correct="true" data-explanation="Mae adolygu Algorithm VHF UKHSA a Rhestr Risg Gwlad yn cadarnhau bod Gweriniaeth Ddemocrataidd y Congo yn ardal risg VHF weithredol gyda meini prawf amlygiad clinigol risg uchel. Rhaid i'r gliniwr ddosbarthu'r claf fel Risg Uchel a chyfarwyddo ynysu AR UNWAITH yn Cwbicl 27 (Uned Gwasgedd Negyddol), cau'r drws a ffonio Microbioleg Dyletswydd (Dial 100)."><strong>Gweithred C (Risg Uchel — Cwbicl 27 Gwasgedd Negyddol):</strong> Dosbarthu fel RISG UCHEL VHF; cyfarwyddo ynysu AR UNWAITH yn Cwbicl 27 (Uned Gwasgedd Negyddol), selio'r drysau, a ffonio'r Ymgynghorydd Microbioleg Dyletswydd (Dial 100).</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 2 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Esgyniad Triaj:</span> <span class="sim-vital-val">Nyrs Triaj -> Gliniwr Dyletswydd</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.9°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Gwlad:</span> <span class="sim-vital-val">Sawdi Arabia (Riyadh)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Dychwelwyd:</span> <span class="sim-vital-val">6 Diwrnod yn Ôl</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 2: Esgyniad Triaj — Symptomau Resbiradol o Sawdi Arabia</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Ymgynghoriad Clinigol:</strong> Mae teithiwr 48 oed yn cyflwyno i Triaj ED gyda thwymyn (38.9°C), peswch sych severe, a byrder anadl acwt 6 diwrnod ar ôl dychwelyd o Riyadh, Sawdi Arabia, lle ymwelodd â ffermydd camelod ac adran brys ysbyty. Mae'r Nyrs Triaj yn eich ffonio am gyngor ynysu ar unwaith.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box Welsh -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Dolenni Canllawiau Clinigol Gorfodol am Evaluo Risg:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://www.gov.uk/government/collections/mers-cov-clinical-management-and-guidance" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 MERS-CoV: clinical management and guidance - GOV.UK ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Pa lwybr ynysu clinigol a PPE resbiradol ar unwaith sydd angen i chi ei gyfarwyddo'r nyrs triaj i'w actifadu?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q2" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Mae symptomau resbiradol acwt o fewn 14 diwrnod o deithio i Penrhyn Arabia gyda amlygiad camelod yn bodloni meini prawf UKHSA am MERS-CoV (HCID Awyr). Mae angen ynysu ar unwaith yn Cwbicl 27 (Uned Gwasgedd Negyddol) ac amddiffyniad FFP3 / PAPR."><strong>Gweithred A (HCID Awyr — Cwbicl 27 & PAPR/FFP3):</strong> Cyfarwyddo ynysu AR UNWAITH yn Cwbicl 27 (Uned Gwasgedd Negyddol), selio'r drysau, a gwisgo respirator FFP3 neu cwch PAPR gyda fisor llawn.</li>
+                                <li data-correct="false"><strong>Gweithred B (Ystafell Ochr Safonol & Masg):</strong> Ynysu mewn ystafell ochr safonol, gosod masg llawfeddygol Type IIR ar y claf, gwisgo gwn a fisor, ac archwilio X-ray cist Symudol ar unwaith.</li>
+                                <li data-correct="false"><strong>Gweithred C (Ystafell Ochr & Swab Cyn Esgyniad):</strong> Gosod y claf mewn ystafell ochr, gwisgo FFP3, a chymryd swab trwyn-gwddf ar unwaith am PCR feirysol cyn esgyn i'r tîm meddygol senior.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 3 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Esgyniad Triaj:</span> <span class="sim-vital-val">Nyrs Triaj -> Gliniwr Dyletswydd</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.1°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Gwlad:</span> <span class="sim-vital-val">Lagos, Nigeria</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Dychwelwyd:</span> <span class="sim-vital-val">10 Diwrnod yn Ôl</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 3: Ymgynghoriad Triaj — Teithiwr Busnes o Lagos</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Ymgynghoriad Clinigol:</strong> Mae gweithredwr 50 oed a ddychwelodd o Lagos, Nigeria 10 diwrnod yn ôl yn cyflwyno gyda twymyn gradd isel (38.1°C) a blinder. Arhosodd yn lstrict mewn gwesty 5-seren, mynychodd gynhadledd mewn adeilad, ac nid oedd ganddo unrhyw gyswllt â chyfleusterau gofal iechyd, anifeiliaid, neu unigolion sâl.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box Welsh -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Dolenni Canllawiau Clinigol Gorfodol am Evaluo Risg:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 Algorithm Risg VHF UKHSA (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            O dan Offeryn Evaluo Risg VHF UKHSA, sut ydych chi'n dosbarthu'r claf hwn a chyfeirio rheolaeth ar unwaith?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q3" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Teithio i wlad endemig heb amlygiad risg uchel (dim hylifau corff, dim Lassa gwledig, dim cyswllt spital) a ddosberthir fel RISG ISAFSWM VHF. Mae'r gliniwr yn cyfeirio ynysu ystafell sengl am sgrinio malaria a waed arferol. Nid oes angen Cwbicl 27 na phecynnu Categori A."><strong>Gweithred A (Risg Isafswm — Ystafell Ochr Safonol):</strong> Dosbarthu fel RISG ISAFSWM VHF; gosod mewn ystafell ochr safonol am sgrinio malaria a waed arferol. Nid oes angen Cwbicl 27 na phecynnu Categori A.</li>
+                                <li data-correct="false"><strong>Gweithred B (Risg Uchel — Gor-Esgyniad i Cwbicl 27):</strong> Dosbarthu fel RISG UCHEL VHF ar sail teithio i wlad endemig yn unig o fewn 21 diwrnod; cyfarwyddo ynysu yn Cwbicl 27 a dechrau pecynnu Categori A.</li>
+                                <li data-correct="false"><strong>Gweithred C (Risg Isel — Ardal Aseinio Gyffredinol):</strong> Dosbarthu fel Risg Isel; eistedd y claf mewn ardal aros isel ei dwysedd wrth aros am ganlyniadau waed arferol.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 4 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Esgyniad Triaj:</span> <span class="sim-vital-val">Nyrs Triaj -> Gliniwr Dyletswydd</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">39.4°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Gwlad:</span> <span class="sim-vital-val">Twganda (Dwyrain Affrica)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Dychwelwyd:</span> <span class="sim-vital-val">12 Diwrnod yn Ôl</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 4: Ymgynghoriad Triaj — Amlygiad Claddedigaeth Twganda</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Ymgynghoriad Clinigol:</strong> Mae gweithiwr cymorth 31 oed yn cyflwyno mewn Triaj gyda twymyn uchel (39.4°C), chwydu severe, a poen stumog 12 diwrnod ar ôl dychwelyd o Dwganda. Mae'n datgelu mynychu seremoni gladdedigaeth draddodiadol aelod o'r teulu a fu farw o salwch twymyn heb ei ddiagnosio gyda gwaedu.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box Welsh -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Dolenni Canllawiau Clinigol Gorfodol am Evaluo Risg:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 Algorithm Risg VHF UKHSA (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Sut ydych chi'n dosbarthu'r achos hwn a pa weithred ynysu ar unwaith ydych chi'n ei chyfarwyddo?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q4" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Gweithred A (Risg Cymedrol — Sylw Ystafell Ochr):</strong> Dosbarthu fel Risg Cymedrol gan nad oes gan y claf waedu gweithredol neu ansefydlogrwydd; gosod mewn ystafell ochr safonol am hylifau IV.</li>
+                                <li data-correct="false"><strong>Gweithred B (Risg Uchel — Mynediad Uniongyrchol unigol):</strong> Dosbarthu fel Risg Uchel; gwisgo PPE safonol a mynd i mewn i Cwbicl 27 yn unigol i dynnu gwaed heb aros am Buddy neu ffoniad symudol.</li>
+                                <li data-correct="true" data-explanation="Mynychu seremoni gladdedigaeth claf gyda twymyn haemorhagig mewn ardal risg Marburg o fewn 21 diwrnod sy'n AMLYGIAD RISG UCHEL. Rhaid i'r gliniwr cyfarwyddo ynysu AR UNWAITH yn Cwbicl 27, tele-ymgynghoriad symudol, a ffonio Microbioleg Dyletswydd (Dial 100)."><strong>Gweithred C (Risg Uchel — Ynysu Cwbicl 27):</strong> Dosbarthu fel RISG UCHEL (Marburg/VHF); cyfarwyddo ynysu AR UNWAITH yn Cwbicl 27, cyflawni tele-ymgynghoriad, a ffonio Microbioleg Dyletswydd (Dial 100).</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 5 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Esgyniad Triaj:</span> <span class="sim-vital-val">Nyrs Triaj -> Gliniwr Dyletswydd</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">38.7°C</span></div>
+                        <div class="sim-vital-item"><span>🌍 Gwlad:</span> <span class="sim-vital-val">Bolifia Gwledig (De America)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Dychwelwyd:</span> <span class="sim-vital-val">14 Diwrnod yn Ôl</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 5: Ymgynghoriad Triaj — Amlygiad Ogof Ystlumod Bolifia (Feirws Machupo)</div>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Ymgynghoriad Clinigol:</strong> Mae ymchwilydd 27 oed yn cyflwyno mewn Triaj gyda twymyn (38.7°C), llygaid coch, a petechiae 14 diwrnod ar ôl archwilio ogofâu ystlumod a storfeydd grawn yn Bolifia. Mae'r Nyrs Triaj yn ffonio am gyngor ynysu ar unwaith.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box Welsh -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Dolenni Canllawiau Clinigol Gorfodol am Evaluo Risg:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 Algorithm Risg VHF UKHSA (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            Yn seiliedig ar ganllawiau UKHSA am Arenaviruses De America (Machupo / Chapare VHF), sut ydych chi'n cyfeirio gofal ar unwaith?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q5" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="Amlygiad i ogofâu ystlumod/ysgarthion llygod mewn ardaloedd endemig Arenavirus De America sy'n cyflwyno gyda twymyn a petechiae a ddosberthir fel RISG UCHEL VHF (feirws Machupo/Chapare). Cyfeirio ynysu AR UNWAITH yn Cwbicl 27 a ffonio Microbioleg Dyletswydd (Dial 100)."><strong>Gweithred A (Risg Uchel — Ynysu Cwbicl 27):</strong> Dosbarthu fel RISG UCHEL VHF (Feirws Machupo); cyfarwyddo ynysu AR UNWAITH yn Cwbicl 27, selio'r drws, a ffonio Microbioleg Dyletswydd (Dial 100).</li>
+                                <li data-correct="false"><strong>Gweithred B (Risg Isel — Llwybr Leptospirosis/Egwyl):</strong> Dosbarthu fel Risg Isel VHF a trin yn bennaf am amlygiad Leptospirosis neu Rabies; gosod mewn ystafell ochr safonol ac archebu meithriniadau gwaed arferol.</li>
+                                <li data-correct="false"><strong>Gweithred C (Ynysu Resbiradol Awyr yn Unig):</strong> Dosbarthu fel HCID Awyr; gosod yn gwasgedd negyddol gyda masg FFP3, ond prosesu waed arferol yn fewnol wrth aros am Microbioleg.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 6 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📞 Esgyniad Triaj:</span> <span class="sim-vital-val">Nyrs Triaj -> Gliniwr Dyletswydd</span></div>
+                        <div class="sim-vital-item"><span>🌡️ Temp:</span> <span class="sim-vital-val">36.6°C (Afebril / Di-symptom)</span></div>
+                        <div class="sim-vital-item"><span>🌍 Gwlad:</span> <span class="sim-vital-val">Sierra Leone (Gorllewin Affrica)</span></div>
+                        <div class="sim-vital-item"><span>⏱️ Dychwelwyd:</span> <span class="sim-vital-val">6 Diwrnod yn Ôl (Amlygiad Risg Uchel)</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 6: Ymgynghoriad Triaj — Cyswllt Risg Uchel VHF Di-symptom</div>
+                            <span class="sim-badge sim-badge-amber">⚠️ Protocol Cyswllt Risg Uchel Di-symptom</span>
+                        </div>
+                        
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+                            <strong>Ymgynghoriad Clinigol:</strong> Mae gwirfoddolwr gofal iechyd 29 oed yn cyflwyno i Triaj ED 6 diwrnod ar ôl dychwelyd o Sierra Leone. Mae'n nodi cael amlygiad uniongyrchol i waed a hylifau corff wrth drin claf Twymyn Lassa cadarnhaol mewn clinig gwledig. Fodd bynnag, mae hi'n ddigon <strong>afebril (36.6°C)</strong> ac yn nodi <strong>DIM twymyn, cur pen, dolur gwddf, neu unrhyw symptomau clinigol</strong>.
+                        </p>
+
+                        <!-- Embedded Guidance Links Box Welsh -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 16px; font-size: 13px;">
+                            <strong style="color: var(--nhs-blue-dark); display: block; margin-bottom: 6px;">📑 Dolenni Canllawiau Clinigol Gorfodol am Evaluo Risg:</strong>
+                            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="https://assets.publishing.service.gov.uk/media/695e899311989e7ef067195e/vhf-risk-assessment-algorithm-october-2024-updated-january-2026.pdf" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    📋 Algorithm Risg VHF UKHSA (GOV.UK PDF) ↗
+                                </a>
+                                <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener" style="color: var(--nhs-blue); font-weight: 700; text-decoration: underline;">
+                                    🌍 High consequence infectious disease: country specific risk - GOV.UK ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 14px; font-weight: 700; color: var(--nhs-blue-dark); margin-bottom: 12px;">
+                            O dan ganllawiau UKHSA ac Iechyd Cyhoeddus Cymru, sut ydych chi'n dosbarthu unigolyn di-symptom gyda amlygiad risg uchel VHF a cyfeirio rheolaeth?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q6" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Gweithred A (Derbyn i Cwbicl 27 am Brofion Diagnostig):</strong> Dosbarthu fel achos amheus VHF; ynysu ar unwaith yn Cwbicl 27, cyflawni tynnu gwaed brys, a dechrau pecynnu triphlyg Categori A.</li>
+                                <li data-correct="true" data-explanation="O dan ganllawiau UKHSA ac Iechyd Cyhoeddus Cymru, nid yw unigolyn ag amlygiad risg uchel sy'n hollol ddi-symptom (afebril, dim symptomau) yn bodloni meini prawf am achos amheus VHF. Mae'r gliniwr yn cysylltu ar unwaith Ã¢ Microbioleg Dyletswydd ac Iechyd Cyhoeddus Cymru am brotocolau olrhain cysylltiadau, ac yn cynghori hunan-ynysu gartref gyda Thaflen Wybodaeth i Glaf a gwirio tymeredd ddwywaith y dydd."><strong>Gweithred B (Cysylltu Ã¢ Microbioleg Dyletswydd a Chynghori Hunan-Ynysu):</strong> Cysylltu ar unwaith Ã¢ Microbioleg Dyletswydd ac Iechyd Cyhoeddus Cymru am gyngor, a chynghori hunan-ynysu gartref gyda Thaflen Wybodaeth i Glaf VHF a gwirio tymeredd ddwywaith y dydd am y cyfnod deor 21 diwrnod.</li>
+                                <li data-correct="false"><strong>Gweithred C (Rhyddhau i Ardal Aros Arferol ED):</strong> Rhyddhau'r claf i is-ardal aros gyffredinol ED i aros am ffilmiau gwaed arferol a chanlyniadau malaria cyn hysbysu Iechyd Cyhoeddus Cymru.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 7 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📍 Safle:</span> <span class="sim-vital-val">Cwbicl 27 Ynysig</span></div>
+                        <div class="sim-vital-item"><span>📋 Llwybr:</span> <span class="sim-vital-val">Algorithm VHF Cwblhawyd</span></div>
+                        <div class="sim-vital-item"><span>📞 Esgyniad:</span> <span class="sim-vital-val">Awdurdodiad IFS Angenrheidiol</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 7: Llywodraethu Cenedlaethol a Protocol Atgyfeirio IFS</div>
+                            <span class="sim-badge sim-badge-blue">🏛️ Llywodraethu / Esgyniad</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Cyd-destun Clinigol:</strong> Mae'r EPIC wedi ynysu claf Twymyn Haemorhagig Feirysol amheus yn Cwbicl 27 a chwblhau sgrinio teithio 6-pwynt ac Algorithm Risg VHF UKHSA. Mae angen awdurdodiad ffurfiol am brofion diagnostig Categori A ac actifadu llwybr HLIU cenedlaethol. Pwy sydd ag awdurdod cyfreithiol a chlinigol i ffonio'r Gwasanaeth Twymyn Mewnflimported 24/7 (IFS: 0844 778 8990)?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q7" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Gweithred A:</strong> Yr EPIC neu Gliniwr Uwch ED yn ffonio'r Gwasanaeth Twymyn Mewnflimported 24/7 (IFS: 0844 778 8990) yn uniongyrchol am awdurdodiad RIPL.</li>
+                                <li data-correct="true" data-explanation="O dan lywodraethu GIG Cymru ac ABUHB, rhaid i'r Gwasanaeth Twymyn Mewnflimported 24/7 (IFS: 0844 778 8990) cael ei ffonio gan yr Ymgynghorydd Microbioleg Dyletswydd YN UNIG (ffoniodd trwy Dial 100 gan yr EPIC) i ddechrau awdurdodiad rhwng ymgynghorwyr."><strong>Gweithred B:</strong> Yr Ymgynghorydd Microbioleg Dyletswydd (ffoniodd trwy Switchboard Dial 100 gan yr EPIC) sy'n ffonio'r IFS i ddechrau trafodaeth rhwng ymgynghorwyr.</li>
+                                <li data-correct="false"><strong>Gweithred C:</strong> Y Nyrs a Reolir neu EPIC yn hysbysu Tîm Diogelu Iechyd Iechyd Cyhoeddus Cymru i gymeradwyo pecynnu diagnostig RIPL yn uniongyrchol.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 8 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>📍 Safle:</span> <span class="sim-vital-val">Antechamber Parth Ambr</span></div>
+                        <div class="sim-vital-item"><span>🛡️ Cyfnod:</span> <span class="sim-vital-val">Trefn Tynnu PPE</span></div>
+                        <div class="sim-vital-item"><span>👥 Tîm:</span> <span class="sim-vital-val">System Buddy Gweithredol</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 8: Diogelwch Tynnu PPE Parth Ambr a System Buddy</div>
+                            <span class="sim-badge sim-badge-amber">⚠️ Risg Halogiad Uchel</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Cyd-destun Clinigol:</strong> Mae gliniwr uwch wedi cwblhau tynnu gwaed y tu mewn i Cwbicl 27 (Parth Coch) ac yn camu i'r antechamber Parth Ambr i dynnu eu PPE HCID Ungyfuno. Pa reol ddiogelwch orfodol sy'n rheoli'r broses dynnu y tu mewn i'r Parth Ambr?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q8" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Gweithred A:</strong> Tynnu PPE yn annibynnol y tu mewn i'r Parth Ambr mor gyflym â phosibl i leihau amser yn yr antechamber, gan roi hylendid dwylo dim ond ar ôl tynnu'r menyg olaf.</li>
+                                <li data-correct="false"><strong>Gweithred B:</strong> Tynnu menyg allanol y tu mewn i'r Parth Coch, camu i'r Parth Ambr, datgysylltu ties gwn, a thynnu'r gwn ymlaen dros y hysgwyddau cyn hylendid dwylo.</li>
+                                <li data-correct="true" data-explanation="Mae tynnu PPE yn dwyn y risg uchaf o hunan-halogiad ac rhaid ei gyflawni'n lstrict gam-wrth-gam o dan gyfarwyddyd llafar Buddy hyfforddedig, gan gyflawni rhwbio dwylo alcohol ar fenyg mewnol ar ol tynnu pob eitem sengl."><strong>Gweithred C:</strong> Tynnu'n lstrict gam-wrth-gam o dan gyfarwyddyd llafar Buddy hyfforddedig, gan gyflawni rhwbio dwylo alcohol ar fenyg mewnol ar ôl tynnu pob eitem.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 9 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>🩸 Sampl:</span> <span class="sim-vital-val">Tiwbiau Gwaed Gwythiennol</span></div>
+                        <div class="sim-vital-item"><span>🏷️ Dosbarth:</span> <span class="sim-vital-val">UN Class 6.2 Categori A</span></div>
+                        <div class="sim-vital-item"><span>🏢 Cyrchfan:</span> <span class="sim-vital-val">RIPL Porton Down</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 9: Pecynnu a Cludiant Sampl Categori A</div>
+                            <span class="sim-badge sim-badge-purple">🧪 Biohazard Categori A</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Cyd-destun Clinigol:</strong> Obtainwyd samplau gwaed gwythiennol o glaf HCID amheus risg uchel y tu mewn i Cwbicl 27 ar gyfer profion RIPL yn UKHSA Porton Down. Sut rhaid pecynnu a dosbarthu'r samplau diagnostig Categori A hyn i'r labordy?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q9" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="false"><strong>Gweithred A:</strong> Bagio dwbl tiwbiau gwaed mewn bagiau polythen biohazard gyda pad amsugnol, atodi tagiau rhybudd coch, ac anfon trwy system pod niwmatig i'r lab patholeg.</li>
+                                <li data-correct="false"><strong>Gweithred B:</strong> Cario samplau â llaw mewn cynhwysydd biohazard cyntaf un uniongyrchol i dderbynfa labordy biocemeg/haematoleg arferol yr ysbyty.</li>
+                                <li data-correct="true" data-explanation="Rhaid i samplau HCID Categori A PEIDIO BYTH Ã¢ mynd trwy diwbiau niwmatig neu ddadansoddwyr lab arferol. Rhaid eu pecynnu gan ddefnyddio System Pecynnu Triphlyg UN Class 6.2 gyda deunydd amsugnol a Ffurflen P1 RIPL wedi'i cwblhau, a'u danfon Ã¢ llaw yn uniongyrchol i labordy'r ysbyty. Mae tÃ®m y labordy'n gyfrifol am drefnu cludiant cwrier allanol i RIPL Porton Down."><strong>Gweithred C:</strong> Pecynnu triphlyg mewn cynwysyddion a gymeradwywyd gan UN Class 6.2 Categori A gyda gwasgarwr amsugnol a Ffurflen P1 RIPL wedi'i cwblhau, a'u danfon Ã¢ llaw yn uniongyrchol i dderbynfa labordy'r ysbyty (mae'r labordy'n gyfrifol am drefnu'r cwrier allanol i RIPL).</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 10 Card -->
+                <div class="sim-scenario-card">
+                    <div class="sim-vitals-bar">
+                        <div class="sim-vital-item"><span>🛡️ Angen PPE:</span> <span class="sim-vital-val">Amddiffyniad Resbiradol FFP3 / Cwch PAPR</span></div>
+                        <div class="sim-vital-item"><span>📋 Safle:</span> <span class="sim-vital-val">Archwiliad Profi Ffitio Masg Resbiradol</span></div>
+                        <div class="sim-vital-item"><span>🚪 Rheol Ddiogelwch:</span> <span class="sim-vital-val">Cydymffurfio Sêl Gwyneb Sero Ollyngiad</span></div>
+                    </div>
+                    <div class="sim-body">
+                        <div class="sim-meta-header">
+                            <div class="sim-scenario-title">Xenario 10: Protocol Profi Ffitio Masg Resbiradol FFP3 a Diogelwch PAPR</div>
+                            <span class="sim-badge sim-badge-amber">⚠️ Profi Ffitio Masg a Rheol Diogelwch PAPR</span>
+                        </div>
+                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+                            <strong>Cyd-destun Clinigol:</strong> Mae Gliniwr Dyletswydd Adran Brys wedi'i aseinio i fynd i mewn i Cwbicl 27 i evaluo claf amheus HCID Awyr (MERS-CoV). Yn ystod y pre-check diogelwch yn y Parth Gwyrdd, mae'r gliniwr yn datgelu eu bod wedi METHU eu prawf ffitio masg FFP3 yn ddiweddar ac nad ydynt wedi pasio prawf ffitio ar fodel FFP3 arall eto. A gaiff y gliniwr hwn fynd i mewn i Cwbicl 27 gan wisgo masg FFP3 i evaluo neu drin y claf?
+                        </p>
+
+                        <div class="quiz-question" data-qid="m10_q10" style="margin-bottom: 0;">
+                            <ul class="quiz-options">
+                                <li data-correct="true" data-explanation="O dan ganllawiau Atal a Rheoli Haint GIG Cymru ac ABUHB, rhaid i gliniwyr sy'n methu prawf ffitio masg FFP3 BEIDIO BYTH â mynd i mewn i ystafell HCID Awyr gan wisgo masg FFP3. Rhaid iddynt naill ai wisgo system cwch PAPR (nad yw'n dibynnu ar sêl gwyneb) neu gael eu disodli gan gliniwr sydd wedi'i brofi'n llawn."><strong>Gweithred A (NAC OES — Cwch PAPR Angen neu Newid Gliniwr):</strong> NAC OES. Rhaid i gliniwyr sy'n methu prawf ffitio FFP3 BEIDIO BYTH â mynd i mewn i ystafell HCID Awyr gan wisgo masg FFP3. Rhaid iddynt wisgo cwch PAPR neu gael eu disodli gan gliniwr wedi'i brofi.</li>
+                                <li data-correct="false"><strong>Gweithred B (OES — Masg Dwbl Cymeradwy):</strong> OES. Gall gliniwyr sy'n methu prawf FFP3 fynd i mewn i Cwbicl 27 os ydynt yn gwisgo masg llawfeddygol Type IIR o dan y respirator FFP3 a thynhau'r strapiau pennau.</li>
+                                <li data-correct="false"><strong>Gweithred C (OES — Terfyn Amser Amlygiad Byr):</strong> OES. Gall gliniwyr sy'n methu prawf FFP3 fynd i mewn i Cwbicl 27 cyn belled eu bod yn cyfyngu ar yr amser amlygiad uniongyrchol y tu mewn i'r ystafell gwasgedd negyddol i lai na 15 munud.</li>
+                            </ul>
+                            <div class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+            <button class="btn-complete" data-module="module-10">🔒 Atebwch yr 10 Xenario Case (0/10) i Ddigloi</button>
+        </section>
+
+        <!-- ABUHB ED Course Completion Card (Welsh) -->
+        <div class="content-card" style="border-left: 6px solid var(--abuhb-purple); background: linear-gradient(135deg, #ffffff 0%, #fdf2f8 100%); padding: 28px; margin: 32px 0 28px; box-shadow: var(--shadow-md);">
+            <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px; flex-wrap: wrap;">
+                <div style="font-size: 42px;">👏</div>
+                <div>
+                    <h3 style="color: var(--abuhb-purple); margin: 0; font-size: 22px;">Diolch yn Fawr am Gwblhau'r Cwrs Hyfforddiant HCID!</h3>
+                    <span style="font-size: 14px; color: var(--text-secondary); font-weight: 600;">Adran Achosion Urddos — Bwrdd Iechyd Prifysgol Aneurin Bevan</span>
+                </div>
+            </div>
+
+            <p style="font-size: 15px; line-height: 1.6; color: var(--text-primary); margin-bottom: 20px;">
+                Diolch yn fawr iawn am gwblhau'r cwrs barodrwydd clinigol hwn! Mae eich ymroddiad i atal heintiau, ynysu triaj cyffredinol, a gofal diogel i gleifion yn helpu i amddiffyn staff a'r gymuned yn <strong>Ysbyty Prifysgol y Grange ac ar draws ABUHB</strong>.
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 16px;">
+                <div style="background: #ffffff; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 18px;">
+                    <h4 style="color: var(--abuhb-purple); margin-top: 0;">🌐 Tudalen SharePoint HCID Mewnrwyd</h4>
+                    <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px;">
+                        Mae gan ein Hadran Achosion Urddos dudalen <strong>SharePoint HCID bwrpasol</strong> ar Mewnrwyd GIG Cymru gyda'r holl gardiau gweithredu a llwybrau.
+                    </p>
+                    <span style="font-size: 12px; font-weight: 700; color: var(--abuhb-purple); background: #fce7f3; padding: 4px 10px; border-radius: 12px;">Ar gael ar Mewnrwyd GIG Cymru</span>
+                </div>
+
+                <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: var(--radius-sm); padding: 18px;">
+                    <h4 style="color: var(--nhs-blue-dark); margin-top: 0;">📧 Addysgwyr Ymarfer ED</h4>
+                    <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px;">
+                        Am ymholiadau clinigol neu hyfforddiant, cysylltwch â'r tîm Addysgwyr Ymarfer ED:
+                    </p>
+                    <a href="mailto:ABB.EDPracticeEducators@wales.nhs.uk" style="color: var(--nhs-blue); font-weight: 700; font-size: 13px;">
+                        ✉️ ABB.EDPracticeEducators@wales.nhs.uk
+                    </a>
+                </div>
+
+                <div style="background: #ffffff; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 18px;">
+                    <h4 style="color: var(--abuhb-green); margin-top: 0;">🛡️ Tîm Rheoli Heintiau IPaC</h4>
+                    <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px;">
+                        Am ganllawiau atal a rheoli heintiau arbenigol, cysylltwch â thîm IPaC:
+                    </p>
+                    <a href="mailto:infection.control3@wales.nhs.uk" style="color: var(--abuhb-green); font-weight: 700; font-size: 13px;">
+                        ✉️ infection.control3@wales.nhs.uk
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assessment Summary & Certificate Card (Welsh) -->
+        <section id="assessment-summary" class="course-results-card">
+            <div class="course-results-header">
+                <h2>Crynodeb Asesu'r Cwrs</h2>
+                <div id="pass-badge" class="pass-status-badge pending">Asesiad yn Ar y Gweill</div>
+            </div>
+            
+            <p id="pass-msg">Atebwch y 27 cwestiwn asesu + cwblhewch yr ymarfer Sortio Pathogenau + cwblhewch yr 10 Xenario Case Modiwl 10 (38 eitem asesu i gyd ar draws 10 modiwl). Rhaid i chi gyflawni marc llwyddo o <strong>80% neu uwch (o leiaf 31/38 yn gywir)</strong> i lwyddo ar asesiad y cwrs a digloi eich tystysgrif ffurfiol.</p>
+
+            <div class="score-display-box">
+                <div class="score-metric">
+                    <div id="score-val" class="val">0/38 (0%)</div>
+                    <div class="lbl">Sgôr Asesu</div>
+                </div>
+                <div class="score-metric">
+                    <div id="answered-val" class="val">0/38</div>
+                    <div class="lbl">Eitemau a Atebwyd</div>
+                </div>
+                <div class="score-metric">
+                    <div class="val" style="color: var(--abuhb-green);">80%</div>
+                    <div class="lbl">Marc Llwyddo Gofynnol</div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 24px;">
+                <button id="cert-trigger-btn" class="btn-certificate" style="display: none;">🎓 Cynhyrchu Tystysgrif Llwyddiant</button>
+                <button id="reset-assessment-btn" class="btn-reset-quiz">🔄 Ailosod yr Asesiad a Ailddechrau</button>
+            </div>
+        </section>
+
+        <!-- Resource Links (Welsh) -->
+        <h3 style="margin-top: 40px; color: var(--nhs-blue-dark);">Adnoddau Ffurfiol a Offer Byw</h3>
+        <div class="resource-links">
+            <a href="https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk" target="_blank" rel="noopener noreferrer" class="resource-link" style="border-left: 4px solid var(--nhs-blue); background: #eff6ff;">
+                <span class="link-icon">🗺️</span>
+                <strong>Risg Gwledydd Penodol HCID (GOV.UK) ↗</strong>
+            </a>
+            <a href="https://www.gov.uk/government/publications/viral-haemorrhagic-fever-algorithm-and-guidance-on-management-of-patients" target="_blank" rel="noopener noreferrer" class="resource-link" style="border-left: 4px solid var(--abuhb-green); background: #f0fdf4;">
+                <span class="link-icon">📋</span>
+                <strong>Algorithm Asesu Risg VHF Byw (GOV.UK) ↗</strong>
+            </a>
+            <a href="https://www.gov.uk/government/publications/rare-and-imported-pathogens-testing-form-to-submit-sample" target="_blank" rel="noopener noreferrer" class="resource-link" style="border-left: 4px solid var(--abuhb-purple); background: #fdf2f8;">
+                <span class="link-icon">📝</span>
+                <strong>Ffurflen Profi Sampl RIPL (GOV.UK) ↗</strong>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Certificate Details Modal (Welsh) -->
+    <div id="cert-modal" class="cert-modal-overlay">
+        <div class="cert-modal-box">
+            <h3>🎓 Cynhyrchu Tystysgrif Llwyddiant</h3>
+            <p>Rhowch eich manylion isod i gynhyrchu eich Tystysgrif Barodrwydd HCID GIG Cymru ffurfiol.</p>
+            
+            <div class="cert-form-group">
+                <label for="cert-user-name">Enw Llawn a Rôl Proffesiynol:</label>
+                <input type="text" id="cert-user-name" placeholder="e.e. Nyrs Ward Sarah Jenkins, RN" required>
+            </div>
+
+            <div class="cert-form-group">
+                <label for="cert-user-date">Dyddiad Cwblhau:</label>
+                <input type="text" id="cert-user-date">
+            </div>
+
+            <div class="cert-modal-actions">
+                <button id="cert-modal-cancel" class="btn-reset-quiz" style="background:#768692;">Canslo</button>
+                <button id="cert-modal-generate" class="btn-certificate">Cynhyrchu Tystysgrif</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Printable NHS Certificate Overlay (Welsh) -->
+    <div id="certificate-overlay" class="certificate-container">
+        <div class="certificate-paper">
+            <div class="certificate-header-logos">
+                <img src="images/abuhb_logo.png" alt="Logo Bwrdd Iechyd Prifysgol Aneurin Bevan" class="cert-header-logo-img">
+                <div class="cert-board-title">
+                    <strong>Bwrdd Iechyd Prifysgol Aneurin Bevan</strong><br>
+                    <span>Aneurin Bevan University Health Board</span>
+                </div>
+            </div>
+
+            <div class="cert-title">Tystysgrif Llwyddiant</div>
+            <div class="cert-subtitle">Hyfforddiant Clinigol Clefydau Heintus Consecwenc Uchel (HCID)</div>
+
+            <div class="cert-statement">Tystir bod</div>
+
+            <div id="cert-display-name" class="cert-recipient-name">Staff Nurse Sarah Jenkins</div>
+
+            <div class="cert-statement">wedi cwblhau pob un o'r 10 modiwl dysgu ac wedi llwyddo ar yr asesiad ffurfiol (28/34 yn gywir) ar gyfer</div>
+
+            <div class="cert-course-name">Safon Barodrwydd Clinigol ac Atal Heintiau HCID</div>
+
+            <div class="cert-score-box">
+                <div class="cert-score-item">
+                    <div id="cert-display-score" class="val">28/34 (82%)</div>
+                    <div class="lbl">Sgôr Asesu</div>
+                </div>
+                <div class="cert-score-item">
+                    <div class="val" style="color: var(--nhs-blue-dark);">80%</div>
+                    <div class="lbl">Threshold Llwyddo Gofynnol</div>
+                </div>
+                <div class="cert-score-item">
+                    <div class="val" style="color: var(--abuhb-green);">WEDI LLYWDDIO</div>
+                    <div class="lbl">Statws</div>
+                </div>
+            </div>
+
+            <div class="cert-footer-details">
+                <div class="cert-sig-block">
+                    <div class="cert-sig-line"></div>
+                    <div class="cert-sig-name">Arweinydd Ymarfer Clinigol</div>
+                    <div class="cert-sig-title">BIP Aneurin Bevan</div>
+                </div>
+
+                <div style="text-align: center;">
+                    <strong style="font-size: 13px; color: var(--nhs-blue-dark);">Dyddiad Cyhoeddi:</strong><br>
+                    <span id="cert-display-date" style="font-size: 14px; font-weight: 700;">30 Gorffennaf 2026</span>
+                </div>
+
+                <div class="cert-sig-block">
+                    <div class="cert-sig-line"></div>
+                    <div class="cert-sig-name">Atal a Rheoli Heintiau</div>
+                    <div class="cert-sig-title">Llywodraethu GIG Cymru</div>
+                </div>
+            </div>
+
+            <div class="cert-actions-bar">
+                <button id="cert-print-btn" class="btn-certificate" style="background: var(--nhs-blue);">🖨️ Argraffu / Lawrlwytho PDF</button>
+                <button id="cert-close-btn" class="btn-reset-quiz" style="background:#768692;">❌ Cau</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-disclaimer">
+            <h4>Hysbysiad Pwysig i Staff Clinigol</h4>
+            <p>Mae'r arweiniad digidol hwn yn gymorth hyfforddiant atodol a ddyluniwyd ar gyfer staff Bwrdd Iechyd Prifysgol Aneurin Bevan. Cysylltwch bob amser â'ch tîm Atal a Rheoli Heintiau (IPC) lleol a chyfeirio at Lawlyfr Cenedlaethol Atal a Rheoli Heintiau (NIPCM) ar gyfer ymarfer pendant.</p>
+        </div>
+        
+        <div class="footer-contacts">
+            <div class="footer-contact">
+                <h5>Gwasanaeth Twymyn Mewnflimported (IFS)</h5>
+                <p>0844 778 8990 (Ar gael 24/7)</p>
+            </div>
+            <div class="footer-contact">
+                <h5>Tîm Rheoli Heintiau IPaC</h5>
+                <p><a href="mailto:infection.control3@wales.nhs.uk" style="color: #ffffff;">infection.control3@wales.nhs.uk</a></p>
+            </div>
+            <div class="footer-contact">
+                <img src="images/abuhb_logo.png" alt="ABUHB Logo" class="footer-logo-img"><br>
+                <h5>Bwrdd Iechyd</h5>
+                <p>Bwrdd Iechyd Prifysgol Aneurin Bevan</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bwrdd Iechyd Prifysgol Aneurin Bevan. Cedwir pob hawl.</p>
+            <p>Created by DPB Aug 2026 for ABUHB & NHS Wales</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
